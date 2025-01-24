@@ -167,6 +167,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Reload the page and select the new file
                 const baseFileName = file.name;
                 localStorage.setItem('selectFileAfterReload', baseFileName);
+                // Store the filename and reload
+                const fileToSelect = file.name;
+                localStorage.setItem('selectFileAfterReload', fileToSelect);
                 window.location.reload();
             } else {
                 showAlert(data.error || 'Upload failed', 'error');
@@ -301,9 +304,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Add selection to clicked item
                 item.classList.add('selected');
-
-                // Get the directory name
+                
+                // Get the directory name and trigger data load
                 const dir = item.dataset.dir;
+                loadFileData(dir);
                 
                 try {
                     const response = await fetch('/get_file_data', {
@@ -329,9 +333,50 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Function to load file data
+    async function loadFileData(dir) {
+        try {
+            const response = await fetch('/get_file_data', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ dir: dir })
+            });
+            
+            const data = await response.json();
+            
+            if (response.ok) {
+                updateResults(data.data);
+            } else {
+                showAlert(data.error || 'Failed to load file data', 'error');
+            }
+        } catch (error) {
+            showAlert('Error loading file data', 'error');
+            console.error('Load error:', error);
+        }
+    }
+
     // Attach handlers on page load
     attachDeleteHandlers();
     attachFileSelectionHandlers();
+
+    // Check if we need to select and load a file after reload
+    const fileToSelect = localStorage.getItem('selectFileAfterReload');
+    if (fileToSelect) {
+        const fileItems = document.querySelectorAll('.file-item');
+        fileItems.forEach(item => {
+            const fileName = item.querySelector('.file-name').textContent;
+            if (fileName === fileToSelect) {
+                item.classList.add('selected');
+                const dir = item.dataset.dir;
+                if (dir) {
+                    loadFileData(dir);
+                }
+            }
+        });
+        localStorage.removeItem('selectFileAfterReload');
+    }
     
     // Check if we need to select a file after reload
     const fileToSelect = localStorage.getItem('selectFileAfterReload');
