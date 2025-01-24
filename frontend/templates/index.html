@@ -60,8 +60,10 @@
             {% if uploaded_files %}
             <!-- Results Section -->
             <section class="results-section">
-                <h2>Results</h2>
-                <div class="section-tabs">
+                <div class="split-view">
+                    <div class="results-panel">
+                        <h2>Results</h2>
+                        <div class="section-tabs">
                     <button class="tab-btn active" data-section="ATOMS">Atoms</button>
                     <button class="tab-btn" data-section="BONDS">Bonds</button>
                     <button class="tab-btn" data-section="ANGLES">Angles</button>
@@ -74,10 +76,21 @@
                         <input type="text" placeholder="Search in current section..." id="section-search">
                     </div>
                 </div>
-                <table class="data-table" id="results-table">
-                    <tbody>
-                    </tbody>
-                </table>
+                        <table class="data-table" id="results-table">
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="file-view-panel" id="file-view-panel">
+                        <div class="file-view-header">
+                            <h3>Original File View</h3>
+                            <button class="btn btn-secondary close-file-view">
+                                <span class="material-icons">close</span>
+                            </button>
+                        </div>
+                        <pre id="file-content"></pre>
+                    </div>
+                </div>
             </section>
             {% endif %}
         </main>

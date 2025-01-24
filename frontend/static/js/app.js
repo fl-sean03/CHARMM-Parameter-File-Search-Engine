@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Get columns from the first data entry
         const columns = Object.keys(data[0])
-            .filter(col => col !== 'Line Number' && col !== 'Comments');
+            .filter(col => col !== 'Comments');
         
         // Create header
         const thead = document.createElement('thead');
@@ -108,6 +108,14 @@ document.addEventListener('DOMContentLoaded', function() {
             commentsTd.textContent = comments;
             row.appendChild(commentsTd);
             
+            // Add click handler to the row
+            row.addEventListener('click', () => {
+                const lineNumber = entry['Line Number'];
+                if (lineNumber) {
+                    showFileContent(lineNumber);
+                }
+            });
+            
             tbody.appendChild(row);
         });
 
@@ -116,6 +124,56 @@ document.addEventListener('DOMContentLoaded', function() {
         table.appendChild(thead);
         table.appendChild(tbody);
     }
+
+    async function showFileContent(lineNumber) {
+        const activeFileItem = document.querySelector('.file-item.selected');
+        if (!activeFileItem) return;
+
+        const dir = activeFileItem.dataset.dir;
+        try {
+            const response = await fetch('/get_file_content', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ dir: dir })
+            });
+
+            if (!response.ok) throw new Error('Failed to fetch file content');
+            
+            const data = await response.json();
+            const fileContent = data.content;
+            
+            // Show the file view panel
+            const fileViewPanel = document.getElementById('file-view-panel');
+            fileViewPanel.classList.add('active');
+            
+            // Display content with line numbers and highlighting
+            const contentDiv = document.getElementById('file-content');
+            const lines = fileContent.split('\n');
+            const formattedContent = lines.map((line, index) => {
+                const lineNum = index + 1;
+                const highlightClass = lineNum === lineNumber ? 'line-highlight' : '';
+                return `<span class="line ${highlightClass}" data-line="${lineNum}">${line}</span>`;
+            }).join('\n');
+            
+            contentDiv.innerHTML = formattedContent;
+            
+            // Scroll to the highlighted line
+            const highlightedLine = contentDiv.querySelector('.line-highlight');
+            if (highlightedLine) {
+                highlightedLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        } catch (error) {
+            console.error('Error fetching file content:', error);
+            showAlert('Error loading file content', 'error');
+        }
+    }
+
+    // Add close button handler
+    document.querySelector('.close-file-view')?.addEventListener('click', () => {
+        document.getElementById('file-view-panel').classList.remove('active');
+    });
 
     // Add tab click handlers
     document.querySelectorAll('.tab-btn').forEach(btn => {

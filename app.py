@@ -162,6 +162,39 @@ def download_csv(section, dir):
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/get_file_content', methods=['POST'])
+def get_file_content():
+    try:
+        data = request.get_json()
+        if not data or 'dir' not in data:
+            return jsonify({'error': 'No directory specified'}), 400
+            
+        dir_path = os.path.join(app.config['UPLOAD_FOLDER'], data['dir'])
+        
+        if not os.path.exists(dir_path):
+            return jsonify({'error': 'Directory not found'}), 404
+            
+        # Find parameter file in directory
+        param_file = None
+        for filename in os.listdir(dir_path):
+            if filename.endswith(('.txt', '.par')):
+                param_file = os.path.join(dir_path, filename)
+                break
+                
+        if not param_file:
+            return jsonify({'error': 'Parameter file not found'}), 404
+            
+        # Read and return file content
+        with open(param_file, 'r') as file:
+            content = file.read()
+            
+        return jsonify({
+            'content': content
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 @app.route('/get_file_data', methods=['POST'])
 def get_file_data():
     try:
