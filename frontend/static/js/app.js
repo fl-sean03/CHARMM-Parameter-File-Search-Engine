@@ -407,19 +407,44 @@ document.addEventListener('DOMContentLoaded', function() {
             try {
                 const fileData = JSON.parse(storedFileData);
                 const fileItems = document.querySelectorAll('.file-item');
+                let fileFound = false;
+                
                 fileItems.forEach(item => {
                     const fileName = item.querySelector('.file-name').textContent;
                     if (fileName === fileData.name) {
                         item.classList.add('selected');
-                        const dir = fileData.dir;
-                        if (dir) {
-                            loadFileData(dir);
+                        if (fileData.dir) {
+                            loadFileData(fileData.dir);
+                            fileFound = true;
                         }
+                    } else {
+                        item.classList.remove('selected');
                     }
                 });
+
+                if (!fileFound && fileItems.length === 1) {
+                    // If stored file not found but only one file exists, select it
+                    const fileItem = fileItems[0];
+                    fileItem.classList.add('selected');
+                    const dir = fileItem.dataset.dir;
+                    if (dir) {
+                        loadFileData(dir);
+                    }
+                }
+                
                 localStorage.removeItem('selectFileAfterReload');
             } catch (e) {
                 console.error('Error selecting recent file:', e);
+            }
+        } else if (document.querySelectorAll('.file-item').length === 1) {
+            // If there's only one file, select it automatically
+            const fileItem = document.querySelector('.file-item');
+            if (fileItem) {
+                fileItem.classList.add('selected');
+                const dir = fileItem.dataset.dir;
+                if (dir) {
+                    loadFileData(dir);
+                }
             }
         }
     }
