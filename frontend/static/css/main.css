@@ -442,9 +442,7 @@ h2 {
     border: 1px solid #E0E0E0;
     border-radius: 8px;
     overflow: auto;
-    flex: 1;
-    display: block;
-    height: calc(100% - 140px); /* Account for header, tabs, and search */
+    display: table;
 }
 
 .data-table thead {
