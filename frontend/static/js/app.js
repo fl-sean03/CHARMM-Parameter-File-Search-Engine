@@ -154,6 +154,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const fileViewPanel = document.getElementById('file-view-panel');
             fileViewPanel.classList.add('active');
             
+            // Reset splitter position when opening file view
+            const splitter = document.getElementById('view-splitter');
+            const resultsPanel = document.getElementById('results-panel');
+            resultsPanel.style.width = '50%';
+            splitter.style.right = '50%';
+            
             // Display content with line numbers and highlighting
             const contentDiv = document.getElementById('file-content');
             const lines = fileContent.split('\n');
