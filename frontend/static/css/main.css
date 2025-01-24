@@ -441,6 +441,7 @@ h2 {
     margin: 0;
     position: relative;
     flex: 1;
+    border: 1px solid #E0E0E0;
 }
 
 .data-table thead {
@@ -528,7 +529,7 @@ h2 {
     flex: 1;
     overflow: auto;
     height: calc(100vh - 300px);
-    padding: 0.5rem;
+    padding: 0;
     background: #FFFFFF;
     border-radius: 8px;
     scrollbar-width: thin;
