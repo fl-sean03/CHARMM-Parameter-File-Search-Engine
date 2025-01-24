@@ -452,18 +452,12 @@ h2 {
 }
 
 .data-table thead {
-    position: sticky;
-    top: 0;
-    z-index: 10;
     background-color: #F8F9FA;
     display: table;
     width: 100%;
 }
 
 .data-table th {
-    position: sticky;
-    top: 0;
-    z-index: 10;
     background-color: #F8F9FA;
     font-weight: 600;
     text-align: left;
@@ -472,7 +466,6 @@ h2 {
     font-size: 0.85rem;
     text-transform: uppercase;
     color: #5F6368;
-    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
 }
 
 /* Ensure the header background extends full width */
