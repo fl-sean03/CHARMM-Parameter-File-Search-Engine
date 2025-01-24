@@ -64,9 +64,10 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
 
-        // Create table structure
+        // Create table with wrapper for better scrolling
         const table = document.createElement('table');
         table.className = 'data-table';
+        table.style.width = '100%';
         
         // Get columns (excluding Line Number, keeping Comments for end)
         const columns = Object.keys(data[0])
