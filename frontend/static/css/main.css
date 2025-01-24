@@ -419,8 +419,8 @@ h2 {
 }
 
 .file-content-wrapper::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
 }
 
 .file-content-wrapper::-webkit-scrollbar-track {
@@ -614,8 +614,8 @@ h2 {
 }
 
 #results-table::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+    width: 18px;
+    height: 18px;
 }
 
 #results-table::-webkit-scrollbar-track {
