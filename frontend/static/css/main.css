@@ -213,6 +213,7 @@ h2 {
     height: calc(100vh - 200px);
     background: #FFFFFF;
     position: relative;
+    overflow: hidden;
 }
 
 .splitter {
@@ -223,7 +224,7 @@ h2 {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 0;
+    right: 50%;
     z-index: 100;
     display: none;
 }
@@ -231,7 +232,6 @@ h2 {
 /* Show splitter when file view is active */
 .file-view-panel.active ~ .splitter {
     display: block;
-    right: 50%;
 }
 
 .splitter:hover,
