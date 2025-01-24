@@ -178,10 +178,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Store both filename and directory for selection after reload
                 const fileToSelect = {
                     name: file.name,
-                    dir: data.dir  // Assuming backend returns the directory in response
+                    dir: data.dir  // Directory from response
                 };
                 localStorage.setItem('selectFileAfterReload', JSON.stringify(fileToSelect));
-                window.location.reload();
+                // Force reload to update file list and trigger selection
+                window.location.href = window.location.href;
             } else {
                 showAlert(data.error || 'Upload failed', 'error');
             }
@@ -376,29 +377,34 @@ document.addEventListener('DOMContentLoaded', function() {
         return fileFound;
     }
 
+    // Function to select and load a file by name
+    function selectAndLoadFileByName(fileName) {
+        const fileItems = document.querySelectorAll('.file-item');
+        let fileFound = false;
+        
+        fileItems.forEach(item => {
+            const itemFileName = item.querySelector('.file-name').textContent;
+            if (itemFileName === fileName) {
+                item.classList.add('selected');
+                const dir = item.dataset.dir;
+                if (dir) {
+                    loadFileData(dir);
+                    fileFound = true;
+                }
+            } else {
+                item.classList.remove('selected');
+            }
+        });
+        
+        return fileFound;
+    }
+
     // Check if we need to select and load a file after reload
     const storedFileData = localStorage.getItem('selectFileAfterReload');
     if (storedFileData) {
         try {
             const fileData = JSON.parse(storedFileData);
-            const fileItems = document.querySelectorAll('.file-item');
-            let fileFound = false;
-            
-            fileItems.forEach(item => {
-                const itemFileName = item.querySelector('.file-name').textContent;
-                if (itemFileName === fileData.name) {
-                    item.classList.add('selected');
-                    const dir = item.dataset.dir;
-                    if (dir) {
-                        loadFileData(dir);
-                        fileFound = true;
-                    }
-                } else {
-                    item.classList.remove('selected');
-                }
-            });
-            
-            if (fileFound) {
+            if (selectAndLoadFileByName(fileData.name)) {
                 localStorage.removeItem('selectFileAfterReload');
             }
         } catch (e) {
