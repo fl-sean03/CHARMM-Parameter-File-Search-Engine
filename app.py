@@ -195,6 +195,17 @@ def get_file_content():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/get_readme', methods=['GET'])
+def get_readme():
+    try:
+        with open('README.md', 'r') as file:
+            content = file.read()
+        return jsonify({
+            'content': content
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 @app.route('/get_file_data', methods=['POST'])
 def get_file_data():
     try:

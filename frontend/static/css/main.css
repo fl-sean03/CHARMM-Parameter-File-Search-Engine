@@ -655,6 +655,95 @@ h2 {
     color: #EA4335;
 }
 
+/* Modal styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    padding: 1rem;
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-body {
+    padding: 1rem;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.close-modal {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #5F6368;
+}
+
+.close-modal:hover {
+    color: #202124;
+}
+
+.readme-content {
+    line-height: 1.6;
+}
+
+.readme-content h1 {
+    margin-bottom: 1rem;
+    color: #202124;
+}
+
+.readme-content h2 {
+    margin: 1.5rem 0 1rem;
+    color: #1A73E8;
+}
+
+.readme-content h3 {
+    margin: 1.2rem 0 0.8rem;
+    color: #185ABC;
+}
+
+.readme-content pre {
+    background: #F8F9FA;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.readme-content code {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9em;
+}
+
+.readme-content li {
+    margin: 0.5rem 0;
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
 
 /* File section styles */
 .files-container {

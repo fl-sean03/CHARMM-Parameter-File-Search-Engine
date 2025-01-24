@@ -634,6 +634,66 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
+    // README button functionality
+    const readmeButton = document.querySelector('.show-readme-btn');
+    if (readmeButton) {
+        readmeButton.addEventListener('click', async () => {
+            try {
+                const response = await fetch('/get_readme');
+                const data = await response.json();
+                
+                if (response.ok) {
+                    // Create modal for README content
+                    const modal = document.createElement('div');
+                    modal.className = 'modal';
+                    modal.innerHTML = `
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2>Documentation</h2>
+                                <button class="close-modal">×</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="readme-content"></div>
+                            </div>
+                        </div>
+                    `;
+                    
+                    // Convert markdown to HTML (basic conversion)
+                    const readmeHtml = data.content
+                        .replace(/^# (.*$)/gm, '<h1>$1</h1>')
+                        .replace(/^## (.*$)/gm, '<h2>$1</h2>')
+                        .replace(/^### (.*$)/gm, '<h3>$1</h3>')
+                        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                        .replace(/```(.*?)```/gs, '<pre><code>$1</code></pre>')
+                        .replace(/- (.*?)$/gm, '<li>$1</li>')
+                        .split('\n').join('<br>');
+                    
+                    modal.querySelector('.readme-content').innerHTML = readmeHtml;
+                    
+                    // Add close functionality
+                    modal.querySelector('.close-modal').addEventListener('click', () => {
+                        modal.remove();
+                    });
+                    
+                    // Close on click outside
+                    modal.addEventListener('click', (e) => {
+                        if (e.target === modal) {
+                            modal.remove();
+                        }
+                    });
+                    
+                    document.body.appendChild(modal);
+                } else {
+                    showAlert('Failed to load documentation', 'error');
+                }
+            } catch (error) {
+                console.error('Error loading README:', error);
+                showAlert('Error loading documentation', 'error');
+            }
+        });
+    }
+
     // Reset all files functionality
     const resetButton = document.querySelector('.reset-btn');
     if (resetButton) {
