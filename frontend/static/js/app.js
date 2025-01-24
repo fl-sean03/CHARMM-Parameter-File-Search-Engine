@@ -154,11 +154,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const fileViewPanel = document.getElementById('file-view-panel');
             fileViewPanel.classList.add('active');
             
-            // Reset splitter position when opening file view
-            const splitter = document.getElementById('view-splitter');
             const resultsPanel = document.getElementById('results-panel');
             resultsPanel.style.width = '50%';
-            splitter.style.right = '50%';
             
             // Display content with line numbers and highlighting
             const contentDiv = document.getElementById('file-content');
@@ -187,9 +184,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.close-file-view')?.addEventListener('click', () => {
         document.getElementById('file-view-panel').classList.remove('active');
         // Reset panel widths when closing
-        resultsPanel.style.width = '';
-        fileViewPanel.style.width = '';
-        splitter.style.right = '50%';
+        resultsPanel.style.width = '100%';
+        fileViewPanel.style.width = '0';
     });
 
     document.getElementById('toggle-wrap')?.addEventListener('click', (e) => {
