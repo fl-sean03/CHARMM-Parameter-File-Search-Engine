@@ -354,6 +354,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Attach handlers on page load
     attachDeleteHandlers();
     attachFileSelectionHandlers();
+    selectMostRecentFile();
 
     // Function to select and load file data
     function selectAndLoadFile(fileName) {
@@ -399,18 +400,28 @@ document.addEventListener('DOMContentLoaded', function() {
         return fileFound;
     }
 
-    // Check if we need to select and load a file after reload
-    const storedFileData = localStorage.getItem('selectFileAfterReload');
-    if (storedFileData) {
-        try {
-            const fileData = JSON.parse(storedFileData);
-            if (selectAndLoadFileByName(fileData.name)) {
+    // Function to select the most recently uploaded file
+    function selectMostRecentFile() {
+        const storedFileData = localStorage.getItem('selectFileAfterReload');
+        if (storedFileData) {
+            try {
+                const fileData = JSON.parse(storedFileData);
+                const fileItems = document.querySelectorAll('.file-item');
+                fileItems.forEach(item => {
+                    const fileName = item.querySelector('.file-name').textContent;
+                    if (fileName === fileData.name) {
+                        item.classList.add('selected');
+                        const dir = item.dataset.dir;
+                        if (dir) {
+                            loadFileData(dir);
+                        }
+                    }
+                });
                 localStorage.removeItem('selectFileAfterReload');
+            } catch (e) {
+                console.error('Error selecting recent file:', e);
             }
-        } catch (e) {
-            console.error('Error parsing stored file data:', e);
-        }
-    } else if (document.querySelectorAll('.file-item').length === 1) {
+        } else if (document.querySelectorAll('.file-item').length === 1) {
         // If there's only one file, select it automatically
         const fileItem = document.querySelector('.file-item');
         if (fileItem) {
