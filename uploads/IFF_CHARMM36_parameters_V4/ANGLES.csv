@@ -1,0 +1,600 @@
+Atom 1,Atom 2,Atom 3,Ktheta,Theta0 (Equilibrium Angle),Kub,S0,Comments,Line Number
+H,NH2,CT1,50.0,111.0,,,['From LSN HC-NH2-CT2'],615
+H,NH2,CT2,50.0,111.0,,,"['From LSN HC-NH2-CT2, Neutral Gly Nterminus']",616
+NH2,CT1,CT1,67.7,110.0,,,['From LSN NH2-CT2-CT2'],617
+NH2,CT1,CT2,67.7,110.0,,,['From LSN NH2-CT2-CT2'],618
+NH2,CT1,CT3,67.7,110.0,,,['From LSN NH2-CT2-CT2'],619
+CT1,CD,OH1,55.0,110.5,,,['From ASPP CT2-CD-OH1'],620
+CT3,CT1,CD,52.0,108.0,,,['Ala cter'],621
+NH2,CT1,HB1,38.0,109.5,50.0,2.14,['From LSN NH2-CT2-HA'],622
+NH2,CT1,C,50.0,107.0,,,['From ALA Dipep. NH1-CT2-C'],623
+NH2,CT2,C,50.0,107.0,,,"['From ALA Dipep. NH1-CT2-C, Neutral Gly Nterminus']",624
+CAI,CAI,CA,40.0,120.0,35.0,2.4162,['from CA CA CA'],627
+CAI,CA,CA,40.0,120.0,35.0,2.4162,['from CA CA CA'],628
+CPT,CA,CA,50.0,113.2,,,"['atm, methylindole, 1/17/04']",629
+CPT,CPT,CA,50.0,110.0,,,"['atm, methylindole, 1/17/04']",630
+CPT,CAI,CA,50.0,113.2,,,"['atm, methylindole, 1/17/04']",631
+CPT,CPT,CAI,50.0,110.0,,,"['atm, methylindole, 1/17/04']",632
+CPT,CY,CA,85.0,106.4,25.0,2.261,"['atm, methylindole, 1/17/04']",633
+CPT,NY,CA,85.0,112.0,,,"['atm, methylindole, 1/17/04']",634
+CT2,CY,CA,30.0,127.0,,,"['atm, methylindole, CT3  CY   CA']",635
+CT2,CY,CPT,30.0,126.7,,,"['atm, methylindole, 1/17/04']",636
+CT3,CY,CA,30.0,127.0,,,"['atm, methylindole, CT3  CY   CA']",637
+CT3,CY,CPT,30.0,126.7,,,"['atm, methylindole, 1/17/04']",638
+CY,CPT,CA,130.0,133.5,,,"['atm, methylindole, 1/17/04']",639
+CY,CPT,CAI,130.0,133.5,,,"['atm, methylindole, 1/17/04']",640
+CY,CPT,CPT,85.0,108.0,,,"['atm, methylindole, 1/17/04']",641
+CY,CT2,CT1,58.35,114.0,,,"['from TRP crystal, JWK']",642
+CY,CT2,CT3,58.35,114.0,,,"['from TRP crystal, JWK']",643
+H,NY,CA,28.0,126.0,,,"['trp, adm jr., 12/30/91']",644
+H,NY,CAI,28.0,126.0,,,"['trp, adm jr., 12/30/91']",645
+H,NY,CPT,28.0,126.0,,,"['trp, adm jr., 12/30/91']",646
+HA2,CT2,CY,55.0,109.5,,,"['atm, methylindole, 1/17/04']",647
+HA3,CT3,CY,55.0,109.5,,,"['atm, methylindole, 1/17/04']",648
+HP,CA,CAI,30.0,120.0,22.0,2.1525,['from HP CA CA'],649
+HP,CAI,CA,30.0,120.0,22.0,2.1525,['from HP CA CA'],650
+HP,CA,CPT,30.0,122.0,22.0,2.146,"['trp, adm jr., 12/30/91']",651
+HP,CAI,CPT,30.0,122.0,22.0,2.146,['from HP CA CPT'],652
+HP,CA,CY,32.0,125.0,25.0,2.173,['JWK 05/14/91 new theta0 and r0UB from indole'],653
+HP,CY,CA,32.0,126.4,25.0,2.186,"['trp, adm jr., 12/30/91']",654
+HP,CY,CPT,32.0,126.4,25.0,2.255,['JWK 05/14/91 new theta0 and r0UB from indole'],655
+NY,CA,CY,85.0,110.5,25.0,2.24,"['trp, adm jr., 12/30/91']",656
+NY,CA,HP,32.0,125.0,25.0,2.177,['JWK 05/14/91 new theta0 and r0UB from indole'],657
+NY,CPT,CA,130.0,129.5,,,"['atm, methylindole, 1/17/04']",658
+NY,CPT,CAI,130.0,129.5,,,"['atm, methylindole, 1/17/04']",659
+NY,CPT,CPT,95.0,107.4,,,"['atm, methylindole, 1/17/04']",660
+CA,CA,CA,40.0,120.0,35.0,2.4162,"['ALLOW   ARO', 'JES 8/25/89']",661
+CE1,CE1,CT2,48.0,123.5,,,"['for 2-butene, yin/adm jr., 12/95']",663
+CE1,CE1,CT3,48.0,123.5,,,"['for 2-butene, yin/adm jr., 12/95']",665
+CE1,CT2,CT3,32.0,112.2,,,"['for 1-butene; from propene, yin/adm jr., 12/95']",667
+CE2,CE1,CT2,48.0,126.0,,,"['for 1-butene; from propene, yin/adm jr., 12/95']",669
+CE2,CE1,CT3,47.0,125.2,,,"['for propene, yin/adm jr., 12/95']",671
+CP1,N,C,60.0,117.0,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",673
+CP2,CP1,C,52.0,112.3,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",675
+CP2,CP1,CC,52.0,112.3,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",677
+CP2,CP1,CD,50.0,112.3,,,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",679
+CP2,CP2,CP1,70.0,108.5,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",681
+CP3,CP2,CP2,70.0,108.5,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",683
+CP3,N,C,60.0,117.0,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",685
+CP3,N,CP1,100.0,114.2,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",687
+CP3,NP,CP1,100.0,111.0,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",689
+CPH2,NR1,CPH1,130.0,107.5,,,"['ALLOW ARO', 'his, adm jr., 6/27/90']",691
+CPH2,NR2,CPH1,130.0,104.0,,,"['ALLOW ARO', 'his, adm jr., 6/27/90']",693
+CPH2,NR3,CPH1,145.0,108.0,,,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",695
+CT1,CT1,C,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', ""Alanine Dipeptide ab initio calc's (LK)""]",697
+CT1,CT1,CC,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",699
+CT1,CT1,CD,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 6/27/2012, for Thr with CT1 patch']",701
+CT1,CT1,CT1,53.35,111.0,8.0,2.561,"['ALLOW ALI', 'alkane update, adm jr., 3/2/92']",703
+CT1,CT2,CA,51.8,107.5,,,"['ALLOW   ALI ARO', 'PARALLH19 (JES)']",705
+CT1,CT2,cg1,51.8,107.5,,,"['ALLOW   ALI ARO', 'by ChengZhu dummy']",707
+CT1,CT2,CC,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",709
+CT1,CT2,CD,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 5/02/91, acetic acid pure solvent']",711
+CT1,CT2,CPH1,58.35,113.0,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, from CT2CT2CT, U-B omitted']",713
+CT1,CT2,CT1,58.35,113.5,11.16,2.561,"['ALLOW   ALI', 'alkane frequencies (MJF), alkane geometries (SF)']",715
+CT1,CT2,OAP1,75.0,120.0,,,"['phenol phosphate, 6/94, adm jr.', 'by ChengZhu Phosphorus Serine.']",717
+CT2,OAP1,PAP,90.0,120.0,20.0,2.3,"['phenol phosphate, 6/94, adm jr.', 'by ChengZhu Phosphorus Serine.']",719
+HA2,CT2,OAP1,60.0,109.5,,,"['from HN8  CN8B ON2', 'by ChengZhu Phosphorus Serine.']",721
+CT1,NH1,C,50.0,120.0,,,"['ALLOW   ALI PEP POL ARO', 'NMA Vib Modes (LK)']",723
+CT2,CA,CA,45.8,122.3,,,"['ALLOW   ALI ARO', 'PARALLH19 (JES)']",725
+CT2,cg1,cg1,45.8,122.3,,,"['ALLOW   ALI ARO', 'by ChengZhu Dummy']",727
+CT2,CPH1,CPH1,45.8,130.0,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FC=>CT2CA CA,BA=> CRYSTALS']",729
+CT2,CT1,C,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', ""Alanine Dipeptide ab initio calc's (LK)""]",731
+CT2,CT1,CC,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",733
+CT2A,CT1,CC,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",735
+CT2,CT1,CD,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 5/02/91, acetic acid pure solvent']",737
+CT2,CT1,CT1,53.35,111.0,8.0,2.561,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",739
+CT2,CT2,C,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'from CT2  CT1  C, for lactams, adm jr.']",741
+CT2,CT2,CC,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",743
+CT3,CT2,CC,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",745
+CT2,CT2,CD,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 5/02/91, acetic acid pure solvent']",747
+CT2A,CT2,CD,52.0,108.0,,,"['for GLUP, ZHU']",749
+CT2,CT2,CT1,58.35,113.5,11.16,2.561,"['ALLOW   ALI', 'alkane frequencies (MJF), alkane geometries (SF)']",750
+CT2,CT2,CT2,58.35,113.6,11.16,2.561,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",752
+CT2,CT3,CT1,58.35,113.5,11.16,2.561,"['ALLOW   ALI', 'alkane frequencies (MJF), alkane geometries (SF)']",754
+CT2,NC2,C,62.3,120.0,,,"['ALLOW   ALI POL PEP ARO', '107.5->120.0 to make planar Arg (KK)']",756
+CT2,NH1,C,50.0,120.0,,,"['ALLOW   ALI PEP POL ARO', 'NMA Vib Modes (LK)']",758
+CT2,OS,CD,40.0,109.6,30.0,2.2651,"['ALLOW  POL PEP', 'adm jr. 5/02/91, acetic acid pure solvent']",760
+CT2,OPE,CT2,95.0,109.7,,,"['PEG', 'Added by Sam']",762
+CT1,OPE,CT1,95.0,109.7,,,"['Added by Sam No credit', 'COC all36 carb CC3163 OC3C61 CC3162']",764
+OPE,CT2,CT2,45.0,111.5,,,"['PEG', 'Added by Sam']",766
+OPE,CT1,CT1,45.0,110.0,,,"['Added by Sam', 'all36 carb from cc3161 cc3163 oc3c61']",768
+OPE,CT2,C,45.0,111.5,,,"['Added by Sam no credit', 'Assumed same angle as OPE CT2 CT2']",770
+OH1,CT1,OPE,45.0,116.5,,,"['Added by sam no credit', 'all36 carb OC311 CC3162 OC3C61']",772
+HA,CT1,OPE,45.0,109.5,,,"['Added by Sam no credit', 'From all36carb HCA1 CC3162 OC3C61']",774
+CT2,CT1,OPE,45.0,109.0,,,"['Added by sam no credit', 'all36carb CC321 CC3163 OC3C61']",776
+CT3,CA,CA,45.8,122.3,,,"['ALLOW   ALI ARO', 'toluene, adm jr., 3/7/92']",778
+CT3,CPH1,CPH1,45.8,130.0,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FC=>CT2CA CA,BA=> CRYSTALS']",780
+CT3,CT1,C,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', ""Alanine Dipeptide ab initio calc's (LK)""]",782
+CT3,CT1,CC,52.0,108.0,,,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/09/92, for ALA cter']",784
+CT3,CT1,CT1,53.35,108.5,8.0,2.561,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",786
+CT3,CT1,CT2,53.35,114.0,8.0,2.561,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",788
+CT3,CT1,CT3,53.35,114.0,8.0,2.561,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",790
+CT3,CT2,CA,51.8,107.5,,,"['ALLOW   ALI ARO', 'ethylbenzene, adm jr., 3/7/92']",792
+CT3,CT2,CPH1,58.35,113.0,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, from CT2CT2CT, U-B omitted']",794
+CT3,CT2,CT1,58.35,113.5,11.16,2.561,"['ALLOW   ALI', 'alkane frequencies (MJF), alkane geometries (SF)']",796
+CT3,CT2,CT2,58.0,115.0,8.0,2.561,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",798
+CT3,CT2,CT3,53.35,114.0,8.0,2.561,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",800
+CT2,CT1,CT2,58.35,113.5,11.16,2.561,"['CHOLEST cholesterol', 'CG321  CG301  CG321    58.35    113.50   11.16   2.561 ! CHOLEST cholesterol']",802
+CT3,NC2,C,62.3,120.0,,,"['ALLOW   ALI POL PEP ARO', 'methylguanidinium, adm jr., 3/26/92']",804
+CT3,NH1,C,50.0,120.0,,,"['ALLOW   ALI PEP POL ARO', 'NMA Vib Modes (LK)']",806
+CT3,OS,CD,40.0,109.6,30.0,2.2651,"['ALLOW  POL PEP', 'adm jr. 5/02/91, acetic acid pure solvent']",808
+CT3,S,CT2,34.0,95.0,,,"['ALLOW   ALI SUL ION', 'expt. MeEtS,    3/26/92 (FL)']",810
+CG32,CG32,HGA2,26.5,110.1,,,"['! Linear Alkane', 'alkane update, ChengZhu']",812
+CG32,CG33,HGA3,34.6,110.1,22.53,2.179,"['! Linear Alkane', 'alkane update, ChengZhu']",814
+CG33,CG32,HGA2,34.6,110.1,,,"['! Linear Alkane', 'alkane update, ChengZhu']",816
+CG33,CG33,HGA3,37.5,110.1,22.53,2.179,"['! Linear Alkane', 'alkane update, ChengZhu']",818
+HGA2,CG32,HGA2,35.5,109.0,5.4,1.802,"['! Linear Alkane', 'alkane update, ChengZhu']",820
+HGA3,CG32,HGA3,35.5,109.0,5.4,1.802,"['! Linear Alkane', 'alkane update, ChengZhu']",822
+HGA3,CG33,HGA3,35.5,108.4,5.4,1.802,"['! Linear Alkane', 'alkane update, ChengZhu']",824
+ARC2,ARC2,HGA2,35.0,111.4,22.53,2.179,"['! Linear Alkane', 'alkane update, ChengZhu']",826
+HGA2,ARC2,HGA2,38.5,106.8,5.4,1.802,"['! Linear Alkane', 'alkane update, ChengZhu']",828
+ARC2,ARC2,ARC2,58.0,109.5,11.16,2.561,"['! Linear Alkane', 'alkane update, ChengZhu']",830
+CG32,CG32,CG33,58.0,115.0,8.0,2.561,"['! Linear Alkane', 'alkane update, ChengZhu']",832
+CG33,CG32,CG33,53.35,114.0,8.0,2.561,"['! Linear Alkane', 'alkane update, ChengZhu']",834
+CG32,CG32,CG32,58.35,113.6,11.16,2.561,"['alkane update, ChengZhu']",836
+cge,CA,CA,90.0,90.0,,,['by ChengZhu Dummy'],838
+cge,CA,CT2,90.0,90.0,,,['by ChengZhu Dummy'],840
+cge,CA,OH1,90.0,90.0,,,['by ChengZhu Dummy'],842
+cge,CPH1,NR3,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],844
+cge,CPH2,NR3,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],846
+cge,CPH2,NR2,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],848
+cge,CPH1,NR2,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],850
+cge,CPH1,NR1,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],852
+cge,CPH2,NR1,90.0,90.0,,,['by ChengZhu Dummy N'],854
+cge,CPH1,CT2A,90.0,90.0,,,['by ChengZhu Dummy    HIS'],856
+cge,CPH1,CT2,90.0,90.0,,,['by ChengZhu Dummy    HIS'],858
+cge,CPH1,CPH1,90.0,90.0,,,['by ChengZhu Dummy'],860
+cge,NR3,CPH1,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],862
+cge,NR3,CPH2,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],864
+cge,NR2,CPH2,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],866
+cge,NR2,CPH1,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],868
+cge,NR1,CPH2,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],870
+cge,NR1,CPH1,90.0,90.0,,,['by ChengZhu Dummy N  HIS'],872
+cge,cg1,cg1,90.0,90.0,,,['by ChengZhu Dummy'],874
+cge,cg1,CT2,90.0,90.0,,,['by ChengZhu Dummy'],876
+cge,cg1,OH1,90.0,90.0,,,['by ChengZhu Dummy'],878
+cge,X,hiff,50.0,90.0,,,['by ChengZhu Dummy N'],880
+cge,CA,hiff,50.0,90.0,,,['by ChengZhu Dummy N'],882
+cge,CA,HP,50.0,90.0,,,['by ChengZhu Dummy'],884
+cge,CA,H,50.0,90.0,,,['by ChengZhu Dummy'],886
+cge,CPH2,HR2,50.0,90.0,,,['by ChengZhu Dummy N   HIS'],888
+cge,CPH1,HR1,50.0,90.0,,,['by ChengZhu Dummy N   HIS'],890
+cge,CPH1,HR3,50.0,90.0,,,['by ChengZhu Dummy N   HIS'],892
+cge,CPH2,HR1,90.0,90.0,,,['by ChengZhu Dummy N   HIS'],894
+cge,NR3,H,50.0,90.0,,,['by ChengZhu Dummy N'],896
+cge,NR3,hiff,50.0,90.0,,,['by ChengZhu Dummy N'],898
+cge,NR1,hiff,50.0,90.0,,,['by ChengZhu Dummy N'],900
+cge,NR2,hiff,50.0,90.0,,,['by ChengZhu Dummy N'],902
+cge,NR3,cge,50.0,180.0,,,['by ChengZhu Dummy N  HIS'],904
+cge,NR1,cge,50.0,180.0,,,['by ChengZhu Dummy N  HIS'],906
+cge,NR2,cge,50.0,180.0,,,['by ChengZhu Dummy N  HIS'],908
+cge,CPH2,cge,50.0,180.0,,,['by ChengZhu Dummy N'],910
+cge,CPH1,cge,50.0,180.0,,,['by ChengZhu Dummy N'],912
+cge,X,cge,50.0,180.0,,,['by ChengZhu Dummy N'],914
+cge,cg1,cge,50.0,180.0,,,['by ChengZhu Dummy N'],916
+cge,CA,cge,50.0,180.0,,,['by ChengZhu Dummy N'],918
+cg1,cg1,cg1,50.0,120.0,,,['by ChengZhu Dummy'],920
+hiff,CA,CA,37.0,120.0,,,['by ChengZhu Dummy'],922
+hiff,cg1,cg1,37.0,120.0,,,['by ChengZhu Dummy'],924
+hiff,NR3,CPH2,25.0,126.0,15.0,2.09,"['HIS', 'his, adm jr., 6/27/90\tBy ChengZhu Dummy']",926
+hiff,NR3,CPH1,25.0,126.0,15.0,2.09,"['HIS', 'his, adm jr., 6/27/90\tBy ChengZhu Dummy']",928
+hiff,NR1,CPH2,25.0,126.0,15.0,2.09,"['HIS', 'his, adm jr., 6/27/90\tBy ChengZhu Dummy']",930
+hiff,NR1,CPH1,25.0,126.0,15.0,2.09,"['HIS', 'his, adm jr., 6/27/90\tBy ChengZhu Dummy']",932
+H,NH1,C,34.0,123.0,,,"['ALLOW   PEP POL ARO', 'NMA Vib Modes (LK)']",934
+H,NH1,CT1,35.0,117.0,,,"['ALLOW   PEP POL ARO ALI', 'NMA Vibrational Modes (LK)']",936
+H,NH1,CT2,35.0,117.0,,,"['ALLOW   PEP POL ARO ALI', 'NMA Vibrational Modes (LK)']",938
+H,NH1,CT3,35.0,117.0,,,"['ALLOW   PEP POL ARO ALI', 'NMA Vibrational Modes (LK)']",940
+H,NH2,CC,50.0,120.0,,,"['ALLOW   POL PEP ARO', 'his, adm jr. 8/13/90 acetamide geometry and vibrations']",942
+H,NH2,H,23.0,120.0,,,"['ALLOW   POL', 'adm jr. 8/13/90 acetamide geometry and vibrations']",944
+H,NR1,CPH1,30.0,125.5,20.0,2.15,"['ALLOW ARO', 'his, adm jr., 6/27/90']",946
+H,NR1,CPH2,30.0,127.0,20.0,2.14,"['ALLOW ARO', 'his, adm jr., 6/27/90']",948
+H,NR3,CPH1,25.0,126.0,15.0,2.13,"['ALLOW ARO', 'his, adm jr., 6/27/90']",950
+H,NR3,CPH2,25.0,126.0,15.0,2.09,"['ALLOW ARO', 'his, adm jr., 6/27/90']",952
+H,OH1,CA,65.0,108.0,,,"['ALLOW   ALC ARO', 'JES 8/25/89 phenol']",954
+H,OH1,cg1,65.0,108.0,,,"['ALLOW   ALC ARO', 'by ChengZhu Dummy']",956
+H,OH1,CD,55.0,115.0,,,"['ALLOW   ALC ARO PEP POL', 'adm jr. 5/02/91, acetic acid pure solvent']",958
+H,OH1,CT1,57.5,106.0,,,"['ALLOW   ALC ARO ALI', 'methanol vib fit EMB 11/21/89']",960
+H,OH1,CT2,57.5,106.0,,,"['ALLOW   ALC ARO ALI', 'methanol vib fit EMB 11/21/89']",962
+H,OH1,CT3,57.5,106.0,,,"['ALLOW   ALC ARO ALI', 'methanol vib fit EMB 11/21/89']",964
+HA2,CP2,CP1,33.43,110.1,22.53,2.179,"['ALLOW ALI PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",966
+HA2,CP2,CP2,26.5,110.1,22.53,2.179,"['ALLOW ALI PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",968
+HA2,CP2,CP3,26.5,110.1,22.53,2.179,"['ALLOW ALI PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",970
+HA2,CP2,HA2,35.5,109.0,5.4,1.802,"['ALLOW ALI PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",972
+HA2,CP3,CP2,26.5,110.1,22.53,2.179,"['ALLOW ALI PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",974
+HA2,CP3,HA2,35.5,109.0,5.4,1.802,"['ALLOW ALI PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",976
+HA2,CS,CT3,34.6,110.1,22.53,2.179,"['ALLOW SUL', 'ethylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",978
+HA2,CS,HA2,35.5,108.4,14.0,1.775,"['ALLOW SUL', 'methylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",980
+HA3,CS,HA3,35.5,108.4,14.0,1.775,"['ALLOW SUL', 'methylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",982
+HA1,CT1,C,33.0,109.5,30.0,2.163,"['ALLOW   ALI PEP POL ARO', 'alanine dipeptide, LK, replaced, adm jr., 5/09/91']",984
+HA1,CT1,CD,33.0,109.5,30.0,2.163,"['ALLOW   ALI PEP POL ARO', 'adm jr. 5/02/91, acetic acid pure solvent']",986
+HA1,CT1,CT1,34.5,110.1,22.53,2.179,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",988
+HA1,CT1,CT2,34.5,110.1,22.53,2.179,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",990
+HA1,CT1,CT3,34.5,110.1,22.53,2.179,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",992
+HA1,CT1,HA1,35.5,109.0,5.4,1.802,"['TEST for test cpd', 'based on HA   CT2  HA']",994
+HA2,CT2,C,33.0,109.5,30.0,2.163,"['ALLOW   ALI PEP POL ARO', 'alanine dipeptide, LK, replaced, adm jr., 5/09/91']",996
+HA2,CT2,CA,49.3,107.5,,,"['ALLOW   ALI ARO', 'PARALLH19 (JES)']",998
+HA2,CT2,cg1,49.3,107.5,,,"['ALLOW   ALI ARO', 'by ChengZhu dummy']",1000
+HA2,CT2,CC,33.0,109.5,30.0,2.163,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",1002
+HA2,CT2,CD,33.0,109.5,30.0,2.163,"['ALLOW   ALI PEP POL ARO', 'adm jr. 5/02/91, acetic acid pure solvent']",1004
+HA2,CT2,CE1,45.0,111.5,,,"['for 1-butene; from propene, yin/adm jr., 12/95']",1006
+HA,CT2,CPB,50.0,109.5,,,"['ALLOW HEM', 'Heme (6-liganded): substituents (KK 05/13/91)']",1008
+HA,CT2,OPE,60.0,109.5,,,"['Added by Sam from par_all35_ethers', 'Name is only used as searching tool, no credit']",1010
+HA2,CT2,CPH1,33.43,109.5,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, from CT2CT2HA, U-B OMITTED']",1012
+HA2,CT2,CT1,26.5,110.1,22.53,2.179,"['ALLOW   ALI', 'alkane frequencies (MJF), alkane geometries (SF)']",1014
+HA2,CT2,CT2,26.5,110.1,22.53,2.179,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",1016
+HA2,CT2,CT3,34.6,110.1,22.53,2.179,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",1018
+HA2,CT2,HA2,35.5,109.0,5.4,1.802,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",1020
+HA3,CT3,C,33.0,109.5,30.0,2.163,"['ALLOW   ALI PEP POL ARO', 'alanine dipeptide, LK, replaced, adm jr., 5/09/91']",1022
+HA3,CT3,CA,49.3,107.5,,,"['ALLOW   ALI ARO', 'toluene, adm jr. 3/7/92']",1024
+HA3,CT3,CC,33.0,109.5,30.0,2.163,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",1026
+HA3,CT3,CD,33.0,109.5,30.0,2.163,"['ALLOW   ALI PEP POL ARO', 'adm jr. 5/02/91, acetic acid pure solvent']",1028
+HA3,CT3,CE1,42.0,111.5,,,"['for 2-butene, yin/adm jr., 12/95']",1030
+HA3,CT3,CPH1,33.43,109.5,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, from CT2CT2HA, U-B OMITTED']",1032
+HA3,CT3,CS,34.6,110.1,22.53,2.179,"['ALLOW SUL', 'ethylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",1034
+HA3,CT3,CT1,33.43,110.1,22.53,2.179,"['ALLOW   ALI', 'alkane frequencies (MJF), alkane geometries (SF)']",1036
+HA3,CT3,CT2,34.6,110.1,22.53,2.179,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",1038
+HA3,CT3,CT3,37.5,110.1,22.53,2.179,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",1040
+HA3,CT3,HA3,35.5,108.4,5.4,1.802,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",1042
+HE1,CE1,CE1,52.0,119.5,,,"['for 2-butene, yin/adm jr., 12/95']",1044
+HE1,CE1,CE2,42.0,118.0,,,"['for propene, yin/adm jr., 12/95']",1046
+HE1,CE1,CT2,40.0,116.0,,,"['for 1-butene; from propene, yin/adm jr., 12/95']",1048
+HE1,CE1,CT3,22.0,117.0,,,"['for propene, yin/adm jr., 12/95']",1050
+HE2,CE2,CE1,45.0,120.5,,,"['for propene, yin/adm jr., 12/95']",1052
+HE2,CE2,CE2,55.5,120.5,,,"['for ethene, yin/adm jr., 12/95']",1054
+HE2,CE2,HE2,19.0,119.0,,,"['for propene, yin/adm jr., 12/95']",1056
+HB1,CP1,C,50.0,112.0,,,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1058
+HB1,CP1,CC,50.0,112.0,,,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1060
+HB1,CP1,CD,50.0,112.0,,,"['ALLOW PEP POL PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1062
+HB1,CP1,CP2,35.0,118.0,,,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1064
+HB1,CT1,C,50.0,109.5,,,"['ALLOW  PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1066
+HB1,CT1,CC,50.0,109.5,,,"['ALLOW  PEP POL', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",1068
+HB1,CT1,CD,50.0,109.5,,,"['ALLOW  PEP POL', 'adm jr. 5/02/91, acetic acid pure solvent']",1070
+HB1,CT1,CT1,35.0,111.0,,,"['ALLOW  PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1072
+HB1,CT1,CT2,35.0,111.0,,,"['ALLOW  PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1074
+HB1,CT1,CT3,35.0,111.0,,,"['ALLOW  PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1076
+HB2,CT2,C,50.0,109.5,,,"['ALLOW  PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1078
+HB2,CT2,CC,50.0,109.5,,,"['ALLOW  PEP POL', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",1080
+HB2,CT2,CD,50.0,109.5,,,"['ALLOW  PEP POL', 'adm jr. 5/02/91, acetic acid pure solvent']",1082
+HB2,CT2,HB2,36.0,115.0,,,"['ALLOW   PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1084
+HC,NC2,C,49.0,120.0,,,"['ALLOW   POL PEP ARO', '35.3->49.0 GUANIDINIUM (KK)']",1086
+HC,NC2,CT2,40.4,120.0,,,"['ALLOW   POL ALI', '107.5->120.0 to make planar Arg (KK)']",1088
+HC,NC2,CT3,40.4,120.0,,,"['ALLOW   POL ALI', 'methylguanidinium, adm jr., 3/26/92']",1090
+HC,NC2,HC,25.0,120.0,,,"['ALLOW   POL', '40.0->25.0 GUANIDINIUM (KK)']",1092
+HC,NH2,CT2,50.0,111.0,,,"['ALLOW   POL', 'from HC NH2 CT3, neutral glycine, adm jr.']",1094
+HC,NH2,CT3,50.0,111.0,,,"['ALLOW   POL', 'methylamine geom/freq, adm jr., 6/2/92']",1096
+HC,NH2,HC,39.0,106.5,,,"['ALLOW   POL', '40.0->25.0 GUANIDINIUM (KK)']",1098
+HC,NH3,CT1,30.0,109.5,20.0,2.074,"['ALLOW   POL ALI', 'new stretch and bend; methylammonium (KK 03/10/92)']",1100
+HC,NH3,CT2,30.0,109.5,20.0,2.074,"['ALLOW   POL ALI', 'new stretch and bend; methylammonium (KK 03/10/92)']",1102
+HC,NH3,CT3,30.0,109.5,20.0,2.074,"['ALLOW   POL ALI', 'new stretch and bend; methylammonium (KK 03/10/92)']",1104
+HC,NH3,HC,44.0,109.5,,,"['ALLOW   POL', 'new stretch and bend; methylammonium (KK 03/10/92)']",1106
+HC,NP,CP1,33.0,109.5,4.0,2.056,"['ALLOW POL ALI PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1108
+HC,NP,CP3,33.0,109.5,4.0,2.056,"['ALLOW POL ALI PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1110
+HC,NP,HC,51.0,107.5,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1112
+HP,CA,CA,30.0,120.0,22.0,2.1525,"['ALLOW   ARO', 'JES 8/25/89 benzene']",1114
+H,CA,CA,30.0,120.0,22.0,2.1525,"['ALLOW   ARO', 'By ChengZhu Dummy benzene']",1116
+HR1,CPH1,CPH1,22.0,130.0,15.0,2.215,"['ALLOW ARO', 'adm jr., 6/27/90, his']",1118
+HR3,CPH1,CPH1,25.0,130.0,20.0,2.2,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",1120
+HS,S,CT2,38.8,95.0,,,"['ALLOW   SUL ION ALI', 'methanethiol pure solvent, adm jr., 6/22/92']",1122
+HS,S,CT3,43.0,95.0,,,"['ALLOW   SUL ION ALI', 'methanethiol pure solvent, adm jr., 6/22/92']",1124
+HT,OT,HT,55.0,104.52,,,"['ALLOW WAT', 'TIP3P GEOMETRY, ADM JR.']",1126
+N,C,CP1,20.0,112.5,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1128
+N,C,CT1,20.0,112.5,,,"['ALLOW ALI PEP POL ARO PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1130
+N,C,CT2,20.0,112.5,,,"['ALLOW ALI PEP POL ARO PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1132
+N,C,CT3,20.0,112.5,,,"['ALLOW ALI PEP POL ARO PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1134
+N,CP1,C,50.0,108.2,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1136
+N,CP1,CC,50.0,108.2,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1138
+N,CP1,CD,50.0,108.2,,,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1140
+N,CP1,CP2,70.0,110.8,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1142
+N,CP1,HB1,48.0,112.0,,,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1144
+N,CP3,CP2,70.0,110.5,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1146
+N,CP3,HA2,48.0,108.0,,,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1148
+NC2,C,NC2,40.0,120.0,70.0,2.31,"['mp2/6-311g** mgua vib data, adm jr., 1/04', 'N-N distances: 2.29001, 2.31146, 2.33240']",1150
+NC2,CT2,CT2,67.7,107.5,,,"['ALLOW   ALI POL', 'arg, (DS)']",1153
+NC2,CT2,HA2,56.5,107.5,,,"['ALLOW   ALI POL', 'mp2/6-311g** mgua vib data, adm jr., 1/04']",1155
+NC2,CT3,HA3,56.5,107.5,,,"['ALLOW   ALI POL', 'mp2/6-311g** mgua vib data, adm jr., 1/04']",1157
+NH1,C,CP1,80.0,116.5,,,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1159
+NH1,C,CT1,80.0,116.5,,,"['ALLOW   ALI PEP POL ARO', 'NMA Vib Modes (LK)']",1161
+NH1,C,CT2,80.0,116.5,,,"['ALLOW   ALI PEP POL ARO', 'NMA Vib Modes (LK)']",1163
+NH1,C,CT3,80.0,116.5,,,"['ALLOW   ALI PEP POL ARO', 'NMA Vib Modes (LK)']",1165
+NH1,CT1,C,50.0,107.0,,,"['ALLOW   PEP POL ARO ALI', ""Alanine Dipeptide ab initio calc's (LK)""]",1167
+NH1,CT1,CC,50.0,107.0,,,"['ALLOW   PEP POL ARO ALI', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",1169
+NH1,CT1,CD,50.0,107.0,,,"['ALLOW   PEP POL ARO ALI', 'adm jr. 5/02/91, acetic acid pure solvent']",1171
+NH1,CT1,CT1,70.0,113.5,,,"['ALLOW   ALI PEP POL ARO', ""Alanine Dipeptide ab initio calc's (LK)""]",1173
+NH1,CT1,CT2,70.0,113.5,,,"['ALLOW   ALI PEP POL ARO', ""Alanine Dipeptide ab initio calc's (LK)""]",1175
+NH1,CT1,CT3,70.0,113.5,,,"['ALLOW   ALI PEP POL ARO', ""Alanine Dipeptide ab initio calc's (LK)""]",1177
+NH1,CT1,HB1,48.0,108.0,,,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1179
+NH1,CT2,C,50.0,107.0,,,"['ALLOW   PEP POL ARO ALI', ""Alanine Dipeptide ab initio calc's (LK)""]",1181
+NH1,CT2,CC,50.0,107.0,,,"['ALLOW   PEP POL ARO ALI', 'adm jr. 5/20/92, for asn,asp,gln,glu and cters']",1183
+NH1,CT2,CD,50.0,107.0,,,"['ALLOW   PEP POL ARO ALI', 'adm jr. 5/02/91, acetic acid pure solvent']",1185
+NH1,CT2,CT2,70.0,113.5,,,"['ALLOW   ALI PEP POL ARO', 'from NH1  CT1  CT2, for lactams, adm jr.']",1187
+NH1,CT2,HA2,51.5,109.5,,,"['ALLOW   ALI PEP POL ARO', 'from NH1  CT3  HA, for lactams, adm jr.']",1189
+NH1,CT2,HB2,48.0,108.0,,,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1191
+NH1,CT3,HA3,51.5,109.5,,,"['ALLOW   ALI PEP POL ARO', 'NMA crystal (JCS)']",1193
+NH2,CC,CP1,80.0,112.5,,,"['ALLOW ALI PEP POL ARO PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1195
+NH2,CC,CT1,50.0,116.5,50.0,2.45,"['ALLOW   ALI PEP POL ARO', 'adm jr. 8/13/90 acetamide geometry and vibrations']",1197
+NH2,CC,CT2,50.0,116.5,50.0,2.45,"['ALLOW   ALI PEP POL ARO', 'adm jr. 8/13/90 acetamide geometry and vibrations']",1199
+NH2,CC,CT3,50.0,116.5,50.0,2.45,"['ALLOW   ALI PEP POL ARO', 'adm jr. 8/13/90 acetamide geometry and vibrations']",1201
+NH2,CC,HA1,44.0,111.0,50.0,1.98,"['ALLOW POL', 'adm jr., 5/13/91, formamide geometry and vibrations']",1203
+NH2,CT2,HB2,38.0,109.5,50.0,2.14,"['from NH2  CT3  HA, neutral glycine, adm jr.']",1205
+NH2,CT2,CD,52.0,108.0,,,"['from CT2 CT2 CD, neutral glycine, adm jr.']",1207
+NH2,CT2,CT2,67.7,110.0,,,"['ALLOW   ALI POL', 'from NH3  CT2  CT2, neutral lysine']",1209
+NH2,CT2,HA2,38.0,109.5,50.0,2.14,"['from NH2  CT3  HA, neutral lysine']",1211
+NH2,CT3,HA3,38.0,109.5,50.0,2.14,"['ALLOW POL', 'methylamine geom/freq, adm jr., 6/2/92']",1213
+NH3,CT1,C,43.7,110.0,,,"['ALLOW   PEP POL ARO ALI', 'new aliphatics, adm jr., 2/3/92']",1215
+NH3,CT1,CC,43.7,110.0,,,"['ALLOW   PEP POL ARO ALI', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",1217
+NH3,CT1,CT1,67.7,110.0,,,"['ALLOW   ALI POL', 'new aliphatics, adm jr., 2/3/92']",1219
+NH3,CT1,CT2,67.7,110.0,,,"['ALLOW   ALI POL', 'new aliphatics, adm jr., 2/3/92']",1221
+NH3,CT1,CT3,67.7,110.0,,,"['ALLOW   ALI POL', 'new aliphatics, adm jr., 2/3/92']",1223
+NH3,CT1,HB1,51.5,107.5,,,"['ALLOW   ALI POL PEP', 'new aliphatics, adm jr., 2/3/92']",1225
+NH3,CT2,C,43.7,110.0,,,"['ALLOW   PEP POL ARO ALI', 'alanine (JCS)']",1227
+NH3,CT2,CC,43.7,110.0,,,"['ALLOW   PEP POL ARO ALI', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",1229
+NH3,CT2,CD,43.7,110.0,,,"['ALLOW   PEP POL ARO ALI', 'adm jr. 5/02/91, acetic acid pure solvent']",1231
+NH3,CT2,CT2,67.7,110.0,,,"['ALLOW   ALI POL', 'methylammonium']",1233
+NH3,CT2,CT3,67.7,110.0,,,"['ALLOW   ALI POL', 'ethylammonium']",1235
+NH3,CT2,HA2,45.0,107.5,35.0,2.101,"['ALLOW   ALI POL', 'new stretch and bend; methylammonium (KK 03/10/92)']",1237
+NH3,CT2,HB2,51.5,107.5,,,"['ALLOW   ALI POL PEP', 'for use on NTER -- from NH3 CT2HA (JCS) -- (LK)']",1239
+NH3,CT3,HA3,45.0,107.5,35.0,2.101,"['ALLOW   ALI POL', 'new stretch and bend; methylammonium (KK 03/10/92)']",1241
+NP,CP1,C,50.0,106.0,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1243
+NP,CP1,CC,50.0,106.0,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1245
+NP,CP1,CD,50.0,106.0,,,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1247
+NP,CP1,CP2,70.0,108.5,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1249
+NP,CP1,HB1,51.5,107.5,,,"['ALLOW ALI POL PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1251
+NP,CP3,CP2,70.0,108.5,,,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1253
+NP,CP3,HA2,51.5,109.15,,,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1255
+NR1,CPH1,CPH1,130.0,106.0,,,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",1257
+NR1,CPH1,CT2,45.8,124.0,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FC FROM CA CT2CT']",1259
+NR1,CPH1,CT3,45.8,124.0,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FC FROM CA CT2CT']",1261
+NR1,CPH1,HR3,25.0,124.0,20.0,2.14,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",1263
+NR1,CPH2,HR1,25.0,122.5,20.0,2.14,"['ALLOW ARO', 'his, adm jr., 6/27/90']",1265
+NR2,CPH1,CPH1,130.0,110.0,,,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",1267
+NR2,CPH1,CT2,45.8,120.0,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FC FROM CA CT2CT']",1269
+NR2,CPH1,HR3,25.0,120.0,20.0,2.14,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",1271
+NR2,CPH2,HR1,25.0,125.0,20.0,2.12,"['ALLOW ARO', 'his, adm jr., 6/27/90']",1273
+NR2,CPH2,NR1,130.0,112.5,,,"['ALLOW ARO', 'his, adm jr., 6/27/90']",1275
+NR3,CPH1,CPH1,145.0,108.0,,,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",1277
+NR3,CPH1,CT2,45.8,122.0,,,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FC FROM CA CT2CT']",1279
+NR3,CPH1,HR1,22.0,122.0,15.0,2.18,"['ALLOW ARO', 'his, adm jr., 6/27/90']",1281
+NR3,CPH2,HR2,32.0,126.0,25.0,2.14,"['ALLOW ARO', 'his, adm jr., 6/27/90']",1283
+NR3,CPH2,NR3,145.0,108.0,,,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",1285
+O,C,CP1,80.0,118.0,,,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1287
+O,C,CT1,80.0,121.0,,,"['ALLOW   ALI PEP POL ARO', ""Alanine Dipeptide ab initio calc's (LK)""]",1289
+O,C,CT2,80.0,121.0,,,"['ALLOW   ALI PEP POL ARO', ""Alanine Dipeptide ab initio calc's (LK)""]",1291
+O,C,CT3,80.0,121.0,,,"['ALLOW   ALI PEP POL ARO', ""Alanine Dipeptide ab initio calc's (LK)""]",1293
+O,C,H,50.0,121.7,,,"['ALLOW   PEP POL ARO', 'acetaldehyde (JCS)']",1295
+O,C,N,80.0,122.5,,,"['ALLOW PRO PEP POL ARO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1297
+O,C,NH1,80.0,122.5,,,"['ALLOW   PEP POL ARO', 'NMA Vib Modes (LK)']",1299
+O,CC,CP1,80.0,118.0,,,"['ALLOW ALI PEP POL ARO PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1301
+O,CC,CT1,15.0,121.0,50.0,2.44,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/10/91, acetamide update']",1303
+O,CC,CT2,15.0,121.0,50.0,2.44,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/10/91, acetamide update']",1305
+O,CC,CT3,15.0,121.0,50.0,2.44,"['ALLOW   ALI PEP POL ARO', 'adm jr. 4/10/91, acetamide update']",1307
+O,CC,HA1,44.0,122.0,,,"['ALLOW POL', 'adm jr., 5/13/91, formamide geometry and vibrations']",1309
+O,CC,NH2,75.0,122.5,50.0,2.37,"['ALLOW   POL PEP ARO', 'adm jr. 4/10/91, acetamide update']",1311
+OB,CD,CP1,70.0,125.0,20.0,2.442,"['ALLOW ALI PEP POL ARO PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1313
+OB,CD,CT1,70.0,125.0,20.0,2.442,"['ALLOW   ALI PEP POL ARO', 'adm jr. 5/02/91, acetic acid pure solvent']",1315
+OB,CD,CT2,70.0,125.0,20.0,2.442,"['ALLOW   ALI PEP POL ARO', 'adm jr. 5/02/91, acetic acid pure solvent']",1317
+OB,CD,CT3,70.0,125.0,20.0,2.442,"['ALLOW   ALI PEP POL ARO', 'adm jr. 5/02/91, acetic acid pure solvent']",1319
+OC,CA,CA,40.0,120.0,,,"['ALLOW  POL ARO', 'adm jr. 8/27/91, phenoxide']",1321
+OC,CC,CP1,40.0,118.0,50.0,2.388,"['ALLOW ALI PEP POL ARO ION PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1323
+OC,CC,CT1,40.0,118.0,50.0,2.388,"['ALLOW   ALI PEP POL ARO ION', 'adm jr. 7/23/91, correction, ACETATE (KK)']",1325
+OC,CC,CT2,40.0,118.0,50.0,2.388,"['ALLOW   ALI PEP POL ARO ION', 'adm jr. 7/23/91, correction, ACETATE (KK)']",1327
+OC,CC,CT3,40.0,118.0,50.0,2.388,"['ALLOW   ALI PEP POL ARO ION', 'adm jr. 7/23/91, correction, ACETATE (KK)']",1329
+OC,CC,OC,100.0,124.0,70.0,2.225,"['ALLOW   POL ION PEP ARO', 'adm jr. 7/23/91, correction, ACETATE (KK)']",1331
+OC,CT2,CT3,65.0,122.0,,,"['ALLOW  ALC', 'ethoxide 6-31+G* geom/freq, adm jr., 6/1/92']",1333
+OC,CT2,HA2,65.0,118.3,,,"['ALLOW  ALC', 'ethoxide 6-31+G* geom/freq, adm jr., 6/1/92']",1335
+OC,CT3,HA3,65.0,118.3,,,"['ALLOW  ALC', 'methoxide 6-31+G* geom/freq, adm jr., 6/1/92']",1337
+OH1,CA,CA,45.2,120.0,,,"['ALLOW   ARO ALC', 'PARALLH19 WITH [122.3] (JES)']",1339
+OH1,cg1,cg1,45.2,120.0,,,"['ALLOW   ARO ALC', 'by ChengZhu Dummy']",1341
+OH1,CD,CT2,55.0,110.5,,,"['ALLOW   ALI PEP POL ARO ALC', 'adm jr, 10/17/90, acetic acid vibrations']",1343
+OH1,CD,CT3,55.0,110.5,,,"['ALLOW   ALI PEP POL ARO ALC', 'adm jr, 10/17/90, acetic acid vibrations']",1345
+OH1,CD,OB,50.0,123.0,210.0,2.262,"['ALLOW   PEP POL ARO ALC', 'adm jr, 10/17/90, acetic acid vibrations']",1347
+OH1,CT1,CT1,75.7,110.1,,,"['ALLOW   ALI ALC ARO', 'MeOH, EMB, 10/10/89']",1349
+OH1,CT1,CT3,75.7,110.1,,,"['ALLOW   ALI ALC ARO', 'MeOH, EMB, 10/10/89']",1351
+OH1,CT1,HA1,45.9,108.89,,,"['ALLOW   ALI ALC ARO', 'MeOH, EMB, 10/10/89']",1353
+OH1,CT2,CT1,75.7,110.1,,,"['ALLOW   ALI ALC ARO', 'MeOH, EMB, 10/10/89']",1355
+OH1,CT2,CT2,75.7,110.1,,,"['ALLOW   ALI ALC ARO', 'MeOH, EMB, 10/10/89']",1357
+OH1,CT2,CT3,75.7,110.1,,,"['ALLOW   ALI ALC ARO', 'MeOH, EMB, 10/10/89']",1359
+OH1,CT1,CT2,75.7,110.1,,,"['Assume same since all others are', 'Only for citrate not validated']",1361
+OH1,CT2,HA2,45.9,108.89,,,"['ALLOW   ALI ALC ARO', 'MeOH, EMB, 10/10/89']",1363
+OH1,CT3,HA3,45.9,108.89,,,"['ALLOW   ALI ALC ARO', 'MeOH, EMB, 10/10/89']",1365
+OH1,CT1,CC,75.7,110.1,,,"['CG2O3  CG301  OG311    75.70    110.10 ! AMOL, alpha-methoxy-lactic acid, og']",1367
+OS,CD,CP1,55.0,109.0,20.0,2.326,"['ALLOW POL PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1369
+OS,CD,CT1,55.0,109.0,20.0,2.326,"['ALLOW POL PEP', 'adm jr., 4/05/91, for PRES CT1 from methylacetate']",1371
+OS,CD,CT2,55.0,109.0,20.0,2.326,"['ALLOW POL PEP', 'adm jr., 4/05/91, for PRES CT1 from methylacetate']",1373
+OS,CD,CT3,55.0,109.0,20.0,2.326,"['ALLOW POL PEP', 'adm jr., 4/05/91, for PRES CT1 from methylacetate']",1375
+OS,CD,OB,90.0,125.9,160.0,2.2576,"['ALLOW  PEP POL', 'adm jr. 3/19/92, from lipid methyl acetate']",1377
+OS,CT2,HA2,60.0,109.5,,,"['ALLOW PEP POL', 'adm jr. 4/05/91, for PRES CT1 from methyl acetate']",1379
+OS,CT3,HA3,60.0,109.5,,,"['ALLOW PEP POL', 'adm jr. 4/05/91, for PRES CT1 from methyl acetate']",1381
+S,CT2,CT1,58.0,112.5,,,"['ALLOW   ALI SUL ION', 'as in expt.MeEtS & DALC crystal,  5/15/92']",1383
+S,CT2,CT2,58.0,114.5,,,"['ALLOW   ALI SUL ION', 'expt. MeEtS,     3/26/92 (FL)']",1385
+S,CT2,CT3,58.0,114.5,,,"['ALLOW   ALI SUL ION', 'expt. MeEtS,     3/26/92 (FL)']",1387
+S,CT2,HA2,46.1,111.3,,,"['ALLOW   ALI SUL ION', 'vib. freq. and HF/6-31G* geo. (DTN) 8/24/90']",1389
+S,CT3,HA3,46.1,111.3,,,"['ALLOW   ALI SUL ION', 'vib. freq. and HF/6-31G* geo. (DTN) 8/24/90']",1391
+SM,CT2,CT1,58.0,112.5,,,"['ALLOW   ALI SUL ION', 'as in expt.MeEtS & DALC crystal,  5/15/92']",1393
+SM,CT2,CT3,58.0,112.5,,,"['ALLOW   ALI SUL ION', 'diethyldisulfide, as in expt.MeEtS & DALC crystal,  5/15/92']",1395
+SM,CT2,HA2,38.0,111.0,,,"['ALLOW   ALI SUL ION', 'new S-S atom type 8/24/90']",1397
+SM,CT3,HA3,38.0,111.0,,,"['ALLOW   ALI SUL ION', 'new S-S atom type 8/24/90']",1399
+SM,SM,CT2,72.5,103.3,,,"['ALLOW   ALI SUL ION', 'expt. dimethyldisulfide,    3/26/92 (FL)']",1401
+SM,SM,CT3,72.5,103.3,,,"['ALLOW   ALI SUL ION', 'expt. dimethyldisulfide,    3/26/92 (FL)']",1403
+SS,CS,CT3,55.0,118.0,,,"['ALLOW SUL', 'ethylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",1405
+SS,CS,HA2,40.0,112.3,,,"['ALLOW SUL', 'methylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",1407
+SS,CS,HA3,40.0,112.3,,,"['ALLOW SUL', 'methylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",1409
+O,CD,HR1,75.0,121.0,,,"['acetaldehyde, benzaldehyde, 3ALP, retinal', 'For GLU/HSP, Zhu']",1411
+NH1,CT1,CT2A,70.0,113.5,,,['from NH1  CT1  CT2'],1413
+HB1,CT1,CT2A,35.0,111.0,,,['from HB1  CT1  CT2'],1414
+CT2A,CT1,C,52.0,108.0,,,['from CT2  CT1  C'],1415
+CT1,CT2A,HA2,26.5,110.1,22.53,2.179,['from HA2  CT2  CT1'],1416
+CT1,CT2A,CT2,58.35,113.5,11.16,2.561,['from CT2  CT2  CT1'],1417
+HA2,CT2A,HA2,35.5,109.0,5.4,1.802,['from HA2  CT2  HA2'],1418
+HA2,CT2A,CT2,26.5,110.1,22.53,2.179,['from HA2  CT2  CT2'],1419
+CT2A,CT2,HA2,26.5,110.1,22.53,2.179,['from HA2  CT2  CT2'],1420
+CT2A,CT2,CC,52.0,108.0,,,['from CT2  CT2  CC'],1421
+CT1,CT2A,CPH1,58.35,113.0,,,['from CT1  CT2  CPH1'],1422
+HA2,CT2A,CPH1,33.43,109.5,,,['from HA2  CT2  CPH1'],1423
+CT2A,CPH1,CPH1,45.8,130.0,,,['from CT2  CPH1 CPH1'],1424
+CT2A,CPH1,NR3,45.8,122.0,,,"['from NR3  CPH1 CT2', 'ASP, CT2->CT2A, jshim']",1425
+CT1,CT2A,CC,52.0,108.0,,,['from CT1  CT2  CC'],1427
+HA2,CT2A,CC,33.0,109.5,30.0,2.163,['from HA2  CT2  CC'],1428
+OC,CC,CT2A,40.0,118.0,50.0,2.388,['from OC   CC   CT2'],1429
+NH3,CT1,CT2A,67.7,110.0,,,['from NH3  CT1  CT2'],1430
+CT2A,CT1,CD,52.0,108.0,,,"['from CT2  CT1  CD', 'RESI CYSM and PRES CYSD']",1431
+NH2,CT1,CS,67.7,110.0,,,"['from NH2  CT1  CT2 , kevo']",1433
+CS,CT1,C,52.0,108.0,,,"['from CT2  CT1  C   , kevo']",1434
+CS,CT1,CC,52.0,108.0,,,"['from CT2  CT1  CC  , kevo']",1435
+CS,CT1,CD,52.0,108.0,,,"['from CT2  CT1  CD  , kevo']",1436
+HB1,CT1,CS,35.0,111.0,,,"['from HB1  CT1  CT2 , kevo']",1437
+NH1,CT1,CS,70.0,113.5,,,"['from NH1  CT1  CT2 , kevo']",1438
+NH3,CT1,CS,67.7,110.0,,,"['from NH3  CT1  CT2 , kevo']",1439
+SS,CS,CT1,55.0,118.0,,,"['from SS   CS   CT3 , kevo']",1440
+HA2,CS,CT1,34.6,110.1,22.53,2.179,"['from HA2 CS CT3 to be consistent with SS CS CT1, kevo', 'PRES SERD']",1441
+OC,CT2,CT1,65.0,122.0,,,"['from OC   CT2  CT3 , kevo', 'INTERFACE', 'Silica']",1443
+OC23,SC4,OC23,100.0,109.5,,,[],1446
+OC24,SC4,OC24,100.0,109.5,,,[],1447
+OC23,SC4,OC24,100.0,109.5,,,[],1448
+SC4,OC23,SC4,100.0,149.0,,,[],1449
+SC4,OC24,SC4,100.0,149.0,,,[],1450
+SC4,OC23,HOY,50.0,115.0,,,[],1451
+SC4,OC24,HOY,50.0,115.0,,,[],1452
+H*,O*,H*,50.0,104.5,,,"['Flexible SPC water (from CVFF)', 'Clay minerals']",1453
+SY1,OY4,AY1,170.0,127.5,,,[],1455
+SY1,OY4,AY2,170.0,123.7,,,[],1456
+SY1,OY7,AY1,170.0,123.7,,,[],1457
+SY1,OY7,AY2,170.0,127.5,,,[],1458
+AYT1,OY4,AY1,170.0,127.5,,,[],1459
+AYT1,OY4,AY2,170.0,123.7,,,[],1460
+AYT1,OY7,AY1,170.0,123.7,,,[],1461
+AYT1,OY7,AY2,170.0,127.5,,,[],1462
+SY2,OY5,AY1,170.0,123.8,,,[],1463
+SY2,OY5,AY2,170.0,127.2,,,[],1464
+SY2,OY8,AY1,170.0,127.2,,,[],1465
+SY2,OY8,AY2,170.0,123.8,,,[],1466
+AYT2,OY5,AY1,170.0,123.8,,,[],1467
+AYT2,OY5,AY2,170.0,127.2,,,[],1468
+AYT2,OY8,AY1,170.0,127.2,,,[],1469
+AYT2,OY8,AY2,170.0,123.8,,,[],1470
+AY1,OY4,AY2,170.0,101.6,,,[],1471
+AY1,OY5,AY2,170.0,101.6,,,[],1472
+AY1,OY6,AY2,170.0,103.0,,,[],1473
+AY1,OY7,AY2,170.0,101.6,,,[],1474
+AY1,OY8,AY2,170.0,101.6,,,[],1475
+AY1,OY9,AY2,170.0,103.0,,,[],1476
+SY1,OY1,SY2,170.0,128.8,,,[],1477
+SY1,OY2,SY2,170.0,139.9,,,[],1478
+SY1,OY3,SY2,170.0,128.2,,,[],1479
+AYT1,OY1,SY2,170.0,128.8,,,[],1480
+AYT1,OY2,SY2,170.0,139.9,,,[],1481
+AYT1,OY3,SY2,170.0,128.2,,,[],1482
+AYT2,OY1,SY1,170.0,128.8,,,[],1483
+AYT2,OY2,SY1,170.0,139.9,,,[],1484
+AYT2,OY3,SY1,170.0,128.2,,,[],1485
+OY1,SY1,OY2,170.0,110.0,,,[],1486
+OY2,SY1,OY3,170.0,106.7,,,[],1487
+OY3,SY1,OY1,170.0,107.0,,,[],1488
+OY1,SY1,OY4,170.0,110.0,,,[],1489
+OY2,SY1,OY4,170.0,112.5,,,[],1490
+OY3,SY1,OY4,170.0,110.3,,,[],1491
+OY1,SY1,OY7,170.0,110.0,,,[],1492
+OY2,SY1,OY7,170.0,112.5,,,[],1493
+OY3,SY1,OY7,170.0,110.3,,,[],1494
+OY1,AYT1,OY2,170.0,110.0,,,[],1495
+OY2,AYT1,OY3,170.0,106.7,,,[],1496
+OY3,AYT1,OY1,170.0,107.0,,,[],1497
+OY1,AYT1,OY4,170.0,110.0,,,[],1498
+OY2,AYT1,OY4,170.0,112.5,,,[],1499
+OY3,AYT1,OY4,170.0,110.3,,,[],1500
+OY1,AYT1,OY7,170.0,110.0,,,[],1501
+OY2,AYT1,OY7,170.0,112.5,,,[],1502
+OY3,AYT1,OY7,170.0,110.3,,,[],1503
+OY1,SY2,OY2,170.0,107.0,,,[],1504
+OY2,SY2,OY3,170.0,109.6,,,[],1505
+OY3,SY2,OY1,170.0,107.3,,,[],1506
+OY1,SY2,OY5,170.0,110.2,,,[],1507
+OY2,SY2,OY5,170.0,112.2,,,[],1508
+OY3,SY2,OY5,170.0,110.4,,,[],1509
+OY1,SY2,OY8,170.0,110.2,,,[],1510
+OY2,SY2,OY8,170.0,112.2,,,[],1511
+OY3,SY2,OY8,170.0,110.4,,,[],1512
+OY1,AYT2,OY2,170.0,107.0,,,[],1513
+OY2,AYT2,OY3,170.0,109.6,,,[],1514
+OY3,AYT2,OY1,170.0,107.3,,,[],1515
+OY1,AYT2,OY5,170.0,110.2,,,[],1516
+OY2,AYT2,OY5,170.0,112.2,,,[],1517
+OY3,AYT2,OY5,170.0,110.4,,,[],1518
+OY1,AYT2,OY8,170.0,110.2,,,[],1519
+OY2,AYT2,OY8,170.0,112.2,,,[],1520
+OY3,AYT2,OY8,170.0,110.4,,,[],1521
+OY4,AY1,OY5,170.0,92.8,,,[],1522
+OY4,AY1,OY6,170.0,92.7,,,[],1523
+OY4,AY1,OY7,170.0,78.4,,,[],1524
+OY4,AY1,OY8,170.0,98.2,,,[],1525
+OY4,AY1,OY9,170.0,167.1,,,[],1526
+OY5,AY1,OY6,170.0,94.8,,,[],1527
+OY5,AY1,OY7,170.0,166.7,,,[],1528
+OY5,AY1,OY8,170.0,78.4,,,[],1529
+OY5,AY1,OY9,170.0,95.8,,,[],1530
+OY6,AY1,OY7,170.0,95.6,,,[],1531
+OY6,AY1,OY8,170.0,167.3,,,[],1532
+OY6,AY1,OY9,170.0,77.0,,,[],1533
+OY7,AY1,OY8,170.0,92.9,,,[],1534
+OY7,AY1,OY9,170.0,94.7,,,[],1535
+OY8,AY1,OY9,170.0,92.9,,,[],1536
+OY4,AY2,OY5,170.0,92.9,,,[],1537
+OY4,AY2,OY6,170.0,94.7,,,[],1538
+OY4,AY2,OY7,170.0,78.4,,,[],1539
+OY4,AY2,OY8,170.0,166.7,,,[],1540
+OY4,AY2,OY9,170.0,95.6,,,[],1541
+OY5,AY2,OY6,170.0,92.9,,,[],1542
+OY5,AY2,OY7,170.0,98.2,,,[],1543
+OY5,AY2,OY8,170.0,78.4,,,[],1544
+OY5,AY2,OY9,170.0,167.3,,,[],1545
+OY6,AY2,OY7,170.0,167.1,,,[],1546
+OY6,AY2,OY8,170.0,95.8,,,[],1547
+OY6,AY2,OY9,170.0,77.0,,,[],1548
+OY7,AY2,OY8,170.0,92.8,,,[],1549
+OY7,AY2,OY9,170.0,92.7,,,[],1550
+OY8,AY2,OY9,170.0,94.8,,,[],1551
+HOY,OY6,AY1,45.0,126.0,,,[],1552
+HOY,OY6,AY2,45.0,126.0,,,[],1553
+HOY,OY9,AY1,45.0,126.0,,,[],1554
+HOY,OY9,AY2,45.0,126.0,,,[],1555
+HOK,OY4,AY1,45.0,126.0,,,[],1556
+HOK,OY4,AY2,45.0,126.0,,,[],1557
+HOK,OY5,AY1,45.0,126.0,,,[],1558
+HOK,OY5,AY2,45.0,126.0,,,[],1559
+HOK,OY6,AY1,45.0,126.0,,,[],1560
+HOK,OY6,AY2,45.0,126.0,,,[],1561
+HOY,OC24,SY1,50.0,115.0,,,[],1562
+HOY,OC24,SY2,50.0,115.0,,,[],1563
+HOY,OC24,AYT1,50.0,115.0,,,[],1564
+HOY,OC24,AYT2,50.0,115.0,,,[],1565
+OC24,SY1,OY1,100.0,109.5,,,[],1566
+OC24,SY1,OY2,100.0,109.5,,,[],1567
+OC24,SY1,OY3,100.0,109.5,,,[],1568
+OC24,SY1,OY4,100.0,109.5,,,[],1569
+OC24,SY1,OY7,100.0,109.5,,,[],1570
+OC24,SY2,OY1,100.0,109.5,,,[],1571
+OC24,SY2,OY2,100.0,109.5,,,[],1572
+OC24,SY2,OY3,100.0,109.5,,,[],1573
+OC24,SY2,OY5,100.0,109.5,,,[],1574
+OC24,SY2,OY8,100.0,109.5,,,[],1575
+OC24,AYT1,OY1,100.0,109.5,,,[],1576
+OC24,AYT1,OY2,100.0,109.5,,,[],1577
+OC24,AYT1,OY3,100.0,109.5,,,[],1578
+OC24,AYT1,OY4,100.0,109.5,,,[],1579
+OC24,AYT1,OY7,100.0,109.5,,,[],1580
+OC24,AYT2,OY1,100.0,109.5,,,[],1581
+OC24,AYT2,OY2,100.0,109.5,,,[],1582
+OC24,AYT2,OY3,100.0,109.5,,,[],1583
+OC24,AYT2,OY5,100.0,109.5,,,[],1584
+OC24,AYT2,OY8,100.0,109.5,,,[],1585
+OC24,SY1,OC24,100.0,109.5,,,[],1586
+OC24,SY2,OC24,100.0,109.5,,,[],1587
+OC24,AYT1,OC24,100.0,109.5,,,[],1588
+OC24,AYT2,OC24,100.0,109.5,,,['Cement minerals'],1589
+OC1,SC1,OC1,160.0,109.5,,,[],1591
+OC3,AC1,OC3,110.0,111.5,,,[],1592
+AC1,OC3,AC1,110.0,156.7,,,[],1593
+OC3,AC1,OC4,110.0,105.0,,,[],1594
+OC4,AC1,OC4,110.0,121.0,,,[],1595
+HOC,OC4,AC1,40.0,115.0,,,['Apatite'],1596
+OAP1,PAP,OAP1,125.0,109.47,,,[],1598
+HOP,OAP1,PAP,50.0,115.0,,,[''],1599

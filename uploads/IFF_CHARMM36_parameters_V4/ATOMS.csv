@@ -1,0 +1,66 @@
+Force Field Type,Mass,Comments,Line Number
+H,1.008,['polar H'],111
+HC,1.008,['N-ter H'],112
+HA,1.008,['nonpolar H'],113
+HP,1.008,['aromatic H'],114
+HB1,1.008,['backbone H'],115
+HB2,1.008,"['aliphatic backbone H, to CT2']",116
+HR1,1.008,"['his he1, (+) his HG,HD2']",117
+HR2,1.008,['(+) his HE1'],118
+HR3,1.008,"['neutral his HG, HD2']",119
+HS,1.008,['thiol hydrogen'],120
+HE1,1.008,['for alkene; RHC=CR'],121
+HE2,1.008,['for alkene; H2C=CR'],122
+HA1,1.008,"['alkane, CH, new LJ params (see toppar_all22_prot_aliphatic_c27.str)']",123
+HA2,1.008,"['alkane, CH2, new LJ params (see toppar_all22_prot_aliphatic_c27.str)']",124
+HA3,1.008,"['alkane, CH3, new LJ params (see toppar_all22_prot_aliphatic_c27.str)']",125
+HGA2,1.008,"['alkane, CH2, ChengZhu']",126
+HGA3,1.008,"['alkane, CH3, ChengZhu']",127
+C,12.011,"['carbonyl C, peptide backbone']",128
+CA,10.011,"['aromatic C, needs 2 pi electrons (cge), ChengZhu']",129
+CT,12.011,"['aliphatic sp3 C, new LJ params, no hydrogens, see retinol stream file for parameters']",130
+CG32,1.008,"['alkane, CH2, ChengZhu']",131
+CG33,1.008,"['alkane, CH3, ChengZhu']",132
+ARC2,1.008,"['alkane C in cyclohexane with 2H connected, ChengZhu']",133
+CT1,12.011,['aliphatic sp3 C for CH'],134
+CT2,12.011,['aliphatic sp3 C for CH2'],135
+CT2A,12.011,"['from CT2 (GLU, HSP chi1/chi2 fitting) 05282010, zhu']",136
+CT3,12.011,['aliphatic sp3 C for CH3'],137
+CPH1,10.011,"['his CG and CD2 carbons, needs 2 pi electrons (cge)']",138
+CPH2,10.011,"['his CE1 carbon, needs 2 pi electrons (cge)']",139
+CPT,12.011,['trp C between rings'],140
+CY,12.011,['TRP C in pyrrole ring'],141
+CP1,12.011,['tetrahedral C (proline CA)'],142
+CP2,12.011,['tetrahedral C (proline CB/CG)'],143
+CP3,12.011,['tetrahedral C (proline CD)'],144
+CC,12.011,"['carbonyl C, asn,asp,gln,glu,cter,ct2']",145
+CD,12.011,"['carbonyl C, pres aspp,glup,ct1']",146
+CS,12.011,['thiolate carbon'],147
+CE1,12.011,['for alkene; RHC=CR'],148
+CE2,12.011,['for alkene; H2C=CR'],149
+CAI,12.011,['aromatic C next to CPT in trp'],150
+CG33,12.011,"['alkane, CH2, ChengZhu']",151
+CG32,12.011,"['alkane, CH2, ChengZhu']",152
+ARC2,12.011,"['Cyclohexane, CH2, ChengZhu']",153
+N,14.007,['proline N'],154
+NR1,14.007,['neutral his protonated ring nitrogen'],155
+NR2,14.007,['neutral his unprotonated ring nitrogen'],156
+NR3,12.007,"['charged his ring nitrogen, needs to pi electrons (cge)']",157
+NH1,14.007,['peptide nitrogen'],158
+NH2,14.007,['amide nitrogen'],159
+NH3,14.007,['ammonium nitrogen'],160
+NC2,14.007,['guanidinium nitrogen'],161
+NY,14.007,['TRP N in pyrrole ring'],162
+NP,14.007,['Proline ring NH2+ (N-terminal)'],163
+O,15.999,['carbonyl oxygen'],164
+OB,15.999,['carbonyl oxygen in acetic acid'],165
+OC,15.999,['carboxylate oxygen'],166
+OH1,15.999,['hydroxyl oxygen'],167
+OS,15.9994,['ester oxygen'],168
+S,32.06,['sulphur'],169
+SM,32.06,['sulfur C-S-S-C type'],170
+SS,32.06,['thiolate sulfur'],171
+cg1,10.01115,"['sp2 hybridized carbon in graphite/graphene/CNT (+0.3), needs 2 pi electrons (cge)']",172
+cge,1.0,['Virtual pi electron attached to aromatic carbon (-0.15)'],173
+ng1,14.007,['Dummmy N in the Five-ring'],174
+hiff,1.008,['dummy H in the aromtic rings'],175
