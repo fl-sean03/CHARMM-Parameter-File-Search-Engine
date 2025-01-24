@@ -461,11 +461,12 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (document.querySelectorAll('.file-item').length === 1) {
             // If there's only one file, select it automatically
             const fileItem = document.querySelector('.file-item');
-        if (fileItem) {
-            fileItem.classList.add('selected');
-            const dir = fileItem.dataset.dir;
-            if (dir) {
-                loadFileData(dir);
+            if (fileItem) {
+                fileItem.classList.add('selected');
+                const dir = fileItem.dataset.dir;
+                if (dir) {
+                    loadFileData(dir);
+                }
             }
         }
     }
