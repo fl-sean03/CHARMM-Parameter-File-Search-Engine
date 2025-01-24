@@ -112,6 +112,12 @@ document.addEventListener('DOMContentLoaded', function() {
             row.addEventListener('click', () => {
                 const lineNumber = entry['Line Number'];
                 if (lineNumber) {
+                    // Remove highlight from all rows
+                    document.querySelectorAll('.data-table tr').forEach(r => {
+                        r.classList.remove('highlighted');
+                    });
+                    // Add highlight to clicked row
+                    row.classList.add('highlighted');
                     showFileContent(lineNumber);
                 }
             });
@@ -183,15 +189,6 @@ document.addEventListener('DOMContentLoaded', function() {
         button.classList.toggle('active');
     });
 
-    document.getElementById('copy-content')?.addEventListener('click', async () => {
-        const content = document.getElementById('file-content');
-        try {
-            await navigator.clipboard.writeText(content.textContent);
-            showAlert('Content copied to clipboard', 'success');
-        } catch (err) {
-            showAlert('Failed to copy content', 'error');
-        }
-    });
 
     document.getElementById('export-csv')?.addEventListener('click', async () => {
         const activeTab = document.querySelector('.tab-btn.active');
