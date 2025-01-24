@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Get columns from the first data entry
         const columns = Object.keys(data[0])
-            .filter(col => col !== 'Comments');
+            .filter(col => col !== 'Comments' && col !== 'Line Number');
         
         // Create header
         const thead = document.createElement('thead');
@@ -110,8 +110,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Add click handler to the row
             row.addEventListener('click', () => {
-                const lineNumber = entry['Line Number'];
-                if (lineNumber) {
+                if ('Line Number' in entry) {
+                    const lineNumber = entry['Line Number'];
                     // Remove highlight from all rows
                     document.querySelectorAll('.data-table tr').forEach(r => {
                         r.classList.remove('highlighted');
