@@ -290,9 +290,10 @@ h2 {
 
 .results-panel {
     width: 100%;
-    overflow: auto;
     background: #FFFFFF;
     transition: width 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Adjust width when file view is active */
@@ -434,7 +435,9 @@ h2 {
     margin: 0.5rem 0;
     border: 1px solid #E0E0E0;
     border-radius: 8px;
-    overflow: hidden;
+    overflow: auto;
+    max-height: calc(100vh - 280px); /* Adjust based on header heights */
+    display: block;
 }
 
 .data-table thead {
