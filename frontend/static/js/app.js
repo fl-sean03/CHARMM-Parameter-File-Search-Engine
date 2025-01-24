@@ -175,9 +175,12 @@ document.addEventListener('DOMContentLoaded', function() {
             if (response.ok) {
                 showAlert('File uploaded and parsed successfully!', 'success');
                 updateResults(data.data);
-                // Store the filename and reload
-                const fileToSelect = file.name;
-                localStorage.setItem('selectFileAfterReload', fileToSelect);
+                // Store both filename and directory for selection after reload
+                const fileToSelect = {
+                    name: file.name,
+                    dir: data.dir  // Assuming backend returns the directory in response
+                };
+                localStorage.setItem('selectFileAfterReload', JSON.stringify(fileToSelect));
                 window.location.reload();
             } else {
                 showAlert(data.error || 'Upload failed', 'error');
@@ -374,17 +377,42 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Check if we need to select and load a file after reload
-    const fileToSelect = localStorage.getItem('selectFileAfterReload');
-    if (fileToSelect) {
-        if (selectAndLoadFile(fileToSelect)) {
-            localStorage.removeItem('selectFileAfterReload');
+    const storedFileData = localStorage.getItem('selectFileAfterReload');
+    if (storedFileData) {
+        try {
+            const fileData = JSON.parse(storedFileData);
+            const fileItems = document.querySelectorAll('.file-item');
+            let fileFound = false;
+            
+            fileItems.forEach(item => {
+                const itemFileName = item.querySelector('.file-name').textContent;
+                if (itemFileName === fileData.name) {
+                    item.classList.add('selected');
+                    const dir = item.dataset.dir;
+                    if (dir) {
+                        loadFileData(dir);
+                        fileFound = true;
+                    }
+                } else {
+                    item.classList.remove('selected');
+                }
+            });
+            
+            if (fileFound) {
+                localStorage.removeItem('selectFileAfterReload');
+            }
+        } catch (e) {
+            console.error('Error parsing stored file data:', e);
         }
     } else if (document.querySelectorAll('.file-item').length === 1) {
         // If there's only one file, select it automatically
         const fileItem = document.querySelector('.file-item');
         if (fileItem) {
-            const fileName = fileItem.querySelector('.file-name').textContent;
-            selectAndLoadFile(fileName);
+            fileItem.classList.add('selected');
+            const dir = fileItem.dataset.dir;
+            if (dir) {
+                loadFileData(dir);
+            }
         }
     }
     
