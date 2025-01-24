@@ -150,14 +150,16 @@ document.addEventListener('DOMContentLoaded', function() {
             const data = await response.json();
             const fileContent = data.content;
             
-            // Show the file view panel
+            // Get panel references
             const fileViewPanel = document.getElementById('file-view-panel');
-            fileViewPanel.classList.add('active');
-            
             const resultsPanel = document.getElementById('results-panel');
-            const fileViewPanel = document.getElementById('file-view-panel');
-            resultsPanel.style.width = '50%';
-            fileViewPanel.style.width = '50%';
+            
+            // Show the file view panel
+            if (fileViewPanel && resultsPanel) {
+                fileViewPanel.classList.add('active');
+                resultsPanel.style.width = '50%';
+                fileViewPanel.style.width = '50%';
+            }
             
             // Display content with line numbers and highlighting
             const contentDiv = document.getElementById('file-content');
