@@ -218,7 +218,7 @@ h2 {
 
 .splitter {
     width: 4px;
-    background: #E0E0E0;
+    background: #FFE600;
     cursor: col-resize;
     transition: background-color 0.2s;
     position: absolute;
@@ -227,6 +227,7 @@ h2 {
     right: 50%;
     z-index: 100;
     display: none;
+    box-shadow: 0 0 4px rgba(255, 230, 0, 0.5);
 }
 
 /* Show splitter when file view is active */
@@ -236,7 +237,8 @@ h2 {
 
 .splitter:hover,
 .splitter.dragging {
-    background: #1A73E8;
+    background: #FFD700;
+    box-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
 }
 
 .splitter::after {
