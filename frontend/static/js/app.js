@@ -178,11 +178,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Store both filename and directory for selection after reload
                 const fileToSelect = {
                     name: file.name,
-                    dir: data.dir  // Directory from response
+                    dir: data.dir
                 };
                 localStorage.setItem('selectFileAfterReload', JSON.stringify(fileToSelect));
-                // Force reload to update file list and trigger selection
-                window.location.href = window.location.href;
+                // Force a clean reload to update file list
+                window.location.reload(true);
             } else {
                 showAlert(data.error || 'Upload failed', 'error');
             }
