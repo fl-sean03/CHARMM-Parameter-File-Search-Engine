@@ -223,8 +223,15 @@ h2 {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 50%;
+    right: 0;
     z-index: 100;
+    display: none;
+}
+
+/* Show splitter when file view is active */
+.file-view-panel.active ~ .splitter {
+    display: block;
+    right: 50%;
 }
 
 .splitter:hover,
@@ -243,12 +250,17 @@ h2 {
 }
 
 .results-panel {
-    width: 50%;
+    width: 100%;
     min-width: 20%;
     overflow: auto;
     background: #FFFFFF;
     border-right: none;
     transition: width 0.1s ease;
+}
+
+/* Adjust width when file view is active */
+.file-view-panel.active ~ .results-panel {
+    width: 50%;
 }
 
 .panel-header {
