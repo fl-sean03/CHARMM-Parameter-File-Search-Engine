@@ -3,22 +3,84 @@
 =======
 # CHARMM Parameter File Search Engine
 
-A web-based application for parsing, viewing, and analyzing CHARMM parameter files with an intuitive user interface.
+A web-based application for parsing, viewing, and analyzing CHARMM parameter files with an intuitive user interface. This tool provides a modern, interactive interface for researchers and developers working with CHARMM parameter files.
 
-## Features
+## Key Features
 
-- Upload and parse CHARMM parameter files
-- Interactive web interface for viewing parsed data
-- Section-based data organization (ATOMS, BONDS, ANGLES, DIHEDRALS, IMPROPER)
-- Download data sections as CSV files
-- File management system with upload/delete capabilities
-- Dynamic data loading and display
-- Responsive design with modern UI elements
-- Drag-and-drop file upload support
-- Real-time data parsing and display
-- Multi-file management system
+### File Management
+- Upload CHARMM parameter files via drag-and-drop or file browser
+- Multi-file support with individual file management
+- Secure file handling with automatic directory creation
+- File deletion and system reset capabilities
 
-## Prerequisites
+### Data Processing
+- Automatic parsing of CHARMM parameter file sections:
+  - ATOMS
+  - BONDS
+  - ANGLES
+  - DIHEDRALS
+  - IMPROPER
+- Preservation of comments and metadata
+- Line number tracking for source reference
+
+### User Interface
+- Split-view interface with data table and source file viewer
+- Collapsible sidebar for file management
+- Material Design icons and modern styling
+- Responsive layout adapting to screen sizes
+
+### Data Visualization
+- Interactive data tables with sorting capabilities
+- Section-based organization with tabbed interface
+- Real-time search filtering across all columns
+- Highlighted line references between table and source
+
+### Export Features
+- CSV export for individual sections
+- Preserved data formatting and comments
+- Structured file naming for exports
+
+### Source File Viewer
+- Syntax-highlighted parameter file display
+- Line numbering with reference highlighting
+- Text size controls (zoom in/out)
+- Word wrap toggle
+- Quick navigation to referenced lines
+
+### Search Capabilities
+- Real-time filtering within sections
+- Multi-term search support
+- Case-insensitive matching
+- Support for partial word matches
+
+## Technical Features
+
+### Frontend
+- Modern responsive design using CSS Grid and Flexbox
+- Custom scrollbar styling for better usability
+- Material Icons integration
+- Fira Code monospace font for parameter display
+- Animated transitions and hover effects
+- Cross-browser compatibility
+- Mobile-friendly interface
+
+### Backend
+- Flask-based RESTful API
+- Pandas for data processing and analysis
+- Secure file upload handling
+- Automatic file organization
+- CSV generation capabilities
+- Error handling and validation
+- Type hints and documentation
+
+### Performance
+- Efficient file parsing algorithms
+- Optimized data storage
+- Quick search and filter operations
+- Responsive UI with minimal loading times
+- Memory-efficient data handling
+
+## System Requirements
 
 - Python 3.8 or higher
 - pip (Python package installer)
