@@ -189,6 +189,13 @@ document.addEventListener('DOMContentLoaded', function() {
         button.classList.toggle('active');
     });
 
+    document.getElementById('return-to-line')?.addEventListener('click', () => {
+        const highlightedLine = document.querySelector('.line-highlight');
+        if (highlightedLine) {
+            highlightedLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    });
+
 
     document.getElementById('export-csv')?.addEventListener('click', async () => {
         const activeTab = document.querySelector('.tab-btn.active');

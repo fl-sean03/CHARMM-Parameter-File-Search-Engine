@@ -247,6 +247,22 @@ h2 {
     gap: 0.25rem;
     padding: 0.25rem 0.5rem;
     font-size: 0.85rem;
+    position: relative;
+}
+
+.header-actions .btn[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1000;
 }
 
 .header-actions .btn .material-icons {
