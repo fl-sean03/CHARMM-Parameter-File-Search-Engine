@@ -370,6 +370,27 @@ h2 {
     flex: 1;
     overflow: auto;
     background: #F8F9FA;
+    scrollbar-width: thin;
+    scrollbar-color: #C1C1C1 #F1F3F4;
+}
+
+.file-content-wrapper::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.file-content-wrapper::-webkit-scrollbar-track {
+    background: #F1F3F4;
+    border-radius: 4px;
+}
+
+.file-content-wrapper::-webkit-scrollbar-thumb {
+    background: #C1C1C1;
+    border-radius: 4px;
+}
+
+.file-content-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #A8A8A8;
 }
 
 .file-view-header {
@@ -379,6 +400,9 @@ h2 {
     padding: 0.5rem;
     background: #F8F9FA;
     border-bottom: 1px solid #E0E0E0;
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 
 .file-view-header h3 {
