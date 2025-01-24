@@ -209,7 +209,7 @@ h2 {
 /* Split View */
 .split-view {
     display: flex;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 150px);
     background: #FFFFFF;
     position: relative;
     overflow: hidden;
@@ -360,7 +360,7 @@ h2 {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     border: 1px solid #E0E0E0;
     border-radius: 8px;
     overflow: hidden;
