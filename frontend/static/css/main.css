@@ -440,8 +440,9 @@ h2 {
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     margin: 0;
     position: relative;
-    flex: 1;
+    flex: none;
     border: 1px solid #E0E0E0;
+    height: fit-content;
 }
 
 .data-table thead {
@@ -479,6 +480,8 @@ h2 {
     border-bottom: 1px solid #E0E0E0;
     color: #202124;
     transition: all 0.2s ease;
+    height: 3rem;
+    line-height: 1.2;
 }
 
 .data-table tbody tr {
