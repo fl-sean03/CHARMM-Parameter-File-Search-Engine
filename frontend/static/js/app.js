@@ -28,13 +28,37 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function displaySectionData(sectionName) {
+    function displaySectionData(sectionName, filterText = '') {
         const table = document.getElementById('results-table');
-        const data = currentData[sectionName];
+        let data = currentData[sectionName];
         
         if (!data || !data.length) {
             table.innerHTML = '<tr><td colspan="4">No data available for this section</td></tr>';
             return;
+        }
+
+        // Apply search filter if text is provided
+        if (filterText) {
+            filterText = filterText.toLowerCase();
+            data = data.filter(row => {
+                return Object.entries(row).some(([key, value]) => {
+                    // Skip Line Number field and handle null/undefined values
+                    if (key === 'Line Number' || value == null) return false;
+                    
+                    // Handle arrays (like Comments)
+                    if (Array.isArray(value)) {
+                        return value.some(v => v.toString().toLowerCase().includes(filterText));
+                    }
+                    
+                    // Handle numbers and strings
+                    return value.toString().toLowerCase().includes(filterText);
+                });
+            });
+
+            if (data.length === 0) {
+                table.innerHTML = '<tr><td colspan="4">No matching results found</td></tr>';
+                return;
+            }
         }
 
         // Get columns from the first data entry
@@ -99,9 +123,21 @@ document.addEventListener('DOMContentLoaded', function() {
             // Update active state
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
-            displaySectionData(e.target.dataset.section);
+            const searchInput = document.getElementById('section-search');
+            displaySectionData(e.target.dataset.section, searchInput.value);
         });
     });
+
+    // Add search handler
+    const searchInput = document.getElementById('section-search');
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            const activeTab = document.querySelector('.tab-btn.active');
+            if (activeTab) {
+                displaySectionData(activeTab.dataset.section, e.target.value);
+            }
+        });
+    }
 
     // File upload handling
     function initializeFileUpload() {
