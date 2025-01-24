@@ -448,28 +448,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
-                        const dir = item.dataset.dir;
-                        if (dir) {
-                            loadFileData(dir);
-                        }
-                    }
-                });
-                localStorage.removeItem('selectFileAfterReload');
-            } catch (e) {
-                console.error('Error selecting recent file:', e);
-            }
-        } else if (document.querySelectorAll('.file-item').length === 1) {
-            // If there's only one file, select it automatically
-            const fileItem = document.querySelector('.file-item');
-            if (fileItem) {
-                fileItem.classList.add('selected');
-                const dir = fileItem.dataset.dir;
-                if (dir) {
-                    loadFileData(dir);
-                }
-            }
-        }
-    }
     
     // Reset all files functionality
     const resetButton = document.querySelector('.reset-btn');

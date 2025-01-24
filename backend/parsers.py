@@ -1,6 +1,5 @@
 import pandas as pd
 import re
-import re
 
 def read_file(file_path):
     """Reads the content of a file and returns it as a list of lines."""
