@@ -210,18 +210,45 @@ h2 {
 /* Split View */
 .split-view {
     display: flex;
-    gap: 1rem;
     height: calc(100vh - 200px);
-    transition: all 0.3s ease;
     background: #FFFFFF;
+    position: relative;
+}
+
+.splitter {
+    width: 4px;
+    background: #E0E0E0;
+    cursor: col-resize;
+    transition: background-color 0.2s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    z-index: 100;
+}
+
+.splitter:hover,
+.splitter.dragging {
+    background: #1A73E8;
+}
+
+.splitter::after {
+    content: '';
+    position: absolute;
+    left: -8px;
+    right: -8px;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 .results-panel {
-    flex: 1;
-    min-width: 0;
+    width: 50%;
+    min-width: 20%;
     overflow: auto;
     background: #FFFFFF;
-    border-right: 1px solid #E0E0E0;
+    border-right: none;
+    transition: width 0.1s ease;
 }
 
 .panel-header {
@@ -270,20 +297,20 @@ h2 {
 }
 
 .file-view-panel {
-    flex: 0;
     width: 0;
     background: #FFFFFF;
-    transition: all 0.3s ease;
+    transition: width 0.3s ease, opacity 0.3s ease;
     overflow: hidden;
     opacity: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .file-view-panel.active {
-    flex: 1;
     width: 50%;
     opacity: 1;
+    transition: width 0.1s ease, opacity 0.3s ease;
 }
 
 .file-content-wrapper {

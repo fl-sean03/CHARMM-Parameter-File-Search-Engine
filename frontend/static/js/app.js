@@ -176,9 +176,53 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    // Splitter functionality
+    const splitter = document.getElementById('view-splitter');
+    const resultsPanel = document.getElementById('results-panel');
+    const fileViewPanel = document.getElementById('file-view-panel');
+    let isDragging = false;
+
+    splitter.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        splitter.classList.add('dragging');
+        document.addEventListener('mousemove', handleDrag);
+        document.addEventListener('mouseup', stopDrag);
+        e.preventDefault(); // Prevent text selection
+    });
+
+    function handleDrag(e) {
+        if (!isDragging) return;
+        
+        const containerRect = splitter.parentElement.getBoundingClientRect();
+        const newPosition = e.clientX - containerRect.left;
+        const containerWidth = containerRect.width;
+        
+        // Limit the splitter movement (minimum 20% width for each panel)
+        const minWidth = containerWidth * 0.2;
+        const maxWidth = containerWidth * 0.8;
+        
+        if (newPosition >= minWidth && newPosition <= maxWidth) {
+            const leftPercentage = (newPosition / containerWidth) * 100;
+            resultsPanel.style.width = `${leftPercentage}%`;
+            splitter.style.right = `${100 - leftPercentage}%`;
+            fileViewPanel.style.width = `${100 - leftPercentage}%`;
+        }
+    }
+
+    function stopDrag() {
+        isDragging = false;
+        splitter.classList.remove('dragging');
+        document.removeEventListener('mousemove', handleDrag);
+        document.removeEventListener('mouseup', stopDrag);
+    }
+
     // Add button handlers for file view panel
     document.querySelector('.close-file-view')?.addEventListener('click', () => {
         document.getElementById('file-view-panel').classList.remove('active');
+        // Reset panel widths when closing
+        resultsPanel.style.width = '';
+        fileViewPanel.style.width = '';
+        splitter.style.right = '50%';
     });
 
     document.getElementById('toggle-wrap')?.addEventListener('click', (e) => {
