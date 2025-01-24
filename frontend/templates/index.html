@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHARMM Parameter File Search Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>CHARMM Parameter File Search Engine</h1>
+        </div>
+    </header>
+
+    <div class="layout-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            {% if uploaded_files %}
+            <div class="files-header">
+                <h2>Parameter Files</h2>
+                <div class="file-actions">
+                    <button class="btn btn-primary upload-new-btn">Upload New</button>
+                    <button class="btn reset-btn">Reset All</button>
+                </div>
+            </div>
+            <div class="files-list">
+                {% for file in uploaded_files %}
+                <div class="file-item" data-dir="{{ file.dir }}">
+                    <span class="material-icons">description</span>
+                    <div class="file-details">
+                        <span class="file-name">{{ file.name }}</span>
+                        <span class="file-size">{{ file.size_formatted }}</span>
+                        <span class="file-dir">Directory: {{ file.dir }}</span>
+                    </div>
+                    <button class="btn btn-secondary delete-file" data-dir="{{ file.dir }}">
+                        <span class="material-icons">delete</span>
+                    </button>
+                </div>
+                {% endfor %}
+            </div>
+            <input type="file" id="file-upload" class="input-field" accept=".txt,.par" style="display: none;">
+            <input type="file" id="file-upload" class="input-field" accept=".txt,.par" style="display: none;">
+        </aside>
+        {% else %}
+        <div class="full-page-upload">
+            <div class="upload-container">
+                <span class="material-icons">cloud_upload</span>
+                <h2>Upload CHARMM Parameter File</h2>
+                <p>Drag and drop your file here or click to browse</p>
+                <input type="file" id="file-upload" class="input-field" accept=".txt,.par">
+                <button class="btn btn-primary">Upload File</button>
+            </div>
+        </div>
+        {% endif %}
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            {% if uploaded_files %}
+            <!-- Results Section -->
+            <section class="results-section">
+                <h2>Results</h2>
+                <div class="section-tabs">
+                    <div class="tab-group">
+                        <button class="tab-btn active" data-section="ATOMS">Atoms</button>
+                        <button class="download-btn" data-section="ATOMS">
+                            <span class="material-icons">download</span>
+                        </button>
+                    </div>
+                    <div class="tab-group">
+                        <button class="tab-btn" data-section="BONDS">Bonds</button>
+                        <button class="download-btn" data-section="BONDS">
+                            <span class="material-icons">download</span>
+                        </button>
+                    </div>
+                    <div class="tab-group">
+                        <button class="tab-btn" data-section="ANGLES">Angles</button>
+                        <button class="download-btn" data-section="ANGLES">
+                            <span class="material-icons">download</span>
+                        </button>
+                    </div>
+                    <div class="tab-group">
+                        <button class="tab-btn" data-section="DIHEDRALS">Dihedrals</button>
+                        <button class="download-btn" data-section="DIHEDRALS">
+                            <span class="material-icons">download</span>
+                        </button>
+                    </div>
+                    <div class="tab-group">
+                        <button class="tab-btn" data-section="IMPROPER">Improper</button>
+                        <button class="download-btn" data-section="IMPROPER">
+                            <span class="material-icons">download</span>
+                        </button>
+                    </div>
+                </div>
+                <table class="data-table" id="results-table">
+                    <tbody>
+                    </tbody>
+                </table>
+            </section>
+            {% endif %}
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

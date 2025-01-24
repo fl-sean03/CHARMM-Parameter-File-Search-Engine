@@ -1,0 +1,922 @@
+Atom 1,Atom 2,Atom 3,Atom 4,Kchi,Multiplicity (n),Delta,Comments,Line Number
+NH2,CT1,C,O,0.0,1.0,0.0,[],1613
+NH2,CT2,C,O,0.0,1.0,0.0,['Neutral Gly Nterminus'],1614
+NH2,CT1,C,NH1,0.0,1.0,0.0,[],1615
+NH2,CT2,C,NH1,0.0,1.0,0.0,['Neutral Gly Nterminus'],1616
+H,NH2,CT1,CT1,0.0,1.0,0.0,[],1617
+H,NH2,CT1,C,0.0,1.0,0.0,[],1618
+H,NH2,CT2,C,0.0,1.0,0.0,['Neutral Gly Nterminus'],1619
+H,NH2,CT1,HB1,0.11,3.0,0.0,['From LSN HC-NH2-CT2-HA'],1620
+H,NH2,CT2,HB2,0.11,3.0,0.0,"['From LSN HC-NH2-CT2-HA, Neutral Gly Nterminus']",1621
+H,NH2,CT1,CT2,0.11,3.0,0.0,['From LSN HC-NH2-CT2-CT2'],1622
+H,NH2,CT1,CT3,0.11,3.0,0.0,['From LSN HC-NH2-CT2-CT2'],1623
+CAI,CA,CA,CAI,3.1,2.0,180.0,['from CA CA CA CA'],1626
+CA,CPT,CPT,CA,3.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1627
+CAI,CPT,CPT,CAI,3.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1628
+CA,CY,CPT,CA,3.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1629
+CA,CY,CPT,CAI,3.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1630
+CA,NY,CPT,CA,3.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1631
+CPT,CA,CA,CA,3.0,2.0,180.0,['JWK 05/14/91 fit to indole'],1632
+CPT,CPT,CA,CA,3.0,2.0,180.0,['JWK 05/14/91 fit to indole'],1633
+CA,NY,CPT,CAI,3.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1634
+CPT,CAI,CA,CA,3.0,2.0,180.0,['JWK 05/14/91 fit to indole'],1635
+CPT,CPT,CAI,CA,3.0,2.0,180.0,['JWK 05/14/91 fit to indole'],1636
+CPT,CPT,CY,CA,5.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1637
+CPT,CPT,NY,CA,6.5,2.0,180.0,"['atm, methylindole, 1/17/04']",1638
+CT3,CY,CPT,CA,2.5,2.0,180.0,"['atm, methylindole, r6r5']",1639
+CT3,CY,CPT,CAI,2.5,2.0,180.0,"['atm, methylindole, r6r5']",1640
+CT3,CY,CPT,CPT,3.0,2.0,180.0,"['atm, methylindole, meth']",1641
+CT2,CY,CPT,CA,2.5,2.0,180.0,"['atm, methylindole, r6r5']",1642
+CT2,CY,CPT,CAI,2.5,2.0,180.0,"['atm, methylindole, r6r5']",1643
+CT2,CY,CPT,CPT,3.0,2.0,180.0,"['atm, methylindole, meth']",1644
+CY,CA,NY,CPT,6.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1645
+CY,CPT,CA,CA,4.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1646
+CY,CPT,CPT,CA,4.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1647
+CY,CPT,CAI,CA,4.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1648
+CY,CPT,CPT,CAI,4.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1649
+H,NY,CA,CY,0.05,2.0,180.0,"['atm, methylindole, 1/17/04']",1650
+H,NY,CPT,CA,0.2,2.0,180.0,"['atm, methylindole, 1/17/04']",1651
+H,NY,CPT,CAI,0.2,2.0,180.0,"['atm, methylindole, 1/17/04']",1652
+H,NY,CPT,CPT,0.85,2.0,180.0,"['atm, methylindole, 1/17/04']",1653
+HP,CAI,CA,CA,4.2,2.0,180.0,['from HP CA CA CA'],1654
+HP,CA,CA,CPT,3.0,2.0,180.0,['JWK 05/14/91 fit to indole'],1655
+HP,CA,CPT,CPT,3.0,2.0,180.0,['JWK indole 05/14/91'],1656
+HP,CA,CPT,CY,4.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1657
+HP,CA,CA,CAI,4.2,2.0,180.0,['from HP CA CA CA'],1658
+HP,CA,CAI,CPT,3.0,2.0,180.0,['from HP CA CA CPT'],1659
+HP,CAI,CA,HP,2.4,2.0,180.0,['from HP CA CA HP'],1660
+HP,CAI,CPT,CPT,3.0,2.0,180.0,['from HP CA CPT CPT'],1661
+HP,CAI,CPT,CY,4.0,2.0,180.0,"['from HP CA CPT CY, r6r5']",1662
+HP,CA,CY,CPT,2.8,2.0,180.0,"['adm jr., 12/30/91, for jwk']",1663
+HP,CA,CY,CT3,1.2,2.0,180.0,"['atm, methylindole']",1664
+HP,CA,CY,CT2,1.2,2.0,180.0,"['atm, methylindole']",1665
+HP,CA,NY,CPT,2.6,2.0,180.0,"['adm jr., 12/30/91, for jwk']",1666
+HP,CA,NY,H,0.4,2.0,180.0,['JWK 05/14/91 fit to indole'],1667
+HP,CY,CA,HP,1.0,2.0,180.0,['JWK 05/14/91 fit to indole'],1668
+HP,CY,CPT,CA,2.8,2.0,180.0,['JWK 05/14/91 fit to indole'],1669
+HP,CY,CPT,CAI,2.8,2.0,180.0,['JWK 05/14/91 fit to indole'],1670
+HP,CY,CPT,CPT,2.6,2.0,180.0,['JWK 05/14/91 fit to indole'],1671
+NY,CA,CY,CPT,5.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1672
+NY,CA,CY,CT3,2.5,2.0,180.0,"['atm, methylindole, from NY   CA   CY   CT3']",1673
+NY,CA,CY,CT2,2.5,2.0,180.0,"['atm, methylindole, from NY   CA   CY   CT3']",1674
+NY,CA,CY,HP,3.5,2.0,180.0,['JWK indole 05/14/91'],1675
+NY,CPT,CA,CA,3.0,2.0,180.0,"['atm, methylindole, 1/17/04, r6r5']",1676
+NY,CPT,CA,HP,3.0,2.0,180.0,"['JWK 05/14/91 fit to indole, r6r5']",1677
+NY,CPT,CPT,CA,4.0,2.0,180.0,"['atm, methylindole, 1/17/04, bfly']",1678
+NY,CPT,CAI,CA,3.0,2.0,180.0,"['atm, methylindole, 1/17/04']",1679
+NY,CPT,CAI,HP,3.0,2.0,180.0,"['JWK 05/14/91 fit to indole, r6r5']",1680
+NY,CPT,CPT,CAI,4.0,2.0,180.0,"['atm, methylindole, 1/17/04, bfly']",1681
+NY,CPT,CPT,CY,6.5,2.0,180.0,"['JWK 05/14/91 fit to indole,  r5 t1']",1682
+CT3,CT2,CY,CA,0.38,2.0,0.0,"['trp, from ethylbenzene, adm jr., 3/7/92']",1683
+CT3,CT2,CY,CPT,0.25,2.0,180.0,['atm 1/14/04 3-ethylindole'],1684
+CT3,CT2,CY,CPT,0.3,3.0,0.0,['atm 1/14/04 3-ethylindole'],1685
+HA3,CT3,CY,CA,0.01,3.0,0.0,"['atm, methylindole, 1/17/04']",1686
+HA3,CT3,CY,CPT,0.2,3.0,0.0,"['atm, methylindole, 1/17/04']",1687
+HA2,CT2,CY,CA,0.01,3.0,0.0,"['atm, methylindole, 1/17/04']",1688
+HA2,CT2,CY,CPT,0.2,3.0,0.0,"['atm, methylindole, 1/17/04']",1689
+X,CS,SS,X,0.0,3.0,0.2,"['guess', 'from methanethiol, HS S CT3 HA', 'adm jr., 7/01']",1690
+C,CT1,NH1,C,0.2,1.0,180.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c']",1693
+C,CT2,NH1,C,0.2,1.0,180.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c']",1695
+C,N,CP1,C,0.8,3.0,0.0,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1697
+CA,CA,CA,CA,3.1,2.0,180.0,"['ALLOW   ARO', 'JES 8/25/89', 'CA   CT2  CT1  C        0.0400  3     0.00 ! ALLOW   ARO', '2.7 kcal/mole CH3 rot in ethylbenzene, adm jr, 3/7/92']",1699
+CC,CP1,N,C,0.8,3.0,0.0,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1703
+CC,CT1,CT2,CA,0.04,3.0,0.0,"['ALLOW   ARO', '2.7 kcal/mole CH3 rot in ethylbenzene, adm jr, 3/7/92']",1705
+CC,CT1,NH1,C,0.2,1.0,180.0,"['ALLOW PEP POL', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c', 'CC   CT2  NH1  C        0.2000  1   180.00 ! ALLOW PEP POL', '! Alanine dipeptide; NMA; acetate; etc. adm jr., 3/3/93c']",1707
+CC,CT2,NH1,C,2.0,1.0,180.0,"['ALLOW PEP POL', 'Based on Gly3 data from graf et al, RB 7/1/11']",1711
+CD,CP1,N,C,0.0,1.0,180.0,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1713
+CD,CT1,NH1,C,0.2,1.0,180.0,"['ALLOW PEP POL', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c', 'CD   CT2  NH1  C        0.2000  1   180.00 ! ALLOW PEP POL', '! Alanine dipeptide; NMA; acetate; etc. backbon adm jr., 3/3/93c']",1715
+CD,CT2,NH1,C,2.0,1.0,180.0,"['ALLOW PEP POL', 'Based on Gly3 data from graf et al, RB 7/1/11']",1719
+CE1,CE1,CT3,HA3,0.03,3.0,0.0,"['for butene, yin/adm jr., 12/95']",1721
+CE2,CE1,CT2,CT3,0.5,1.0,180.0,"['1-butene, adm jr., 2/00 update']",1723
+CE2,CE1,CT2,CT3,1.3,3.0,180.0,"['1-butene, adm jr., 2/00 update']",1725
+CE2,CE1,CT2,HA2,0.12,3.0,0.0,"['for butene, yin/adm jr., 12/95']",1727
+CE2,CE1,CT3,HA3,0.05,3.0,180.0,"['for propene, yin/adm jr., 12/95']",1729
+HA,CT2,CT2,OPE,0.19,3.0,0.0,"['alkane,4/98, yin and mackerell', 'Moved from par_all35ethers by Sam <- name for search reference no credit']",1731
+HA,CT2,OPE,CT2,0.284,3.0,0.0,"['DEET, diethylether, alex', 'Moved from par_all35ethers by Sam <- name for search reference no credit']",1733
+C,CT2,OPE,CT2,0.57,1.0,0.0,"['Assumed to be the same as CT2 OPE CT2 CT2', 'Added by Sam no credit']",1735
+C,CT2,OPE,CT2,0.29,2.0,0.0,"['Assumed to be the same as CT2 OPE CT2 CT2', 'Added by Sam no credit']",1737
+C,CT2,OPE,CT2,0.43,3.0,0.0,"['Assumed to be the same as CT2 OPE CT2 CT2', 'Added by Sam No credit']",1739
+CT2,CT2,OPE,CT2,0.57,1.0,0.0,"['1,2 Dimethoxyethane from all35_ethers', 'Added by Sam no credit']",1741
+CT2,CT2,OPE,CT2,0.29,2.0,0.0,"['1,2 Dimethoxyethane from all35_ethers', 'Added by Sam no credit']",1743
+CT2,CT2,OPE,CT2,0.43,3.0,0.0,"['1,2 Dimethoxyethane from all35_ethers', 'Added by Sam No credit']",1745
+CT1,CT1,OPE,CT1,0.2,3.0,0.0,"['Added by sam no credit', 'Taken from all36carb CC3161 CC3162 OC3C61 CC3163']",1747
+CT1,OPE,CT1,OH1,0.89,2.0,0.0,"['Added by sam no credit', '36carb OC311 CC301 OC301 CC331 = CC3163 OC3C61 CC3162 OC311']",1749
+HA,CT1,OPE,CT1,0.284,3.0,0.0,"['Added by sam no credit', '36 carb HCA1 C3163 OC3C61 CC3162']",1751
+CT2,CT1,OPE,CT1,0.2,3.0,0.0,"['added by sam no credit', 'carb36 all CC321 CC3163 OC3C61 CC3162']",1753
+OPE,CT2,CT2,OPE,0.59,1.0,180.0,"['1,2 Dimethoxyethane from all35_ethers', 'Added by Sam no credit']",1755
+OPE,CT2,CT2,OPE,1.16,2.0,0.0,"['1,2 Dimethoxyethane from all35_ethers', 'Added by Sam no credit']",1757
+SS,CS,CT2,CT2,0.14975,3.0,180.0,"['Added from LM modified all36cgenff', 'Moved by Sam no credit SG302 CG323 CG321 CG321']",1759
+CP1,C,N,CP1,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1761
+CP1,C,N,CP1,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1763
+CP2,CP1,N,C,0.8,3.0,0.0,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1765
+CP2,CP3,N,C,0.0,3.0,180.0,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1767
+CP2,CP3,N,CP1,0.1,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1769
+CP2,CP3,NP,CP1,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1771
+CP3,N,C,CP1,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1773
+CP3,N,C,CP1,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1775
+CP3,N,CP1,C,0.1,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1777
+CP3,N,CP1,CC,0.1,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1779
+CP3,N,CP1,CP2,0.1,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1781
+CP3,NP,CP1,C,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1783
+CP3,NP,CP1,CC,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1785
+CP3,NP,CP1,CD,0.08,3.0,0.0,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1787
+CP3,NP,CP1,CP2,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1789
+CPH2,NR1,CPH1,CPH1,14.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",1791
+CPH2,NR2,CPH1,CPH1,14.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",1793
+CPH2,NR3,CPH1,CPH1,12.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",1795
+CT1,C,N,CP1,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1797
+CT1,C,N,CP1,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1799
+CT1,C,N,CP3,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1801
+CT1,C,N,CP3,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1803
+CT1,C,NH1,CT1,1.6,1.0,0.0,"['ALLOW PEP', 'Revised to adjust NMA cis/trans energy difference. (LK)']",1805
+CT1,C,NH1,CT1,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1807
+CT1,CT1,NH1,C,1.8,1.0,0.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c']",1809
+CT1,NH1,C,CP1,1.6,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1811
+CT1,NH1,C,CP1,2.5,2.0,180.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1813
+CT2,C,N,CP1,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1815
+CT2,C,N,CP1,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1817
+CT2,C,N,CP3,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1819
+CT2,C,N,CP3,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1821
+CT2,C,NH1,CT1,1.6,1.0,0.0,"['ALLOW PEP', 'Revised to adjust NMA cis/trans energy difference. (LK)']",1823
+CT2,C,NH1,CT1,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1825
+CT2,C,NH1,CT2,1.6,1.0,0.0,"['ALLOW PEP', 'Revised to adjust NMA cis/trans energy difference. (LK)']",1827
+CT2,C,NH1,CT2,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1829
+CT2,C,NH1,CT3,1.6,1.0,0.0,"['ALLOW PEP', 'from CT2  C    NH1  CT2, adm jr. 10/21/96']",1831
+CT2,C,NH1,CT3,2.5,2.0,180.0,"['ALLOW PEP', 'from CT2  C    NH1  CT2, adm jr. 10/21/96']",1833
+CT2,CA,CA,CA,3.1,2.0,180.0,"['ALLOW   ARO', 'JES 8/25/89 toluene and ethylbenzene']",1835
+CT2,CPH1,NR1,CPH2,3.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FROM HA CPH1 NR1 CPH2']",1837
+CT2,CPH1,NR2,CPH2,3.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FROM HA CPH1 NR2 CPH2']",1839
+CT2,CPH1,NR3,CPH2,2.5,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",1841
+CT2,CT1,NH1,C,1.8,1.0,0.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c']",1843
+CT2,CT2,CPH1,CPH1,0.4,1.0,0.0,"['ALLOW ARO', '4-methylimidazole 4-21G//6-31G* rot bar. ADM JR., 9/4/89', 'aliphatic chain parameters compatible with the revised side-chain parameters, from all22_carb>>all27_lip>>all31', 'lower butane gauche conformer']",1845
+CT2,CT2,CT2,CT2,0.1,2.0,180.0,"['alkane, 4/98, adm jr.']",1849
+CT2,CT2,CT2,CT2,0.15,4.0,0.0,"['alkane, 4/98, adm jr.']",1850
+CT2,CT2,CT2,CT2,0.1,6.0,180.0,"['alkane, 4/98, adm jr.']",1851
+CT2,CT2,CT2,CT3,0.1,2.0,180.0,"['alkane, 4/98, adm jr.']",1852
+CT2,CT2,CT2,CT3,0.15,4.0,0.0,"['alkane, 4/98, adm jr.']",1853
+CT2,CT2,CT2,CT3,0.1,6.0,180.0,"['alkane, 4/98, adm jr.', '']",1854
+CT2,CT2,NH1,C,1.8,1.0,0.0,"['ALLOW PEP', 'from CT2  CT1  NH1  C, for lactams, adm jr.']",1856
+CT2,NH1,C,CP1,1.6,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1858
+CT2,NH1,C,CP1,2.5,2.0,180.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1860
+CT2,NH1,C,CT1,1.6,1.0,0.0,"['ALLOW PEP', 'Revised to adjust NMA cis/trans energy difference. (LK)']",1862
+CT2,NH1,C,CT1,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1864
+CT2,SM,SM,CT2,1.0,1.0,0.0,"['ALLOW   ALI SUL ION', 'improved CSSC dihedral in DMDS  5/15/92 (FL)']",1866
+CT2,SM,SM,CT2,4.1,2.0,0.0,"['ALLOW   ALI SUL ION', 'mp 6-311G** dimethyldisulfide,  3/26/92 (FL)']",1868
+CT2,SM,SM,CT2,0.9,3.0,0.0,"['ALLOW   ALI SUL ION', 'improved CSSC dihedral in DMDS  5/15/92 (FL)']",1870
+CT3,C,N,CP1,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1872
+CT3,C,N,CP1,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1874
+CT3,C,N,CP3,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1876
+CT3,C,N,CP3,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1878
+CT3,C,NH1,CT1,1.6,1.0,0.0,"['ALLOW PEP', 'Revised to adjust NMA cis/trans energy difference. (LK)']",1880
+CT3,C,NH1,CT1,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1882
+CT3,C,NH1,CT2,1.6,1.0,0.0,"['ALLOW PEP', 'for acetylated GLY N-terminus, adm jr.']",1884
+CT3,C,NH1,CT2,2.5,2.0,180.0,"['ALLOW PEP', 'for acetylated GLY N-terminus, adm jr.']",1886
+CT3,C,NH1,CT3,1.6,1.0,0.0,"['ALLOW PEP', 'Revised to adjust NMA cis/trans energy difference. (LK)']",1888
+CT3,C,NH1,CT3,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1890
+CT3,CA,CA,CA,3.1,2.0,180.0,"['ALLOW   ARO', 'toluene, adm jr., 3/7/92']",1892
+CT3,CE1,CE2,HE2,5.2,2.0,180.0,"['for propene, yin/adm jr., 12/95']",1894
+CT3,CPH1,NR1,CPH2,3.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FROM HA CPH1 NR1 CPH2']",1896
+CT3,CT1,NH1,C,1.8,1.0,0.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c']",1898
+CT3,CT2,CA,CA,0.23,2.0,180.0,"['ALLOW   ARO ALI', 'ethylbenzene ethyl rotation, adm jr. 3/7/92']",1900
+CT3,CT2,CPH1,CPH1,0.2,1.0,0.0,"['ALLOW ARO', '4-ethylimidazole 4-21G rot bar, adm jr. 3/4/92']",1902
+CT3,CT2,CPH1,CPH1,0.27,2.0,0.0,"['ALLOW ARO', '4-ethylimidazole 4-21G rot bar, adm jr. 3/4/92']",1904
+CT3,CT2,CPH1,CPH1,0.0,3.0,0.0,"['ALLOW ARO', '4-ethylimidazole 4-21G rot bar, adm jr. 3/4/92']",1906
+CT3,CT2,S,CT3,0.24,1.0,180.0,"['ALOW    ALI SUL ION', 'expt. MeEtS,      3/26/92 (FL)']",1908
+CT3,CT2,S,CT3,0.37,3.0,0.0,"['ALOW    ALI SUL ION', 'DTN 8/24/90']",1910
+CT3,NH1,C,CP1,1.6,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1912
+CT3,NH1,C,CP1,2.5,2.0,180.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1914
+CT3,NH1,C,CT1,1.6,1.0,0.0,"['ALLOW PEP', 'Revised to adjust NMA cis/trans energy difference. (LK)']",1916
+CT3,NH1,C,CT1,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1918
+CT3,S,CT2,CT2,0.24,1.0,180.0,"['ALOW    ALI SUL ION', 'expt. MeEtS,      3/26/92 (FL)']",1920
+CT3,S,CT2,CT2,0.37,3.0,0.0,"['ALOW    ALI SUL ION', 'expt. MeEtS,      3/26/92 (FL)']",1922
+CT3,SM,SM,CT3,1.0,1.0,0.0,"['ALLOW   ALI SUL ION', 'improved CSSC dihedral in DMDS  5/15/92 (FL)']",1924
+CT3,SM,SM,CT3,4.1,2.0,0.0,"['ALLOW   ALI SUL ION', 'mp 6-311G** dimethyldisulfide,   3/26/92 (FL)']",1926
+CT3,SM,SM,CT3,0.9,3.0,0.0,"['ALLOW   ALI SUL ION', 'improved CSSC dihedral in DMDS  5/15/92 (FL)']",1928
+ARC2,ARC2,CG33,HGA3,0.0,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1930
+CG32,CG32,CG33,HGA3,0.16,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1932
+CG33,CG32,CG33,HGA3,0.16,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1934
+HGA3,CG33,CG33,HGA3,0.155,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1936
+HGA2,ARC2,ARC2,HGA2,0.19,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1938
+ARC2,ARC2,ARC2,HGA2,0.19,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1940
+HGA2,CG32,CG33,HGA3,0.16,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1942
+HGA2,CG32,CG32,HGA2,0.22,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1944
+CG33,CG32,CG32,HGA2,0.18,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1946
+CG32,CG32,CG32,HGA2,0.195,3.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1948
+CG33,CG32,CG32,CG33,0.03819,2.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1950
+CG32,CG32,CG32,CG33,0.15051,2.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1952
+CG32,CG32,CG32,CG33,0.08133,3.0,180.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1954
+CG32,CG32,CG32,CG33,0.10824,4.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1956
+CG32,CG32,CG32,CG33,0.20391,5.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1958
+CG32,CG32,CG32,CG32,0.0645,2.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1960
+CG32,CG32,CG32,CG32,0.14975,3.0,180.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1962
+CG32,CG32,CG32,CG32,0.09458,4.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1964
+CG32,CG32,CG32,CG32,0.11251,5.0,0.0,"['! Linear Alkane', 'alkane update, ChengZhu']",1966
+H,NH1,C,CP1,2.5,2.0,180.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",1968
+H,NH1,C,CT1,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1970
+H,NH1,C,CT2,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1972
+H,NH1,C,CT3,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",1974
+H,NH1,CT1,C,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1976
+H,NH1,CT1,CC,0.0,1.0,0.0,"['ALLOW PEP POL', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",1978
+H,NH1,CT1,CD,0.0,1.0,0.0,"['ALLOW PEP POL', 'adm jr. 5/02/91, acetic acid pure solvent']",1980
+H,NH1,CT1,CT1,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1982
+H,NH1,CT1,CT2,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1984
+H,NH1,CT1,CT3,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1986
+H,NH1,CT2,C,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1988
+H,NH1,CT2,CC,0.0,1.0,0.0,"['ALLOW PEP POL', 'Alanine dipeptide; NMA; acetate; etc. backbone param. RLD 3/22/92']",1990
+H,NH1,CT2,CD,0.0,1.0,0.0,"['ALLOW PEP POL', 'adm jr. 5/02/91, acetic acid pure solvent']",1992
+H,NH1,CT2,CT2,0.0,1.0,0.0,"['ALLOW PEP', 'from H    NH1  CT2  CT3, for lactams, adm jr.']",1994
+H,NH1,CT2,CT3,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",1996
+H,NH2,CC,CT1,1.4,2.0,180.0,"['ALLOW   PEP POL ARO PRO', 'adm jr. 4/10/91, acetamide update']",1998
+H,NH2,CC,CT2,1.4,2.0,180.0,"['ALLOW   PEP POL ARO PRO', 'adm jr. 4/10/91, acetamide update']",2000
+H,NH2,CC,CT3,1.4,2.0,180.0,"['ALLOW   PEP POL ARO PRO', 'adm jr. 4/10/91, acetamide update']",2002
+H,NH2,CC,CP1,2.5,2.0,180.0,"['ALLOW PEP POL ARO PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2004
+H,NR1,CPH1,CPH1,1.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 7/20/89']",2006
+H,NR1,CPH1,CT2,1.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 7/22/89, FROM HA CPH1 NR1 H']",2008
+H,NR1,CPH1,CT3,1.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 7/22/89, FROM HA CPH1 NR1 H']",2010
+H,NR3,CPH1,CPH1,1.4,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2012
+H,NR3,CPH1,CT2,3.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 7/22/89, FROM HC NR3 CPH1 HA']",2014
+H,NR3,CPH1,CT3,3.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 7/22/89, FROM HC NR3 CPH1 HA']",2016
+H,OH1,CA,CA,0.99,2.0,180.0,"['ALLOW   ARO ALC', 'phenol OH rot bar, 3.37 kcal/mole, adm jr. 3/7/92']",2018
+H,OH1,CT1,CT3,1.33,1.0,0.0,"['ALLOW ALC', '2-propanol OH hf/6-31g* torsional surface, adm jr., 3/2/93']",2020
+H,OH1,CT1,CT3,0.18,2.0,0.0,"['ALLOW ALC', '2-propanol OH hf/6-31g* torsional surface, adm jr., 3/2/93']",2022
+H,OH1,CT1,CT3,0.32,3.0,0.0,"['ALLOW ALC', '2-propanol OH hf/6-31g* torsional surface, adm jr., 3/2/93']",2024
+H,OH1,CT2,CT2,1.3,1.0,0.0,"['ALLOW ALC', 'ethanol OH hf/6-31g* torsional surface, adm jr., 3/2/93']",2026
+H,OH1,CT2,CT2,0.3,2.0,0.0,"['ALLOW ALC', 'ethanol OH hf/6-31g* torsional surface, adm jr., 3/2/93']",2028
+H,OH1,CT2,CT2,0.42,3.0,0.0,"['ALLOW ALC', 'ethanol OH hf/6-31g* torsional surface, adm jr., 3/2/93']",2030
+H,OH1,CT2,CT3,1.3,1.0,0.0,"['ALLOW ALC', 'ethanol OH hf/6-31g* torsional surface, adm jr., 3/2/93']",2032
+H,OH1,CT2,CT3,0.3,2.0,0.0,"['ALLOW ALC', 'ethanol OH hf/6-31g* torsional surface, adm jr., 3/2/93']",2034
+H,OH1,CT2,CT3,0.42,3.0,0.0,"['ALLOW ALC', 'ethanol OH hf/6-31g* torsional surface, adm jr., 3/2/93']",2036
+HA1,CC,NH2,H,1.4,2.0,180.0,"['ALLOW PEP POL', 'adm jr. 4/10/91, acetamide update']",2038
+HA2,CP3,N,C,0.0,3.0,180.0,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2040
+HA2,CP3,N,CP1,0.1,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2042
+HA2,CP3,NP,CP1,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2044
+HA1,CT1,CT2,CA,0.04,3.0,0.0,"['ALLOW   ARO', '2.7 kcal/mole CH3 rot in ethylbenzene, adm jr, 3/7/92']",2046
+HA2,CT2,CPH1,CPH1,0.0,3.0,0.0,"['ALLOW ARO', '4-methylimidazole 4-21G//6-31G* rot bar. adm jr., 9/4/89']",2048
+HA2,CT2,NH1,C,0.0,3.0,0.0,"['ALLOW PEP', 'LK for autogenerate dihe, sp2-methyl, no dihedral potential']",2050
+HA2,CT2,NH1,H,0.0,3.0,0.0,"['ALLOW PEP', 'LK for autogenerate dihe, sp2-methyl, no dihedral potential']",2052
+HA2,CT2,S,CT3,0.28,3.0,0.0,"['ALLOW   ALI SUL ION', 'DTN 8/24/90']",2054
+HA3,CT3,CPH1,CPH1,0.0,3.0,0.0,"['ALLOW ARO', '4-methylimidazole 4-21G//6-31G* rot bar. adm jr., 9/4/89']",2056
+HA3,CT3,CS,HA2,0.16,3.0,0.0,"['ALLOW SUL', 'ethylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",2058
+HA3,CT3,CS,HA3,0.16,3.0,0.0,"['ALLOW SUL', 'ethylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",2060
+HA3,CT3,CT2,CA,0.04,3.0,0.0,"['ALLOW   ARO', '2.7 kcal/mole CH3 rot in ethylbenzene, adm jr, 3/7/92']",2062
+HA3,CT3,NH1,C,0.0,3.0,0.0,"['ALLOW PEP', 'LK for autogenerate dihe, sp2-methyl, no dihedral potential']",2064
+HA3,CT3,NH1,H,0.0,3.0,0.0,"['ALLOW PEP', 'LK for autogenerate dihe, sp2-methyl, no dihedral potential']",2066
+HA3,CT3,S,CT2,0.28,3.0,0.0,"['ALLOW   ALI SUL ION', 'DTN 8/24/90']",2068
+HE1,CE1,CE1,HE1,1.0,2.0,180.0,"['2-butene, adm jr., 8/98 update']",2070
+CT3,CE1,CE1,HE1,1.0,2.0,180.0,"['2-butene, adm jr., 8/98 update']",2072
+HE1,CE1,CE2,HE2,5.2,2.0,180.0,"['for propene, yin/adm jr., 12/95']",2074
+HE1,CE1,CT2,HA2,0.0,3.0,0.0,"['butene, adm jr., 2/00 update']",2076
+HE1,CE1,CT2,CT3,0.12,3.0,0.0,"['for butene, yin/adm jr., 12/95']",2078
+HE1,CE1,CT3,HA3,0.0,3.0,0.0,"['butene, adm jr., 2/00 update']",2080
+HE2,CE2,CE1,CT2,5.2,2.0,180.0,"['for butene, yin/adm jr., 12/95']",2082
+HB1,CP1,N,C,0.8,3.0,0.0,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2084
+HB1,CP1,N,CP3,0.1,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2086
+HB1,CP1,NP,CP3,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2088
+HB1,CT1,NH1,C,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2090
+HB1,CT1,NH1,H,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2092
+HB2,CT2,NH1,C,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2094
+HB2,CT2,NH1,H,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2096
+HC,NH2,CT2,HB2,0.11,3.0,0.0,"['from X CT3 NH2 X, neutral glycine, adm jr.']",2098
+HC,NH2,CT2,CD,0.11,3.0,0.0,"['from X CT3 NH2 X, neutral glycine, adm jr.']",2100
+HC,NH2,CT2,CT2,0.11,3.0,0.0,"['from X CT3 NH2 X, neutral lysine']",2102
+HC,NH2,CT2,HA2,0.11,3.0,0.0,"['from X CT3 NH2 X, neutral lysine']",2104
+HC,NP,CP1,C,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2106
+HC,NP,CP1,CC,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2108
+HC,NP,CP1,CD,0.08,3.0,0.0,"['ALLOW PRO PEP', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2110
+HC,NP,CP1,CP2,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2112
+HC,NP,CP1,HB1,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2114
+HC,NP,CP3,CP2,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2116
+HC,NP,CP3,HA2,0.08,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2118
+HP,CA,CA,CA,4.2,2.0,180.0,"['ALLOW   ARO', 'JES 8/25/89 benzene']",2120
+H,CA,CA,CA,4.2,2.0,180.0,"['ALLOW   ARO', 'By ChengZhu Dummmy benzene']",2122
+HP,CA,CA,CT2,4.2,2.0,180.0,"['ALLOW   ARO', 'JES 8/25/89 toluene and ethylbenzene']",2124
+HP,CA,CA,CT3,4.2,2.0,180.0,"['ALLOW   ARO', 'toluene, adm jr., 3/7/92']",2126
+HP,CA,CA,HP,2.4,2.0,180.0,"['ALLOW   ARO', 'JES 8/25/89 benzene']",2128
+H,CA,CA,H,2.4,2.0,180.0,"['ALLOW   ARO', 'By ChengZhu Dummmy benzene']",2130
+HR1,CPH1,CPH1,CT2,1.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2132
+HR1,CPH1,CPH1,CT3,1.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2134
+HR1,CPH1,CPH1,HR1,1.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90, his']",2136
+HR1,CPH1,NR3,CPH2,2.5,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2138
+HR1,CPH1,NR3,H,3.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2140
+HR1,CPH2,NR1,CPH1,3.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2142
+HR1,CPH2,NR1,H,1.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2144
+HR1,CPH2,NR2,CPH1,3.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2146
+HR2,CPH2,NR3,CPH1,3.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2148
+HR2,CPH2,NR3,H,0.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90, YES, 0.0']",2150
+HR2,CPH2,NR3,hiff,0.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90, YES, 0.0']",2152
+HR3,CPH1,CPH1,CT2,2.0,2.0,180.0,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",2154
+HR3,CPH1,CPH1,CT3,2.0,2.0,180.0,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",2156
+HR3,CPH1,CPH1,HR3,2.0,2.0,180.0,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",2158
+HR3,CPH1,NR1,CPH2,3.0,2.0,180.0,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",2160
+HR3,CPH1,NR1,H,1.0,2.0,180.0,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",2162
+HR3,CPH1,NR2,CPH2,3.0,2.0,180.0,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",2164
+HS,S,CT2,CT3,0.24,1.0,0.0,"['ALLOW   ALI SUL ION', 'ethanethiol C-C-S-H surface, adm jr., 4/18/93']",2166
+HS,S,CT2,CT3,0.15,2.0,0.0,"['ALLOW   ALI SUL ION', 'ethanethiol C-C-S-H surface, adm jr., 4/18/93']",2168
+HS,S,CT2,CT3,0.27,3.0,0.0,"['ALLOW   ALI SUL ION', 'ethanethiol C-C-S-H surface, adm jr., 4/18/93']",2170
+HS,S,CT2,HA2,0.2,3.0,0.0,"['ALLOW   ALI SUL ION', 'methanethiol pure solvent, adm jr., 6/22/92']",2172
+HS,S,CT3,HA3,0.2,3.0,0.0,"['ALLOW   ALI SUL ION', 'methanethiol pure solvent, adm jr., 6/22/92']",2174
+N,C,CP1,CP2,0.4,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2176
+N,C,CP1,CP2,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2178
+N,C,CP1,HB1,0.4,1.0,180.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2180
+N,C,CP1,HB1,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2182
+N,C,CP1,N,0.3,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2184
+,,,,,,,['Unparsed line: N    C    CP1  N       -0.3000  4     0.00 ! ALLOW PEP PRO'],2186
+N,C,CT1,CT1,0.0,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2188
+N,C,CT1,CT2,0.0,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2190
+N,C,CT1,CT3,0.0,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2192
+N,C,CT1,HB1,0.0,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2194
+N,C,CT2,HB2,0.0,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2196
+N,C,CT3,HA3,0.0,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2198
+N,CT1,CT2,CA,0.04,3.0,0.0,"['ALLOW   ARO', '2.7 kcal/mole CH3 rot in ethylbenzene, adm jr, 3/7/92']",2200
+NH1,C,CP1,CP2,0.4,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2202
+NH1,C,CP1,CP2,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2204
+NH1,C,CP1,HB1,0.4,1.0,180.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2206
+NH1,C,CP1,HB1,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2208
+NH1,C,CP1,N,0.3,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2210
+,,,,,,,['Unparsed line: NH1  C    CP1  N       -0.3000  4     0.00 ! ALLOW PEP PRO'],2212
+NH1,C,CT1,CT1,0.0,1.0,0.0,"['ALLOW PEP', 'ala dipeptide corrxn for new C VDW Rmin, 4/10/93 (LK)']",2214
+NH1,C,CT1,CT2,0.0,1.0,0.0,"['ALLOW PEP', 'ala dipeptide corrxn for new C VDW Rmin, 4/10/93 (LK)']",2216
+NH1,C,CT1,CT3,0.0,1.0,0.0,"['ALLOW PEP', 'ala dipeptide corrxn for new C VDW Rmin, 4/10/93 (LK)']",2218
+NH1,C,CT1,HB1,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2220
+NH1,C,CT1,NH1,0.6,1.0,0.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93']",2222
+NH1,C,CT2,CT2,0.0,1.0,0.0,"['ALLOW PEP', 'from NH1  C    CT1  CT2, for lactams, adm jr.']",2224
+NH1,C,CT2,HA2,0.0,3.0,0.0,"['ALLOW PEP', 'LK for autogenerate dihe, sp2-methyl, no dihedral potential']",2226
+NH1,C,CT2,HB2,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2228
+NH1,C,CT2,NH1,0.6,1.0,0.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93']",2230
+NH1,C,CT3,HA3,0.0,3.0,0.0,"['ALLOW PEP', 'LK for autogenerate dihe, sp2-methyl, no dihedral potential']",2232
+NH1,CT1,C,N,0.4,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2234
+NH1,CT2,C,N,0.4,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2236
+NH1,C,CT2,OPE,0.6,1.0,0.0,"['Added by sam most likely wrong', 'Assumed OPE=NH1 based on similar charge/size']",2238
+NH2,CC,CP1,CP2,0.4,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2240
+NH2,CC,CP1,CP2,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2242
+NH2,CC,CP1,HB1,0.4,1.0,180.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2244
+NH2,CC,CP1,HB1,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2246
+NH2,CC,CP1,N,0.3,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2248
+,,,,,,,['Unparsed line: NH2  CC   CP1  N       -0.3000  4     0.00 ! ALLOW PEP PRO'],2250
+NH2,CC,CT2,HA2,0.0,3.0,180.0,"['ALLOW POL', 'adm jr., 8/13/90 acetamide geometry and vibrations']",2252
+NH3,CT1,C,N,0.4,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2254
+NH3,CT1,C,NH1,0.6,1.0,0.0,"['ALLOW PEP PRO', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93']",2256
+NH3,CT1,CC,NH2,0.4,1.0,0.0,"['ALLOW PEP PRO', 'Alanine dipeptide; NMA; acetate; etc. backbone param. RLD 3/22/92']",2258
+NH3,CT2,C,N,0.4,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93', '!!NH3  CT2  C    NH1      0.4000  1     0.00 ! ALLOW PEP PRO', '!!                ! adm jr. 3/24/92, for PRES GLYP']",2260
+NH3,CT2,C,NH1,1.0,1.0,0.0,"['ALLOW PEP PRO', 'RB 1/07/11, based on graf et al Gly 3 N-ter J-couplings for PRES GLYP']",2264
+NH3,CT2,CC,NH2,0.4,1.0,0.0,"['ALLOW PEP PRO', 'Alanine dipeptide; NMA; acetate; etc. backbone param. RLD 3/22/92']",2266
+NP,CP1,C,N,0.3,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2268
+NP,CP1,C,NH1,0.3,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2270
+NP,CP1,CC,NH2,0.3,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2272
+NR1,CPH1,CPH1,CT2,3.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FROM NR1 CPH1 CPH1 HA']",2274
+NR1,CPH1,CPH1,CT3,3.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FROM NR1 CPH1 CPH1 HA']",2276
+NR1,CPH1,CPH1,HR3,3.0,2.0,180.0,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",2278
+NR1,CPH1,CT2,CT2,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2280
+NR1,CPH1,CT2,CT3,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2282
+NR1,CPH1,CT2,HA2,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2284
+NR1,CPH1,CT3,HA3,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2286
+NR1,CPH2,NR2,CPH1,14.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",2288
+NR2,CPH1,CPH1,CT2,3.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FROM NR2 CPH1 CPH1 HA']",2290
+NR2,CPH1,CPH1,CT3,3.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/22/89, FROM NR2 CPH1 CPH1 HA']",2292
+NR2,CPH1,CPH1,HR3,3.0,2.0,180.0,"['ALLOW ARO', 'adm jr., 3/24/92, maintain old aliphatic H VDW params']",2294
+NR2,CPH1,CPH1,NR1,14.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/20/89', 'NR2  CPH1 CT2  CT1      0.1900  3     0.00 ! ALLOW ARO', 'HIS CB-CG TORSION,']",2296
+NR2,CPH1,CT2,CT2,0.19,3.0,0.0,"['ALLOW ARO', 'HIS CB-CG TORSION,']",2300
+NR2,CPH1,CT2,CT3,0.19,3.0,0.0,"['ALLOW ARO', 'HIS CB-CG TORSION,']",2302
+NR2,CPH1,CT2,HA2,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2304
+NR2,CPH1,CT3,HA3,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2306
+NR2,CPH2,NR1,CPH1,14.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",2308
+NR2,CPH2,NR1,H,1.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",2310
+NR3,CPH1,CPH1,CT2,2.5,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2312
+NR3,CPH1,CPH1,CT3,2.5,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2314
+NR3,CPH1,CPH1,HR1,2.5,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2316
+NR3,CPH1,CPH1,NR3,12.0,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2318
+NR3,CPH1,CT2,CT2,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2320
+NR3,CPH1,CT2,CT3,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2322
+NR3,CPH1,CT2,HA2,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2324
+NR3,CPH1,CT3,HA3,0.19,3.0,0.0,"['ALLOW ARO', '4-METHYLIMIDAZOLE 4-21G//6-31G* ROT BAR. ADM JR., 9/4/89']",2326
+NR3,CPH2,NR3,CPH1,12.0,2.0,180.0,"['ALLOW ARO', 'his, ADM JR., 7/20/89']",2328
+NR3,CPH2,NR3,H,1.4,2.0,180.0,"['ALLOW ARO', 'his, adm jr., 6/27/90']",2330
+O,C,CP1,CP2,0.4,1.0,180.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2332
+O,C,CP1,CP2,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2334
+O,C,CP1,HB1,0.4,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2336
+O,C,CP1,HB1,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2338
+,,,,,,,['Unparsed line: O    C    CP1  N       -0.3000  4     0.00 ! ALLOW PEP PRO'],2340
+O,C,CT1,CT1,1.4,1.0,0.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c']",2342
+O,C,CT1,CT2,1.4,1.0,0.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c']",2344
+O,C,CT1,CT3,1.4,1.0,0.0,"['ALLOW PEP', 'ala dipeptide update for new C VDW Rmin, adm jr., 3/3/93c']",2346
+O,C,CT1,HB1,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2348
+O,C,CT1,NH1,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2350
+O,C,CT1,NH3,0.0,1.0,0.0,"['ALLOW PEP PRO', 'Backbone parameter set made complete RLD 8/8/90']",2352
+O,C,CT2,CT2,1.4,1.0,0.0,"['ALLOW PEP', 'from O    C    CT1  CT2, for lactams, adm jr.']",2354
+O,C,CT2,HA2,0.0,3.0,180.0,"['ALLOW POL', 'adm jr., 8/13/90 acetamide geometry and vibrations']",2356
+O,C,CT2,HB2,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2358
+O,C,CT2,NH1,0.0,1.0,0.0,"['ALLOW PEP', ""Alanine Dipeptide ab initio calc's (LK)""]",2360
+O,C,CT2,NH3,0.0,1.0,0.0,"['ALLOW PEP PRO', 'Backbone parameter set made complete RLD 8/8/90']",2362
+O,C,CT3,HA3,0.0,3.0,180.0,"['ALLOW POL', 'adm jr., 8/13/90 acetamide geometry and vibrations']",2364
+O,C,N,CP1,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2366
+O,C,N,CP1,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2368
+O,C,N,CP3,2.75,2.0,180.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2370
+O,C,N,CP3,0.3,4.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2372
+O,C,NH1,CT1,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",2374
+O,C,NH1,CT2,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",2376
+O,C,NH1,CT3,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",2378
+O,C,NH1,H,2.5,2.0,180.0,"['ALLOW PEP', 'Gives appropriate NMA cis/trans barrier. (LK)']",2380
+O,CC,CP1,CP2,0.4,1.0,180.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2382
+O,CC,CP1,CP2,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2384
+O,CC,CP1,HB1,0.4,1.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2386
+O,CC,CP1,HB1,0.6,2.0,0.0,"['ALLOW PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2388
+,,,,,,,['Unparsed line: O    CC   CP1  N       -0.3000  4     0.00 ! ALLOW PEP PRO'],2390
+O,CC,CT2,HA2,0.0,3.0,180.0,"['ALLOW POL', 'adm jr. 4/05/91, for asn,asp,gln,glu and cters']",2392
+O,CC,NH2,H,1.4,2.0,180.0,"['ALLOW PEP POL ARO PRO', 'adm jr. 4/10/91, acetamide update']",2394
+O,C,CT2,OPE,0.0,1.0,0.0,"['Most likely Wrong-Added by Sam', 'Just subbed OPE for NH1 since similar charge/size']",2396
+OB,CD,OS,CT2,0.965,1.0,180.0,"['ALLOW   PEP POL', 'adm jr. 3/19/92, from lipid methyl acetate']",2398
+OB,CD,OS,CT2,3.85,2.0,180.0,"['ALLOW   PEP POL', 'adm jr. 3/19/92, from lipid methyl acetate']",2400
+OB,CD,OS,CT3,0.965,1.0,180.0,"['ALLOW   PEP POL', 'adm jr. 3/19/92, from lipid methyl acetate']",2402
+OB,CD,OS,CT3,3.85,2.0,180.0,"['ALLOW   PEP POL', 'adm jr. 3/19/92, from lipid methyl acetate']",2404
+OC,CA,CA,CA,3.1,2.0,180.0,"['ALLOW   ARO', 'adm jr. 8/27/91, phenoxide']",2406
+OC,CA,CA,HP,4.2,2.0,180.0,"['ALLOW   ARO', 'adm jr. 8/27/91, phenoxide']",2408
+OC,CC,CP1,CP2,0.16,3.0,0.0,"['ALLOW PEP PRO POL', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2410
+OC,CC,CP1,HB1,0.16,3.0,0.0,"['ALLOW PEP PRO POL', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2412
+OC,CC,CP1,N,0.16,3.0,0.0,"['ALLOW PEP PRO POL', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2414
+OC,CC,CP1,NP,0.16,3.0,0.0,"['ALLOW PEP PRO POL', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2416
+OC,CC,CT1,NH3,3.2,2.0,180.0,"['ALLOW PEP PRO', 'adm jr. 4/17/94, zwitterionic glycine']",2418
+OC,CC,CT2,NH3,3.2,2.0,180.0,"['ALLOW PEP PRO', 'adm jr. 4/17/94, zwitterionic glycine']",2420
+OH1,CA,CA,CA,3.1,2.0,180.0,"['ALLOW   ARO', 'JES 8/25/89 phenol']",2422
+OH1,CA,CA,HP,4.2,2.0,180.0,"['ALLOW   ARO', 'JES 8/25/89 phenol']",2424
+S,CT2,CT2,HA2,0.01,3.0,0.0,"['ALLOW   ALI SUL ION', 'DTN 8/24/90']",2426
+SM,CT2,CT2,HA2,0.01,3.0,0.0,"['ALLOW   ALI SUL ION', 'DTN 8/24/90']",2428
+SM,SM,CT2,CT1,0.31,3.0,0.0,"['ALLOW  SUL ALI', 'S-S for cys-cys, dummy parameter for now ... DTN  9/04/90']",2430
+SM,SM,CT2,CT2,0.31,3.0,0.0,"['ALLOW  SUL ALI', 'S-S for cys-cys, dummy parameter for now ... DTN  9/04/90']",2432
+SM,SM,CT2,CT3,0.31,3.0,0.0,"['ALLOW  SUL ALI', 'S-S for cys-cys, dummy parameter for now ... DTN  9/04/90']",2434
+SM,SM,CT2,HA2,0.158,3.0,0.0,"['ALLOW   ALI SUL ION', 'expt. dimethyldisulfide,    3/26/92 (FL)']",2436
+SM,SM,CT3,HA3,0.158,3.0,0.0,"['ALLOW   ALI SUL ION', 'expt. dimethyldisulfide,    3/26/92 (FL)']",2438
+SS,CS,CT3,HA3,0.15,3.0,0.0,"['ALLOW SUL', 'ethylthiolate 6-31+G* geom/freq, adm jr., 6/1/92']",2440
+X,C,NC2,X,2.25,2.0,180.0,"['ALLOW   PEP POL ARO', '9.0->2.25 GUANIDINIUM (KK)']",2442
+X,CD,OH1,X,2.05,2.0,180.0,"['ALLOW   PEP POL ARO ALC', 'adm jr, 10/17/90, acetic acid C-Oh rotation barrier']",2444
+X,CD,OS,X,2.05,2.0,180.0,"['ALLOW   PEP POL', 'adm jr. 3/19/92, from lipid methyl acetate']",2446
+X,CE1,CE1,X,0.15,1.0,0.0,"['2-butene, adm jr., 2/00 update']",2448
+X,CE1,CE1,X,8.5,2.0,180.0,"['2-butene, adm jr., 2/00 update']",2450
+X,CE2,CE2,X,4.9,2.0,180.0,"['for ethene, yin/adm jr., 12/95']",2452
+X,CP1,C,X,0.0,6.0,180.0,"['ALLOW   POL PEP PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2454
+X,CP1,CC,X,0.0,6.0,180.0,"['ALLOW   POL PEP', 'changed to 0.0 RLD 5/19/92']",2456
+X,CP1,CD,X,0.0,6.0,180.0,"['ALLOW   POL PEP', 'Alanine dipeptide; NMA; acetate; etc. backbone param. RLD 3/22/92']",2458
+X,CP1,CP2,X,0.14,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2460
+X,CP2,CP2,X,0.16,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2462
+X,CP3,CP2,X,0.14,3.0,0.0,"['ALLOW PRO', '6-31g* AcProNH2, ProNH2, 6-31g*//3-21g AcProNHCH3 RLD 4/23/93']",2464
+X,CT1,CC,X,0.05,6.0,180.0,"['ALLOW   POL PEP', 'For side chains of asp,asn,glu,gln, (n=6) from KK(LK)']",2466
+X,CT1,CD,X,0.0,6.0,180.0,"['ALLOW   POL PEP', 'adm jr. 3/19/92, from lipid methyl acetate']",2468
+X,CT1,CT1,X,0.2,3.0,0.0,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",2470
+X,CT1,CT2,X,0.2,3.0,0.0,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",2472
+X,CT1,CT3,X,0.2,3.0,0.0,"['ALLOW   ALI', 'alkane update, adm jr., 3/2/92']",2474
+X,CT1,NH3,X,0.1,3.0,0.0,"['ALLOW   ALI POL', '0.715->0.10 METHYLAMMONIUM (KK)']",2476
+X,CT1,OH1,X,0.14,3.0,0.0,"['ALLOW   ALI ALC ARO', 'EMB  11/21/89 methanol vib fit']",2478
+,,,,,,,['Unparsed line: X    CT1  OS   X       -0.1000  3     0.00 ! ALLOW   PEP POL'],2480
+X,CT2,CA,X,0.0,6.0,0.0,"['ALLOW   ALI ARO', 'toluene, adm jr., 3/7/92']",2482
+X,CT2,CC,X,0.05,6.0,180.0,"['ALLOW   POL PEP', 'For side chains of asp,asn,glu,gln, (n=6) from KK(LK)']",2484
+X,CT2,CD,X,0.0,6.0,180.0,"['ALLOW   POL PEP', 'adm jr. 3/19/92, from lipid methyl acetate']",2486
+X,CT2,CT2,X,0.19,3.0,0.0,"['ALLOW   ALI', 'alkane, 4/98, yin and mackerell']",2488
+X,CT2,CT3,X,0.16,3.0,0.0,"['ALLOW   ALI', 'alkane, 4/98, yin and mackerell']",2490
+X,CT2,NC2,X,0.0,6.0,180.0,"['ALLOW   ALI POL', 'methylguanidinium, adm jr., 3/26/92']",2492
+X,CT2,NH3,X,0.1,3.0,0.0,"['ALLOW   ALI POL', '0.715->0.10 METHYLAMMONIUM (KK)']",2494
+X,CT2,OH1,X,0.14,3.0,0.0,"['ALLOW   ALI ALC ARO', 'EMB  11/21/89 methanol vib fit']",2496
+,,,,,,,['Unparsed line: X    CT2  OS   X       -0.1000  3     0.00 ! ALLOW   PEP POL'],2498
+X,CT3,CA,X,0.0,6.0,0.0,"['ALLOW   ALI ARO', 'toluene, adm jr., 3/7/92']",2500
+X,CT3,CC,X,0.05,6.0,180.0,"['ALLOW   POL PEP', 'For side chains of asp,asn,glu,gln, (n=6) from KK(LK)']",2502
+X,CT3,CD,X,0.0,6.0,180.0,"['ALLOW   POL PEP', 'adm jr. 3/19/92, from lipid methyl acetate']",2504
+X,CT3,CT3,X,0.1525,3.0,0.0,"['ALLOW   ALI', 'alkane, 4/98, yin and mackerell']",2506
+X,CT3,NC2,X,0.0,6.0,180.0,"['ALLOW   ALI POL', 'methylguanidinium, adm jr., 3/26/92']",2508
+X,CT3,NH2,X,0.11,3.0,0.0,"['ALLOW   POL', 'methylamine geom/freq, adm jr., 6/2/92']",2510
+X,CT3,NH3,X,0.09,3.0,0.0,"['ALLOW   ALI POL', 'fine-tuned to ab initio; METHYLAMMONIUM, KK 03/10/92']",2512
+X,CT3,OH1,X,0.14,3.0,0.0,"['ALLOW   ALI ALC ARO', 'EMB  11/21/89 methanol vib fit']",2514
+X,cg1,cg1,X,3.1,2.0,180.0,[''],2516
+,,,,,,,['Unparsed line: X    CT3  OS   X       -0.1000  3     0.00 ! ALLOW   PEP POL'],2518
+cg1,cg1,CT2,CT1,1.07,1.0,0.0,['by ChengZhu Dummy'],2520
+cg1,cg1,CT2,CT1,0.24,2.0,180.0,['by ChengZhu Dummy'],2522
+cg1,cg1,CT2,CT1,0.17,3.0,180.0,['by ChengZhu Dummy'],2524
+HA2,CT2,cg1,cg1,0.0,6.0,0.0,"['From X    CT2  CA   X', 'by ChengZhu Dummy']",2526
+H,OH1,cg1,cg1,0.99,2.0,180.0,"['ALLOW   ARO ALC', 'by ChengZhu Dummy']",2528
+cge,X,X,X,0.0,4.0,0.0,"['ALLOW   ARO ALC', 'by ChengZhu Dummy']",2530
+hiff,CA,CA,X,3.0,2.0,180.0,"['JWK 05/14/91 fit to indole', 'by ChengZhu Dummy PEP']",2532
+hiff,NR3,CPH2,NR3,1.4,2.0,180.0,"['JWK 05/14/91 fit to indole', 'by ChengZhu Dummy PEP']",2534
+hiff,NR1,CPH2,NR2,1.4,2.0,180.0,"['JWK 05/14/91 fit to indole', 'by ChengZhu Dummy PEP']",2536
+hiff,NR3,CPH1,CPH1,1.4,2.0,180.0,"['ALLOW ARO', '!by ChengZhu Dummy PEP  HIS']",2538
+hiff,NR1,CPH1,CPH1,1.4,2.0,180.0,"['ALLOW ARO', '!by ChengZhu Dummy PEP\t  HIS']",2540
+CT2A,CPH1,NR3,hiff,3.0,2.0,180.0,"['from H    NR3  CPH1 CT2', 'by ChengZhu Dummy PEP']",2542
+CT2,CPH1,NR1,hiff,3.0,2.0,180.0,"['from H    NR3  CPH1 CT2', 'by ChengZhu Dummy PEP']",2544
+HR1,CPH1,NR3,hiff,3.0,2.0,180.0,"['ALLOW ARO', 'by ChengZhu Dummy PEP']",2546
+hiff,NR1,CPH2,HR1,3.0,2.0,180.0,"['JWK 05/14/91 fit to indole', 'by ChengZhu Dummy PEP']",2548
+CT1,CT2,OAP1,PAP,0.6,1.0,180.0,"['phosphoserine, from dianionic ethylphosphate']",2550
+CT1,CT2,OAP1,PAP,0.65,2.0,0.0,[],2551
+CT1,CT2,OAP1,PAP,0.05,3.0,0.0,[],2552
+HA2,CT2,OAP1,PAP,0.0,3.0,0.0,"['from P    ON2  CN8B HN8', '', '', '', '', 'chi1/chi2 fitting, Zhu, 2011', 'directly transferred parameters']",2553
+NH1,CT1,CT1,HA1,0.2,3.0,0.0,['From X    CT1  CT1  X'],2560
+HB1,CT1,CT1,HA1,0.2,3.0,0.0,['From X    CT1  CT1  X'],2561
+HB1,CT1,CT1,CT3,0.2,3.0,0.0,['From X    CT1  CT1  X'],2562
+HA1,CT1,CT1,C,0.2,3.0,0.0,"['From X    CT1  CT1  X', '']",2563
+NH1,CT1,CT2,HA2,0.2,3.0,0.0,['From X    CT1  CT2  X'],2565
+HB1,CT1,CT2,HA2,0.2,3.0,0.0,['From X    CT1  CT2  X'],2566
+HB1,CT1,CT2,OH1,0.2,3.0,0.0,['From X    CT1  CT2  X'],2567
+HB1,CT1,CT2,CT2,0.2,3.0,0.0,['From X    CT1  CT2  X'],2568
+HA2,CT2,CT1,C,0.2,3.0,0.0,['From X    CT1  CT2  X'],2569
+HA2,CT2,OH1,H,0.14,3.0,0.0,"['From X    CT2  OH1  X', '']",2570
+CT1,CT2,CT2,HA2,0.19,3.0,0.0,['From X    CT2  CT2  X'],2572
+HA2,CT2,CT2,HA2,0.19,3.0,0.0,['From X    CT2  CT2  X'],2573
+HA2,CT2,CT2,CC,0.19,3.0,0.0,"['From X    CT2  CT2  X', '']",2574
+HB1,CT1,CT2,S,0.2,3.0,0.0,"['From X    CT1  CT2  X', 'Arg']",2576
+CT2,CT2,CT2,HA2,0.19,3.0,0.0,['From X    CT2  CT2  X'],2578
+CT2,CT2,CT2,NC2,0.19,3.0,0.0,['From X    CT2  CT2  X'],2579
+CT2,CT2,NC2,HC,0.0,6.0,180.0,['From X    CT2  NC2  X'],2580
+CT2,CT2,NC2,C,0.0,6.0,180.0,['From X    CT2  NC2  X'],2581
+HA2,CT2,CT2,NC2,0.19,3.0,0.0,['From X    CT2  CT2  X'],2582
+CT2,NC2,C,NC2,2.25,2.0,180.0,['From X    C    NC2  X'],2583
+HA2,CT2,NC2,HC,0.0,6.0,180.0,['From X    CT2  NC2  X'],2584
+HA2,CT2,NC2,C,0.0,6.0,180.0,['From X    CT2  NC2  X'],2585
+NC2,C,NC2,HC,2.25,2.0,180.0,"['From X    C    NC2  X', 'Asn']",2586
+HB1,CT1,CT2,CC,0.2,3.0,0.0,"['From X    CT1  CT2  X', 'Trp']",2588
+HB1,CT1,CT2,CY,0.2,3.0,0.0,"['From X    CT1  CT2  X', 'Asp']",2590
+HA2,CT2,CC,OC,0.05,6.0,180.0,"['From X    CT2  CC   X', 'Hsd/Hse']",2592
+HB1,CT1,CT2,CPH1,0.2,3.0,0.0,"['From X    CT1  CT2  X', 'Ile,Leu,Val']",2594
+CT1,CT1,CT3,HA3,0.2,3.0,0.0,['From X    CT1  CT3  X'],2596
+CT1,CT1,CT2,HA2,0.2,3.0,0.0,['From X    CT1  CT2  X'],2597
+HB1,CT1,CT1,CT2,0.2,3.0,0.0,['From X    CT1  CT1  X'],2598
+CT1,CT2,CT3,HA3,0.16,3.0,0.0,['From X    CT2  CT3  X'],2599
+HA1,CT1,CT3,HA3,0.2,3.0,0.0,['From X    CT1  CT3  X'],2600
+HA1,CT1,CT2,HA2,0.2,3.0,0.0,['From X    CT1  CT2  X'],2601
+HA1,CT1,CT2,CT3,0.2,3.0,0.0,['From X    CT1  CT2  X'],2602
+CT3,CT1,CT2,HA2,0.2,3.0,0.0,['From X    CT1  CT2  X'],2603
+CT3,CT1,CT2,CT3,0.2,3.0,0.0,['From X    CT1  CT2  X'],2604
+HA3,CT3,CT1,CT2,0.2,3.0,0.0,['From X    CT1  CT3  X'],2605
+HA2,CT2,CT3,HA3,0.16,3.0,0.0,['From X    CT2  CT3  X'],2606
+CT1,CT2,CT1,HA1,0.2,3.0,0.0,['From X    CT1  CT2  X'],2607
+HB1,CT1,CT2,CT1,0.2,3.0,0.0,['From X    CT1  CT2  X'],2608
+CT3,CT1,CT3,HA3,0.2,3.0,0.0,"['From X    CT1  CT3  X', 'Lys']",2609
+CT2,CT2,CT2,NH3,0.19,3.0,0.0,['From X    CT2  CT2  X'],2611
+CT2,CT2,NH3,HC,0.1,3.0,0.0,['From X    CT2  NH3  X'],2612
+HA2,CT2,CT2,NH3,0.19,3.0,0.0,['From X    CT2  CT2  X'],2613
+HA2,CT2,NH3,HC,0.1,3.0,0.0,"['From X    CT2  NH3  X', 'Tyr/Phe']",2614
+HB1,CT1,CT2,CA,0.2,3.0,0.0,['From X    CT1  CT2  X'],2616
+HA2,CT2,CA,CA,0.0,6.0,0.0,"['From X    CT2  CA   X', 'Thr']",2617
+HB1,CT1,CT1,OH1,0.2,3.0,0.0,['From X    CT1  CT1  X'],2619
+HA1,CT1,OH1,H,0.14,3.0,0.0,['From X    CT1  OH1  X'],2620
+OH1,CT1,CT3,HA3,0.2,3.0,0.0,"['From X    CT1  CT3  X', 'Gln']",2621
+CT2,CT2,CC,O,0.05,6.0,180.0,['From X    CT2  CC   X'],2623
+CT2,CT2,CC,NH2,0.05,6.0,180.0,"['From X    CT2  CC   X', 'Glu']",2624
+CT2,CT2,CC,OC,0.05,6.0,180.0,"['From X    CT2  CC   X', 'Glu/Hsp']",2626
+NH1,CT1,CT2A,HA2,0.2,3.0,0.0,['From X    CT1  CT2  X'],2628
+NH3,CT1,CT2A,CT2,0.2,3.0,0.0,['From X    CT1  CT2  X !N terminus'],2629
+CT1,CT2A,CT2,HA2,0.19,3.0,0.0,['From X    CT2  CT2  X'],2630
+HB1,CT1,CT2A,HA2,0.2,3.0,0.0,['From X    CT1  CT2  X'],2631
+HB1,CT1,CT2A,CT2,0.2,3.0,0.0,['From X    CT1  CT2  X'],2632
+HA2,CT2A,CT1,C,0.2,3.0,0.0,['From X    CT1  CT2  X'],2633
+HA2,CT2A,CT1,CC,0.2,3.0,0.0,['RB: added for C-ter Glu'],2634
+HA2,CT2A,CT2,HA2,0.19,3.0,0.0,['From X    CT2  CT2  X'],2635
+HA2,CT2A,CT2,CC,0.19,3.0,0.0,['From X    CT2  CT2  X'],2636
+HB1,CT1,CT2A,CPH1,0.2,3.0,0.0,['From X    CT1  CT2  X'],2637
+C,NH1,CT1,CT2A,1.8,1.0,0.0,['from CT2  CT1  NH1  C'],2638
+H,NH1,CT1,CT2A,0.0,1.0,0.0,['from H    NH1  CT1  CT2'],2639
+CT2A,CT1,C,O,1.4,1.0,0.0,['from O    C    CT1  CT2'],2640
+CT2A,CT1,C,NH1,0.0,1.0,0.0,['NH1  C    CT1  CT2'],2641
+CT2A,CT1,C,N,0.0,1.0,0.0,"['RB: added for GLU-PRO in UBQ', 'Glup']",2642
+CT1,CT2A,CT2,CD,0.19,3.0,0.0,['From X    CT2  CT2  X'],2644
+HA2,CT2A,CT2,CD,0.19,3.0,0.0,['From X    CT2  CT2  X'],2645
+CT2A,CPH1,CPH1,HR1,1.0,2.0,180.0,['from HR1  CPH1 CPH1 CT2'],2646
+CT2A,CPH1,CPH1,NR3,2.5,2.0,180.0,['from NR3  CPH1 CPH1 CT2'],2647
+CT2A,CPH1,NR3,H,3.0,2.0,180.0,['from H    NR3  CPH1 CT2'],2648
+CT2A,CPH1,NR3,CPH2,2.5,2.0,180.0,['from CT2  CPH1 NR3  CPH2'],2649
+HA2,CT2A,CPH1,CPH1,0.0,3.0,0.0,['from HA2  CT2  CPH1 CPH1'],2650
+HA2,CT2A,CPH1,NR3,0.19,3.0,0.0,"['from NR3  CPH1 CT2  HA2', 'Variable cutoff based on QM and weighted in favor of alphaR and EXT (5:5:1)', 'Shared dihedrals were fitted simultaneously']",2651
+C,CT1,CT2,CT2,0.35,1.0,180.0,[],2658
+C,CT1,CT2,CT2,0.42,2.0,180.0,[],2659
+C,CT1,CT2,CT2,1.91,3.0,180.0,[],2660
+CT2,CT2,CT1,NH1,0.88,1.0,180.0,[],2661
+CT2,CT2,CT1,NH1,0.0,2.0,180.0,[],2662
+CT2,CT2,CT1,NH1,1.9,3.0,0.0,[],2663
+CC,CT2,CT2,CT1,1.84,1.0,180.0,[],2664
+CC,CT2,CT2,CT1,0.84,2.0,180.0,[],2665
+CC,CT2,CT2,CT1,0.39,3.0,180.0,[],2666
+CT1,CT2,CT2,CT2,0.63,1.0,180.0,[],2667
+CT1,CT2,CT2,CT2,0.01,2.0,0.0,[],2668
+CT1,CT2,CT2,CT2,0.15,3.0,0.0,[],2669
+CT1,CT2,CT2,S,0.14,1.0,180.0,[],2670
+CT1,CT2,CT2,S,0.54,2.0,0.0,[],2671
+CT1,CT2,CT2,S,0.69,3.0,0.0,['Fitted Asn'],2672
+C,CT1,CT2,CC,1.41,1.0,180.0,[],2674
+C,CT1,CT2,CC,1.29,2.0,180.0,[],2675
+C,CT1,CT2,CC,0.59,3.0,180.0,[],2676
+CC,CT2,CT1,NH1,0.28,1.0,180.0,[],2677
+CC,CT2,CT1,NH1,0.5,2.0,180.0,[],2678
+CC,CT2,CT1,NH1,0.38,3.0,0.0,[],2679
+CT1,CT2,CC,NH2,0.62,1.0,180.0,[],2680
+CT1,CT2,CC,NH2,0.66,2.0,180.0,[],2681
+CT1,CT2,CC,NH2,0.72,3.0,180.0,[],2682
+CT1,CT2,CC,O,0.42,1.0,180.0,[],2683
+CT1,CT2,CC,O,0.15,2.0,180.0,[],2684
+CT1,CT2,CC,O,0.95,3.0,180.0,['Fitted Asp'],2685
+C,CT1,CT2A,CC,1.61,1.0,180.0,[],2687
+C,CT1,CT2A,CC,1.29,2.0,180.0,[],2688
+C,CT1,CT2A,CC,0.59,3.0,180.0,[],2689
+CC,CT2A,CT1,NH1,0.68,1.0,180.0,[],2690
+CC,CT2A,CT1,NH1,0.1,2.0,180.0,[],2691
+CC,CT2A,CT1,NH1,0.38,3.0,0.0,[],2692
+CT1,CT2A,CC,OC,0.84,1.0,0.0,[],2693
+CT1,CT2A,CC,OC,0.98,2.0,180.0,[],2694
+CT1,CT2A,CC,OC,1.46,3.0,0.0,['Fitted Cys'],2695
+CT1,CT2,S,HS,0.2,1.0,0.0,[],2697
+CT1,CT2,S,HS,0.65,2.0,0.0,[],2698
+CT1,CT2,S,HS,0.22,3.0,0.0,[],2699
+C,CT1,CT2,S,0.24,1.0,180.0,[],2700
+C,CT1,CT2,S,0.75,2.0,180.0,[],2701
+C,CT1,CT2,S,1.35,3.0,180.0,[],2702
+NH1,CT1,CT2,S,0.34,1.0,0.0,[],2703
+NH1,CT1,CT2,S,0.5,2.0,180.0,[],2704
+NH1,CT1,CT2,S,1.43,3.0,0.0,['Fitted Glu'],2705
+CC,CT2,CT2A,CT1,0.0,1.0,180.0,[],2707
+CC,CT2,CT2A,CT1,0.38,2.0,180.0,[],2708
+CC,CT2,CT2A,CT1,0.59,3.0,180.0,[],2709
+C,CT1,CT2A,CT2,0.11,1.0,0.0,[],2710
+C,CT1,CT2A,CT2,0.98,2.0,180.0,[],2711
+C,CT1,CT2A,CT2,1.6,3.0,180.0,[],2712
+CC,CT1,CT2A,CT2,1.6,3.0,180.0,[],2713
+CT2,CT2A,CT1,NH1,0.3,1.0,0.0,[],2714
+CT2,CT2A,CT1,NH1,0.35,2.0,0.0,[],2715
+CT2,CT2A,CT1,NH1,1.76,3.0,0.0,['Group-fitted for Hsd/Hse'],2716
+CPH1,CPH1,CT2,CT1,1.74,1.0,0.0,[],2718
+CPH1,CPH1,CT2,CT1,0.15,2.0,0.0,[],2719
+CPH1,CPH1,CT2,CT1,0.77,3.0,180.0,[],2720
+CT1,CT2,CPH1,NR1,1.49,1.0,0.0,[],2721
+CT1,CT2,CPH1,NR1,0.09,2.0,180.0,[],2722
+CT1,CT2,CPH1,NR1,0.79,3.0,180.0,[],2723
+CT1,CT2,CPH1,NR2,1.09,1.0,0.0,[],2724
+CT1,CT2,CPH1,NR2,0.09,2.0,0.0,[],2725
+CT1,CT2,CPH1,NR2,0.67,3.0,180.0,[],2726
+C,CT1,CT2,CPH1,0.18,1.0,180.0,[],2727
+C,CT1,CT2,CPH1,0.64,2.0,180.0,[],2728
+C,CT1,CT2,CPH1,0.87,3.0,180.0,[],2729
+CPH1,CT2,CT1,NH1,0.0,1.0,0.0,[],2730
+CPH1,CT2,CT1,NH1,0.0,2.0,180.0,[],2731
+CPH1,CT2,CT1,NH1,0.9,3.0,0.0,['Fitted Hsp'],2732
+CPH1,CPH1,CT2A,CT1,2.04,1.0,0.0,[],2734
+CPH1,CPH1,CT2A,CT1,0.44,2.0,0.0,[],2735
+CPH1,CPH1,CT2A,CT1,0.13,3.0,180.0,[],2736
+CT1,CT2A,CPH1,NR3,0.53,1.0,180.0,[],2737
+CT1,CT2A,CPH1,NR3,0.42,2.0,180.0,[],2738
+CT1,CT2A,CPH1,NR3,0.3,3.0,180.0,[],2739
+C,CT1,CT2A,CPH1,1.75,1.0,180.0,[],2740
+C,CT1,CT2A,CPH1,0.13,2.0,0.0,[],2741
+C,CT1,CT2A,CPH1,1.86,3.0,180.0,[],2742
+CPH1,CT2A,CT1,NH1,1.09,1.0,180.0,[],2743
+CPH1,CT2A,CT1,NH1,0.22,2.0,180.0,[],2744
+CPH1,CT2A,CT1,NH1,2.32,3.0,0.0,['Group-fitted for Ile/Thr'],2745
+CT1,CT1,CT2,CT3,0.38,1.0,180.0,[],2747
+CT1,CT1,CT2,CT3,0.13,2.0,180.0,[],2748
+CT1,CT1,CT2,CT3,0.29,3.0,180.0,[],2749
+C,CT1,CT1,CT2,0.1,1.0,180.0,[],2750
+C,CT1,CT1,CT2,0.52,2.0,180.0,[],2751
+C,CT1,CT1,CT2,0.29,3.0,180.0,[],2752
+CT2,CT1,CT1,NH1,0.12,1.0,180.0,[],2753
+CT2,CT1,CT1,NH1,0.36,2.0,180.0,[],2754
+CT2,CT1,CT1,NH1,0.41,3.0,0.0,['Fitted Leu'],2755
+CT1,CT2,CT1,CT3,0.05,1.0,0.0,[],2757
+CT1,CT2,CT1,CT3,0.1,2.0,180.0,[],2758
+CT1,CT2,CT1,CT3,0.01,3.0,180.0,[],2759
+C,CT1,CT2,CT1,0.32,1.0,180.0,[],2760
+C,CT1,CT2,CT1,0.61,2.0,180.0,[],2761
+C,CT1,CT2,CT1,0.72,3.0,180.0,[],2762
+CT1,CT2,CT1,NH1,0.48,1.0,180.0,[],2763
+CT1,CT2,CT1,NH1,0.42,2.0,180.0,[],2764
+CT1,CT2,CT1,NH1,0.65,3.0,0.0,['Group-fitted for Phe/Tyr'],2765
+CA,CA,CT2,CT1,1.07,1.0,0.0,[],2767
+CA,CA,CT2,CT1,0.24,2.0,180.0,[],2768
+CA,CA,CT2,CT1,0.17,3.0,180.0,[],2769
+C,CT1,CT2,CA,1.28,1.0,180.0,[],2770
+C,CT1,CT2,CA,0.94,2.0,180.0,[],2771
+C,CT1,CT2,CA,1.57,3.0,180.0,[],2772
+CA,CT2,CT1,NH1,0.52,1.0,180.0,[],2773
+CA,CT2,CT1,NH1,0.62,2.0,180.0,[],2774
+CA,CT2,CT1,NH1,1.58,3.0,0.0,['Fitted Ser'],2775
+CT1,CT2,OH1,H,0.02,1.0,0.0,[],2777
+CT1,CT2,OH1,H,0.56,2.0,0.0,[],2778
+CT1,CT2,OH1,H,0.49,3.0,0.0,[],2779
+C,CT1,CT2,OH1,0.65,1.0,180.0,[],2780
+C,CT1,CT2,OH1,0.25,2.0,180.0,[],2781
+C,CT1,CT2,OH1,1.17,3.0,180.0,[],2782
+NH1,CT1,CT2,OH1,0.18,1.0,180.0,[],2783
+NH1,CT1,CT2,OH1,0.19,2.0,180.0,[],2784
+NH1,CT1,CT2,OH1,1.46,3.0,0.0,['Group-fitted for Ile/Thr'],2785
+CT1,CT1,OH1,H,0.18,1.0,0.0,[],2787
+CT1,CT1,OH1,H,0.06,2.0,0.0,[],2788
+CT1,CT1,OH1,H,0.25,3.0,0.0,[],2789
+C,CT1,CT1,OH1,0.79,1.0,180.0,[],2790
+C,CT1,CT1,OH1,0.39,2.0,180.0,[],2791
+C,CT1,CT1,OH1,0.99,3.0,180.0,[],2792
+NH1,CT1,CT1,OH1,0.09,1.0,0.0,[],2793
+NH1,CT1,CT1,OH1,0.19,2.0,180.0,[],2794
+NH1,CT1,CT1,OH1,0.17,3.0,0.0,['Fitted Trp'],2795
+CA,CY,CT2,CT1,0.03,1.0,0.0,[],2797
+CA,CY,CT2,CT1,0.55,2.0,0.0,[],2798
+CA,CY,CT2,CT1,0.39,3.0,180.0,[],2799
+CPT,CY,CT2,CT1,0.36,1.0,180.0,[],2800
+CPT,CY,CT2,CT1,0.05,2.0,0.0,[],2801
+CPT,CY,CT2,CT1,0.19,3.0,180.0,[],2802
+C,CT1,CT2,CY,1.09,1.0,180.0,[],2803
+C,CT1,CT2,CY,0.5,2.0,180.0,[],2804
+C,CT1,CT2,CY,1.17,3.0,180.0,[],2805
+CY,CT2,CT1,NH1,0.29,1.0,180.0,[],2806
+CY,CT2,CT1,NH1,0.66,2.0,180.0,[],2807
+CY,CT2,CT1,NH1,1.17,3.0,0.0,['Fitted Val'],2808
+C,CT1,CT1,CT3,0.14,1.0,180.0,[],2810
+C,CT1,CT1,CT3,0.26,2.0,180.0,[],2811
+C,CT1,CT1,CT3,0.33,3.0,180.0,[],2812
+CT3,CT1,CT1,NH1,0.18,1.0,0.0,[],2813
+CT3,CT1,CT1,NH1,0.06,2.0,0.0,[],2814
+CT3,CT1,CT1,NH1,0.59,3.0,0.0,"['ASP, CT2->CT2A, jshim']",2815
+H,NH1,CT2A,CC,0.0,1.0,0.0,[],2817
+X,CT2A,CC,X,0.05,6.0,180.0,[],2818
+HB1,CT1,CT2A,CC,0.2,3.0,0.0,[],2819
+HA2,CT2A,CC,OC,0.05,6.0,180.0,[],2820
+NH3,CT1,CT2A,HA2,0.2,3.0,0.0,[],2821
+NH3,CT1,CT2A,CC,0.2,3.0,0.0,[],2822
+CC,CT2A,CT1,CC,0.2,3.0,0.0,['termini specific terms'],2823
+CPH1,CT2A,CT1,CC,0.2,3.0,0.0,[],2825
+CPH1,CT2A,CT1,NH3,0.2,3.0,0.0,[],2826
+CPH1,CT2A,CT1,CD,0.2,3.0,0.0,[],2827
+HA2,CT2A,CT1,CD,0.2,3.0,0.0,[],2828
+CT2,CT2A,CT1,CD,0.2,3.0,0.0,['RESI CYSM and PRES CYSD'],2829
+H,NH2,CT1,CS,0.11,3.0,0.0,"['from H    NH2  CT1  CT2 or H    NH2  CT1  CT2 , kevo']",2831
+CS,CT1,NH1,C,1.8,1.0,0.0,"['from CT2  CT1  NH1  C   or CT2A CT1  NH1  C , kevo']",2832
+H,NH1,CT1,CS,0.0,1.0,0.0,"['from H    NH1  CT1  CT2 or H    NH1  CT1  CT2 , kevo']",2833
+N,C,CT1,CS,0.0,1.0,0.0,"['from N    C    CT1  CT2 or N    C    CT1  CT2 , kevo']",2834
+NH1,C,CT1,CS,0.0,1.0,0.0,"['from NH1  C    CT1  CT2 or NH1  C    CT1  CT2 , kevo']",2835
+O,C,CT1,CS,1.4,1.0,0.0,"['from O    C    CT1  CT2 or O    C    CT1  CT2 , kevo']",2836
+HA2,CS,CT1,C,0.2,3.0,0.0,"['from HA2  CT2  CT1  C   or HA2  CT2A CT1  C , kevo']",2837
+NH1,CT1,CS,HA2,0.2,3.0,0.0,"['from NH1  CT1  CT2  HA2 or NH1  CT1  CT2A HA2 , kevo']",2838
+HB1,CT1,CS,HA2,0.2,3.0,0.0,"['from HB1  CT1  CT2  HA2 or HB1  CT1  CT2A HA2 , kevo']",2839
+HB1,CT1,CS,SS,0.2,3.0,0.0,"['from HB1  CT1  CT2  S   or HB1  CT1  CT2A S , kevo']",2840
+C,CT1,CS,SS,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2841
+NH1,CT1,CS,SS,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo', 'Termini']",2842
+NH3,CT1,CS,HA2,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2844
+NH3,CT1,CS,SS,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2845
+NH2,CT1,CS,HA2,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2846
+NH2,CT1,CS,SS,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2847
+CC,CT1,CS,HA2,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2848
+CC,CT1,CS,SS,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2849
+CD,CT1,CS,HA2,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2850
+CD,CT1,CS,SS,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo', 'PRES SERD']",2851
+NH1,CT1,CT2,OC,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2853
+NH2,CT1,CT2,OC,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2854
+NH3,CT1,CT2,OC,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2855
+C,CT1,CT2,OC,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2856
+CC,CT1,CT2,OC,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2857
+CD,CT1,CT2,OC,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo']",2858
+HB1,CT1,CT2,OC,0.2,3.0,0.0,"['from X    CT1  CT2  X , kevo', 'lipid section']",2859
+X,CTL1,OHL,X,0.14,3.0,0.0,['glycerol'],2861
+X,CTL2,OHL,X,0.14,3.0,0.0,['glycerol'],2862
+X,CTL3,OHL,X,0.14,3.0,0.0,['glycerol'],2863
+OBL,CL,CTL2,HAL2,0.0,6.0,180.0,['acetic acid'],2864
+OBL,CL,CTL3,HAL3,0.0,6.0,180.0,['acetic acid'],2865
+OSL,CL,CTL2,HAL2,0.0,6.0,180.0,['acetic acid'],2866
+OSL,CL,CTL3,HAL3,0.0,6.0,180.0,['acetic acid'],2867
+OBL,CL,OSL,CTL1,0.965,1.0,180.0,['methyl acetate'],2868
+OBL,CL,OSL,CTL1,3.85,2.0,180.0,['methyl acetate'],2869
+OBL,CL,OSL,CTL2,0.965,1.0,180.0,['methyl acetate'],2870
+OBL,CL,OSL,CTL2,3.85,2.0,180.0,['methyl acetate'],2871
+OBL,CL,OSL,CTL3,0.965,1.0,180.0,['methyl acetate'],2872
+OBL,CL,OSL,CTL3,3.85,2.0,180.0,['methyl acetate'],2873
+X,CL,OSL,X,2.05,2.0,180.0,['methyl acetate'],2874
+X,CTL2,CL,X,0.05,6.0,180.0,['methyl acetate'],2875
+X,CTL3,CL,X,0.05,6.0,180.0,['methyl acetate'],2876
+X,CL,OHL,X,2.05,2.0,180.0,['acetic acid'],2877
+HAL2,CTL2,CL,OHL,0.0,6.0,180.0,[],2878
+HAL3,CTL3,CL,OHL,0.0,6.0,180.0,[],2879
+OSL,PL,OSL,CTL2,1.2,1.0,180.0,"['phosphate, new NA, 4/98, adm jr.']",2880
+OSL,PL,OSL,CTL2,0.1,2.0,180.0,"['phosphate, new NA, 4/98, adm jr.']",2881
+OSL,PL,OSL,CTL2,0.1,3.0,180.0,"['phosphate, new NA, 4/98, adm jr.']",2882
+O2L,PL,OSL,CTL2,0.1,3.0,0.0,"['phosphate, new NA, 4/98, adm jr.']",2883
+OSL,PL,OSL,CTL3,1.2,1.0,180.0,"['phosphate, new NA, 4/98, adm jr.']",2884
+OSL,PL,OSL,CTL3,0.1,2.0,180.0,"['phosphate, new NA, 4/98, adm jr.']",2885
+OSL,PL,OSL,CTL3,0.1,3.0,180.0,"['phosphate, new NA, 4/98, adm jr.']",2886
+O2L,PL,OSL,CTL3,0.1,3.0,0.0,"['phosphate, new NA, 4/98, adm jr.']",2887
+OHL,PL,OSL,CTL2,0.95,2.0,0.0,['terminal phosphate'],2888
+OHL,PL,OSL,CTL2,0.5,3.0,0.0,['terminal phosphate'],2889
+OHL,PL,OSL,CTL3,0.95,2.0,0.0,['terminal phosphate'],2890
+OHL,PL,OSL,CTL3,0.5,3.0,0.0,['terminal phosphate'],2891
+X,OHL,PL,X,0.3,3.0,0.0,['terminal phosphate'],2892
+X,CTL1,OSL,X,0.0,3.0,0.0,"['phosphate, new NA, 4/98, adm jr.']",2893
+X,CTL2,OSL,X,0.0,3.0,0.0,"['phosphate, new NA, 4/98, adm jr.']",2894
+X,CTL3,OSL,X,0.0,3.0,0.0,"['phosphate, new NA, 4/98, adm jr.']",2895
+CTL3,CTL2,OSL,CL,0.7,1.0,180.0,"['ethyl acetate, 12/92']",2896
+CTL2,CTL2,OSL,CL,0.7,1.0,180.0,"['ethyl acetate, 12/92']",2897
+CTL3,CTL1,OSL,CL,0.7,1.0,180.0,"['ethyl acetate, 12/92']",2898
+CTL2,CTL1,OSL,CL,0.7,1.0,180.0,"['ethyl acetate, 12/92']",2899
+,,,,,,,"['Unparsed line: CTL1 CTL2 CL   OSL     -0.15    1   180.00 ! methyl propionate, 12/92']",2900
+CTL1,CTL2,CL,OSL,0.53,2.0,180.0,"['methyl propionate, 12/92']",2901
+,,,,,,,"['Unparsed line: CTL2 CTL2 CL   OSL     -0.15    1   180.00 ! methyl propionate, 12/92']",2902
+CTL2,CTL2,CL,OSL,0.53,2.0,180.0,"['methyl propionate, 12/92']",2903
+,,,,,,,"['Unparsed line: CTL3 CTL2 CL   OSL     -0.15    1   180.00 ! methyl propionate, 12/92']",2904
+CTL3,CTL2,CL,OSL,0.53,2.0,180.0,"['methyl propionate, 12/92']",2905
+X,CTL2,NTL,X,0.26,3.0,0.0,['tetramethylammonium'],2906
+X,CTL5,NTL,X,0.23,3.0,0.0,['tetramethylammonium'],2907
+X,CTL2,NH3L,X,0.1,3.0,0.0,['ethanolamine'],2908
+NH3L,CTL2,CTL2,OHL,0.7,1.0,180.0,['ethanolamine'],2909
+NH3L,CTL2,CTL2,OSL,0.7,1.0,180.0,['ethanolamine'],2910
+NTL,CTL2,CTL2,OHL,4.3,1.0,180.0,"['choline, 12/92']",2911
+,,,,,,,"['Unparsed line: NTL  CTL2 CTL2 OHL     -0.4     3   180.00 ! choline, 12/92']",2912
+NTL,CTL2,CTL2,OSL,3.3,1.0,180.0,"['choline, 12/92']",2913
+,,,,,,,"['Unparsed line: NTL  CTL2 CTL2 OSL     -0.4     3   180.00 ! choline, 12/92']",2914
+X,CTL1,CTL1,X,0.2,3.0,0.0,"['alkane, 3/92']",2915
+X,CTL1,CTL2,X,0.2,3.0,0.0,"['alkane, 3/92']",2916
+X,CTL1,CTL3,X,0.2,3.0,0.0,"['alkane, 3/92']",2917
+X,CTL2,CTL2,X,0.19,3.0,0.0,"['alkane, 4/98, yin and mackerell']",2918
+X,CTL2,CTL3,X,0.16,3.0,0.0,"['alkane, 4/98, yin and mackerell']",2919
+X,CTL3,CTL3,X,0.1525,3.0,0.0,"['alkane, 4/98, yin and mackerell']",2920
+CTL3,CTL2,CTL2,CTL3,0.1,2.0,180.0,"['alkane, 4/98, adm jr., lower butane gauche conformer']",2921
+CTL3,CTL2,CTL2,CTL3,0.15,4.0,0.0,"['alkane, 4/98, adm jr.']",2922
+CTL3,CTL2,CTL2,CTL3,0.1,6.0,180.0,"['alkane, 4/98, adm jr.']",2923
+CTL2,CTL2,CTL2,CTL3,0.1,2.0,180.0,"['alkane, 4/98, adm jr.']",2924
+CTL2,CTL2,CTL2,CTL3,0.15,4.0,0.0,"['alkane, 4/98, adm jr.']",2925
+CTL2,CTL2,CTL2,CTL3,0.1,6.0,180.0,"['alkane, 4/98, adm jr.']",2926
+CTL2,CTL2,CTL2,CTL2,0.1,2.0,180.0,"['alkane, 4/98, adm jr.']",2927
+CTL2,CTL2,CTL2,CTL2,0.15,4.0,0.0,"['alkane, 4/98, adm jr.']",2928
+CTL2,CTL2,CTL2,CTL2,0.1,6.0,180.0,"['alkane, 4/98, adm jr.']",2929
+HAL3,CTL3,OSL,SL,0.0,3.0,0.0,['methylsulfate'],2930
+CTL2,OSL,SL,O2L,0.0,3.0,0.0,['methylsulfate'],2931
+CTL3,OSL,SL,O2L,0.0,3.0,0.0,['methylsulfate'],2932
+HEL1,CEL1,CEL1,HEL1,1.0,2.0,180.0,"['2-butene, adm jr., 8/98 update']",2933
+CTL3,CEL1,CEL1,HEL1,1.0,2.0,180.0,"['2-butene, adm jr., 8/98 update']",2934
+X,CEL1,CEL1,X,0.15,1.0,0.0,"['2-butene, adm jr., 2/00 update']",2935
+X,CEL1,CEL1,X,8.5,2.0,180.0,"['2-butene, adm jr., 2/00 update']",2936
+X,CEL2,CEL2,X,4.9,2.0,180.0,"['ethene, yin,adm jr., 12/95']",2937
+CTL2,CEL1,CEL2,HEL2,5.2,2.0,180.0,"['propene, yin,adm jr., 12/95']",2938
+CTL3,CEL1,CEL2,HEL2,5.2,2.0,180.0,"['propene, yin,adm jr., 12/95']",2939
+HEL1,CEL1,CEL2,HEL2,5.2,2.0,180.0,"['propene, yin,adm jr., 12/95']",2940
+CEL1,CEL1,CTL2,HAL2,0.03,3.0,0.0,"['butene, yin,adm jr., 12/95']",2941
+CEL1,CEL1,CTL3,HAL3,0.03,3.0,0.0,"['butene, yin,adm jr., 12/95']",2942
+CEL1,CEL1,CTL2,CTL2,0.5,1.0,180.0,"['1-butene, adm jr., 2/00 update']",2943
+CEL1,CEL1,CTL2,CTL2,1.3,3.0,180.0,"['1-butene, adm jr., 2/00 update']",2944
+CEL1,CEL1,CTL2,CTL3,0.5,1.0,180.0,"['1-butene, adm jr., 2/00 update']",2945
+CEL1,CEL1,CTL2,CTL3,1.3,3.0,180.0,"['1-butene, adm jr., 2/00 update']",2946
+CEL2,CEL1,CTL2,CTL2,0.5,1.0,180.0,"['1-butene, adm jr., 2/00 update']",2947
+CEL2,CEL1,CTL2,CTL2,1.3,3.0,180.0,"['1-butene, adm jr., 2/00 update']",2948
+CEL2,CEL1,CTL2,CTL3,0.5,1.0,180.0,"['1-butene, adm jr., 2/00 update']",2949
+CEL2,CEL1,CTL2,CTL3,1.3,3.0,180.0,"['1-butene, adm jr., 2/00 update']",2950
+CEL2,CEL1,CTL2,HAL2,0.12,3.0,0.0,"['1-butene, yin,adm jr., 12/95']",2951
+CEL2,CEL1,CTL3,HAL3,0.05,3.0,180.0,"['propene, yin,adm jr., 12/95']",2952
+HEL1,CEL1,CTL2,CTL2,0.12,3.0,0.0,"['butene, yin,adm jr., 12/95']",2953
+HEL1,CEL1,CTL2,CTL3,0.12,3.0,0.0,"['butene, yin,adm jr., 12/95']",2954
+HEL1,CEL1,CTL2,HAL2,0.0,3.0,0.0,"['butene, adm jr., 2/00 update']",2955
+HEL1,CEL1,CTL3,HAL3,0.0,3.0,0.0,"['butene, adm jr., 2/00 update', '1,4-dipentene, adm jr., 2/00']",2956
+CEL2,CEL1,CTL2,CEL1,1.2,1.0,180.0,"['1,4-dipentene']",2958
+CEL2,CEL1,CTL2,CEL1,0.4,2.0,180.0,"['1,4-dipentene']",2959
+CEL2,CEL1,CTL2,CEL1,1.3,3.0,180.0,"['1,4-dipentene']",2960
+CEL1,CTL2,CEL1,HEL1,0.0,2.0,0.0,"['1,4-dipentene']",2961
+CEL1,CTL2,CEL1,HEL1,0.0,3.0,0.0,"['1,4-dipentene', '2,5-diheptene, adm jr., 2/00', 'for CIS double bonds in polyunsaturated lipids (default)']",2962
+CEL1,CEL1,CTL2,CEL1,1.0,1.0,180.0,"['2,5-diheptane']",2965
+CEL1,CEL1,CTL2,CEL1,0.1,2.0,0.0,"['2,5-diheptane']",2966
+CEL1,CEL1,CTL2,CEL1,0.3,3.0,180.0,"['2,5-diheptane']",2967
+CEL1,CEL1,CTL2,CEL1,0.2,4.0,0.0,"['2,5-diheptane', 'for TRANS double bonds in polyunsaturated lipids', 'uncomment following 4 lines and comment previous 4 lines to use', 'CEL1 CEL1 CTL2 CEL1     1.200  1    180.00 !2,5-diheptane', 'CEL1 CEL1 CTL2 CEL1     0.200  2    180.00 !2,5-diheptane', 'CEL1 CEL1 CTL2 CEL1     1.200  3    180.00 !2,5-diheptane', 'CEL1 CEL1 CTL2 CEL1     0.100  4    180.00 !2,5-diheptane', 'methylbutyrate']",2968
+CTL3,CTL2,CTL2,CL,0.21,1.0,180.0,[],2976
+CTL3,CTL2,CTL2,CL,0.39,2.0,0.0,[],2977
+CTL3,CTL2,CTL2,CL,0.35,3.0,180.0,[],2978
+CTL3,CTL2,CTL2,CL,0.11,4.0,0.0,[],2979
+CTL3,CTL2,CTL2,CL,0.09,6.0,180.0,[],2980
+CTL2,CTL2,CTL2,CL,0.21,1.0,180.0,[],2981
+CTL2,CTL2,CTL2,CL,0.39,2.0,0.0,[],2982
+CTL2,CTL2,CTL2,CL,0.35,3.0,180.0,[],2983
+CTL2,CTL2,CTL2,CL,0.11,4.0,0.0,[],2984
+CTL2,CTL2,CTL2,CL,0.09,6.0,180.0,['Silica'],2985
+X,SC4,OC23,X,0.0,0.0,0.0,[],2989
+X,SC4,OC24,X,0.0,0.0,0.0,['Clay minerals'],2990
+X,SY1,OY1,X,0.0,0.0,0.0,[],2992
+X,SY1,OY2,X,0.0,0.0,0.0,[],2993
+X,SY1,OY3,X,0.0,0.0,0.0,[],2994
+X,SY1,OY4,X,0.0,0.0,0.0,[],2995
+X,SY1,OY7,X,0.0,0.0,0.0,[],2996
+X,SY2,OY1,X,0.0,0.0,0.0,[],2997
+X,SY2,OY2,X,0.0,0.0,0.0,[],2998
+X,SY2,OY3,X,0.0,0.0,0.0,[],2999
+X,SY2,OY5,X,0.0,0.0,0.0,[],3000
+X,SY2,OY8,X,0.0,0.0,0.0,[],3001
+X,AYT1,OY1,X,0.0,0.0,0.0,[],3002
+X,AYT1,OY2,X,0.0,0.0,0.0,[],3003
+X,AYT1,OY3,X,0.0,0.0,0.0,[],3004
+X,AYT1,OY4,X,0.0,0.0,0.0,[],3005
+X,AYT1,OY7,X,0.0,0.0,0.0,[],3006
+X,AYT2,OY1,X,0.0,0.0,0.0,[],3007
+X,AYT2,OY2,X,0.0,0.0,0.0,[],3008
+X,AYT2,OY3,X,0.0,0.0,0.0,[],3009
+X,AYT2,OY5,X,0.0,0.0,0.0,[],3010
+X,AYT2,OY8,X,0.0,0.0,0.0,[],3011
+X,AY1,OY4,X,0.0,0.0,0.0,[],3012
+X,AY1,OY5,X,0.0,0.0,0.0,[],3013
+X,AY1,OY6,X,0.0,0.0,0.0,[],3014
+X,AY1,OY7,X,0.0,0.0,0.0,[],3015
+X,AY1,OY8,X,0.0,0.0,0.0,[],3016
+X,AY1,OY9,X,0.0,0.0,0.0,[],3017
+X,AY2,OY4,X,0.0,0.0,0.0,[],3018
+X,AY2,OY5,X,0.0,0.0,0.0,[],3019
+X,AY2,OY6,X,0.0,0.0,0.0,[],3020
+X,AY2,OY7,X,0.0,0.0,0.0,[],3021
+X,AY2,OY8,X,0.0,0.0,0.0,[],3022
+X,AY2,OY9,X,0.0,0.0,0.0,[],3023
+X,SY1,OC24,X,0.0,0.0,0.0,[],3024
+X,SY2,OC24,X,0.0,0.0,0.0,[],3025
+X,AYT1,OC24,X,0.0,0.0,0.0,[],3026
+X,AYT2,OC24,X,0.0,0.0,0.0,[],3027
+X,AC1,OC3,X,0.0,0.0,0.0,[],3030
+X,AC1,OC4,X,0.0,0.0,0.0,[],3031
+X,PAP,OAP1,X,0.0,0.0,0.0,[],3034
