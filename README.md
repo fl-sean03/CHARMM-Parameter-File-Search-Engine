@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CHARMM Parameter File Search Engine
 
 A web-based application for parsing, viewing, and analyzing CHARMM parameter files with an intuitive user interface. This tool provides a modern, interactive interface for researchers and developers working with CHARMM parameter files.
@@ -279,4 +278,3 @@ If you use this software in your research, please cite:
   url = {https://github.com/yourusername/charmm-parameter-search}
 }
 ```
->>>>>>> 
