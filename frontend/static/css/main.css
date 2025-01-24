@@ -294,6 +294,8 @@ h2 {
     transition: width 0.3s ease;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    overflow: hidden;
 }
 
 /* Adjust width when file view is active */
@@ -432,12 +434,13 @@ h2 {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    margin: 0.5rem 0;
+    margin: 0;
     border: 1px solid #E0E0E0;
     border-radius: 8px;
     overflow: auto;
-    max-height: calc(100vh - 280px); /* Adjust based on header heights */
+    flex: 1;
     display: block;
+    height: calc(100% - 140px); /* Account for header, tabs, and search */
 }
 
 .data-table thead {
