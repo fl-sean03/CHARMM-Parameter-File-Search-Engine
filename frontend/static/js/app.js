@@ -411,6 +411,17 @@ document.addEventListener('DOMContentLoaded', function() {
                     const fileName = item.querySelector('.file-name').textContent;
                     if (fileName === fileData.name) {
                         item.classList.add('selected');
+                        const dir = fileData.dir;
+                        if (dir) {
+                            loadFileData(dir);
+                        }
+                    }
+                });
+                localStorage.removeItem('selectFileAfterReload');
+            } catch (e) {
+                console.error('Error selecting recent file:', e);
+            }
+        }
                         const dir = item.dataset.dir;
                         if (dir) {
                             loadFileData(dir);
