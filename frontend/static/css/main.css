@@ -210,50 +210,72 @@ h2 {
 /* Split View */
 .split-view {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     height: calc(100vh - 200px);
     transition: all 0.3s ease;
-    padding: 1rem;
     background: #FFFFFF;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .results-panel {
     flex: 1;
     min-width: 0;
     overflow: auto;
-    padding: 1rem;
     background: #FFFFFF;
-    border-radius: 8px;
-    border: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #F8F9FA;
+    border-bottom: 1px solid #E0E0E0;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.header-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.header-actions .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .file-view-panel {
     flex: 0;
     width: 0;
     background: #FFFFFF;
-    border-radius: 8px;
-    box-shadow: -2px 0 8px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
     overflow: hidden;
     opacity: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .file-view-panel.active {
     flex: 1;
     width: 50%;
-    padding: 1rem;
     opacity: 1;
-    border: 1px solid #E0E0E0;
+}
+
+.file-content-wrapper {
+    flex: 1;
+    overflow: auto;
+    background: #F8F9FA;
 }
 
 .file-view-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
+    padding: 1rem;
+    background: #F8F9FA;
     border-bottom: 1px solid #E0E0E0;
 }
 

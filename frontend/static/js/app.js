@@ -170,9 +170,42 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Add close button handler
+    // Add button handlers for file view panel
     document.querySelector('.close-file-view')?.addEventListener('click', () => {
         document.getElementById('file-view-panel').classList.remove('active');
+    });
+
+    document.getElementById('toggle-wrap')?.addEventListener('click', (e) => {
+        const button = e.currentTarget;
+        const content = document.getElementById('file-content');
+        const isWrapped = content.style.whiteSpace === 'pre-wrap';
+        content.style.whiteSpace = isWrapped ? 'pre' : 'pre-wrap';
+        button.classList.toggle('active');
+    });
+
+    document.getElementById('copy-content')?.addEventListener('click', async () => {
+        const content = document.getElementById('file-content');
+        try {
+            await navigator.clipboard.writeText(content.textContent);
+            showAlert('Content copied to clipboard', 'success');
+        } catch (err) {
+            showAlert('Failed to copy content', 'error');
+        }
+    });
+
+    document.getElementById('export-csv')?.addEventListener('click', async () => {
+        const activeTab = document.querySelector('.tab-btn.active');
+        const fileItem = document.querySelector('.file-item.selected');
+        if (!activeTab || !fileItem) return;
+
+        const section = activeTab.dataset.section;
+        const dir = fileItem.dataset.dir;
+        
+        try {
+            window.location.href = `/download_csv/${section}/${dir}`;
+        } catch (error) {
+            showAlert('Error exporting CSV', 'error');
+        }
     });
 
     // Add tab click handlers
