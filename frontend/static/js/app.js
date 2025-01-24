@@ -29,113 +29,98 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function displaySectionData(sectionName, filterText = '') {
-        const table = document.getElementById('results-table');
+        const tableContainer = document.getElementById('results-table');
         let data = currentData[sectionName];
         
+        // Clear existing content
+        tableContainer.innerHTML = '';
+        
         if (!data || !data.length) {
-            table.innerHTML = '<tr><td colspan="4">No data available for this section</td></tr>';
+            tableContainer.innerHTML = '<div class="no-data">No data available for this section</div>';
             return;
         }
 
         // Apply search filter if text is provided
         if (filterText) {
-            // Split search terms by commas or spaces
             const searchTerms = filterText.toLowerCase()
                 .split(/[,\s]+/)
                 .filter(term => term.length > 0);
 
             data = data.filter(row => {
-                // Must match all search terms
                 return searchTerms.every(term => {
                     return Object.entries(row).some(([key, value]) => {
-                        // Skip Line Number field and handle null/undefined values
                         if (key === 'Line Number' || value == null) return false;
-                        
-                        // Handle arrays (like Comments)
                         if (Array.isArray(value)) {
                             return value.some(v => v.toString().toLowerCase().includes(term));
                         }
-                        
-                        // Handle numbers and strings
                         return value.toString().toLowerCase().includes(term);
                     });
                 });
             });
 
             if (data.length === 0) {
-                table.innerHTML = '<tr><td colspan="4">No matching results found</td></tr>';
+                tableContainer.innerHTML = '<div class="no-data">No matching results found</div>';
                 return;
             }
         }
 
-        // Get columns from the first data entry
-        const columns = Object.keys(data[0])
-            .filter(col => col !== 'Comments' && col !== 'Line Number');
+        // Create table structure
+        const table = document.createElement('table');
+        table.className = 'data-table';
         
+        // Get columns (excluding Line Number, keeping Comments for end)
+        const columns = Object.keys(data[0])
+            .filter(col => col !== 'Line Number')
+            .sort((a, b) => a === 'Comments' ? 1 : b === 'Comments' ? -1 : 0);
+
         // Create header
         const thead = document.createElement('thead');
         const headerRow = document.createElement('tr');
         
-        // Add columns
         columns.forEach(col => {
             const th = document.createElement('th');
-            th.textContent = col.replace(/([A-Z])/g, ' $1').trim(); // Add spaces before capital letters
+            th.textContent = col.replace(/([A-Z])/g, ' $1').trim();
+            th.setAttribute('data-column', col);
             headerRow.appendChild(th);
         });
         
-        // Add Comments column at the end
-        const commentsHeader = document.createElement('th');
-        commentsHeader.textContent = 'Comments';
-        headerRow.appendChild(commentsHeader);
-        
         thead.appendChild(headerRow);
+        table.appendChild(thead);
 
-        // Create body
+        // Create table body
         const tbody = document.createElement('tbody');
+        
         data.forEach(entry => {
             const row = document.createElement('tr');
+            row.setAttribute('data-line', entry['Line Number']);
             
-            // Add regular columns
             columns.forEach(col => {
-                const td = document.createElement('td');
+                const cell = document.createElement('td');
                 let value = entry[col];
                 
-                // Format numbers to 3 decimal places if they're numbers
-                if (typeof value === 'number') {
+                if (col === 'Comments') {
+                    value = Array.isArray(value) ? value.join('; ') : value || '';
+                } else if (typeof value === 'number') {
                     value = value.toFixed(3);
                 }
                 
-                td.textContent = value || '';
-                row.appendChild(td);
+                cell.textContent = value || '';
+                cell.setAttribute('data-label', col);
+                row.appendChild(cell);
             });
             
-            // Add Comments column at the end
-            const commentsTd = document.createElement('td');
-            const comments = Array.isArray(entry.Comments) ? entry.Comments.join('; ') : entry.Comments || '';
-            commentsTd.textContent = comments;
-            row.appendChild(commentsTd);
-            
-            // Add click handler to the row
+            // Add click handler
             row.addEventListener('click', () => {
-                if ('Line Number' in entry) {
-                    const lineNumber = entry['Line Number'];
-                    // Remove highlight from all rows
-                    document.querySelectorAll('.data-table tr').forEach(r => {
-                        r.classList.remove('highlighted');
-                    });
-                    // Add highlight to clicked row
-                    row.classList.add('highlighted');
-                    showFileContent(lineNumber);
-                }
+                document.querySelectorAll('.data-table tr').forEach(r => r.classList.remove('highlighted'));
+                row.classList.add('highlighted');
+                showFileContent(entry['Line Number']);
             });
             
             tbody.appendChild(row);
         });
-
-        // Update table
-        table.innerHTML = '';
-        table.appendChild(thead);
+        
         table.appendChild(tbody);
+        tableContainer.appendChild(table);
     }
 
     async function showFileContent(lineNumber) {
