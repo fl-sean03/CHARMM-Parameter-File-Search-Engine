@@ -209,6 +209,25 @@ document.addEventListener('DOMContentLoaded', function() {
         fileViewPanel.style.width = '0%';
     });
 
+    // Zoom functionality
+    let currentZoom = 14; // Base font size
+    const minZoom = 8;
+    const maxZoom = 24;
+    
+    document.getElementById('zoom-in')?.addEventListener('click', () => {
+        if (currentZoom < maxZoom) {
+            currentZoom += 2;
+            document.getElementById('file-content').style.fontSize = `${currentZoom}px`;
+        }
+    });
+    
+    document.getElementById('zoom-out')?.addEventListener('click', () => {
+        if (currentZoom > minZoom) {
+            currentZoom -= 2;
+            document.getElementById('file-content').style.fontSize = `${currentZoom}px`;
+        }
+    });
+
     document.getElementById('toggle-wrap')?.addEventListener('click', (e) => {
         const button = e.currentTarget;
         const content = document.getElementById('file-content');

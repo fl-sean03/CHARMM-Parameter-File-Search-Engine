@@ -465,6 +465,8 @@ h2 {
     line-height: 1.5;
     counter-reset: line;
     padding: 0;
+    font-size: 14px; /* Base font size for zooming */
+    transition: font-size 0.2s ease;
 }
 
 .line {
