@@ -345,15 +345,19 @@ h2 {
     overflow: hidden;
 }
 
+.data-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #F8F9FA;
+}
+
 .data-table th {
     background-color: #F8F9FA;
     font-weight: 600;
     text-align: left;
     padding: 0.5rem 1rem;
     border-bottom: 2px solid #E0E0E0;
-    position: sticky;
-    top: 0;
-    z-index: 10;
     font-size: 0.85rem;
     text-transform: uppercase;
     color: #5F6368;
