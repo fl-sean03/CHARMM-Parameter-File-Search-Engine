@@ -3,6 +3,24 @@ document.addEventListener('DOMContentLoaded', function() {
     const fileInput = document.getElementById('file-upload');
     const uploadButton = uploadContainer ? uploadContainer.querySelector('.btn-primary') : null;
     const resultsTable = document.querySelector('.data-table tbody');
+    
+    // Add sidebar toggle functionality
+    const toggleSidebarBtn = document.querySelector('.toggle-sidebar');
+    const sidebar = document.querySelector('.sidebar');
+    
+    if (toggleSidebarBtn && sidebar) {
+        toggleSidebarBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+            // Store the state in localStorage
+            localStorage.setItem('sidebarCollapsed', sidebar.classList.contains('collapsed'));
+        });
+        
+        // Restore sidebar state on page load
+        const isCollapsed = localStorage.getItem('sidebarCollapsed') === 'true';
+        if (isCollapsed) {
+            sidebar.classList.add('collapsed');
+        }
+    }
 
     function showAlert(message, type) {
         const alertDiv = document.createElement('div');

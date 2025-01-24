@@ -31,7 +31,12 @@
         <aside class="sidebar">
             {% if uploaded_files %}
             <div class="files-header">
-                <h2>Parameter Files</h2>
+                <div class="files-title">
+                    <h2>Parameter Files</h2>
+                    <button class="btn btn-icon toggle-sidebar" title="Toggle Sidebar">
+                        <span class="material-icons">chevron_left</span>
+                    </button>
+                </div>
                 <div class="file-actions">
                     <button class="btn btn-primary upload-new-btn">Upload New</button>
                     <button class="btn reset-btn">Reset All</button>
