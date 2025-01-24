@@ -9,8 +9,12 @@ app = Flask(__name__,
 app.config['UPLOAD_FOLDER'] = 'uploads'
 processor = CharmmProcessor()
 
-# Ensure upload directory exists
-os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+# Ensure upload directory exists and is accessible
+try:
+    os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
+except Exception as e:
+    print(f"Error creating uploads directory: {e}")
+    raise
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
