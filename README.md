@@ -1,6 +1,4 @@
 <<<<<<< HEAD
-# CHARMM-Parameter-File-Search-Engine
-=======
 # CHARMM Parameter File Search Engine
 
 A web-based application for parsing, viewing, and analyzing CHARMM parameter files with an intuitive user interface. This tool provides a modern, interactive interface for researchers and developers working with CHARMM parameter files.
@@ -91,7 +89,7 @@ A web-based application for parsing, viewing, and analyzing CHARMM parameter fil
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/charmm-parameter-search.git
+git clone https://github.com/fl-sean03/CHARMM-Parameter-File-Search-Engine.git
 cd charmm-parameter-search
 ```
 
@@ -267,9 +265,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Project Link: https://github.com/yourusername/charmm-parameter-search
+Project Link: https://github.com/fl-sean03/CHARMM-Parameter-File-Search-Engine
 
-## Citation
+## Citation - In Progress
 
 If you use this software in your research, please cite:
 
@@ -281,4 +279,4 @@ If you use this software in your research, please cite:
   url = {https://github.com/yourusername/charmm-parameter-search}
 }
 ```
->>>>>>> 24fe610 (Loaded in the repo files)
+>>>>>>> 
