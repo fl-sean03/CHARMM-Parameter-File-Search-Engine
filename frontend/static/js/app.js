@@ -228,6 +228,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    document.getElementById('zoom-reset')?.addEventListener('click', () => {
+        currentZoom = 14; // Reset to base font size
+        document.getElementById('file-content').style.fontSize = `${currentZoom}px`;
+    });
+
     document.getElementById('toggle-wrap')?.addEventListener('click', (e) => {
         const button = e.currentTarget;
         const content = document.getElementById('file-content');
