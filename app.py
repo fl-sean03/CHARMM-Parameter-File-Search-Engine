@@ -26,19 +26,22 @@ def upload_file():
         return jsonify({'error': 'No file selected'}), 400
 
     try:
-        filename = secure_filename(file.filename)
-        base_name = os.path.splitext(filename)[0]
+        original_filename = secure_filename(file.filename)
+        base_name, extension = os.path.splitext(original_filename)
         
-        # Create unique directory name
-        output_dir = os.path.join(app.config['UPLOAD_FOLDER'], base_name)
+        # Create unique filename and directory name
         counter = 1
+        filename = original_filename
+        output_dir = os.path.join(app.config['UPLOAD_FOLDER'], base_name)
+        
         while os.path.exists(output_dir):
+            filename = f"{base_name}_{counter}{extension}"
             output_dir = os.path.join(app.config['UPLOAD_FOLDER'], f"{base_name}_{counter}")
             counter += 1
             
         os.makedirs(output_dir, exist_ok=True)
         
-        # Save file directly to the new directory
+        # Save file with potentially modified name
         filepath = os.path.join(output_dir, filename)
         file.save(filepath)
         
