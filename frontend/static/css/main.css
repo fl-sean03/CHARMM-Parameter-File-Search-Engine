@@ -214,50 +214,15 @@ h2 {
     background: #FFFFFF;
     position: relative;
     overflow: hidden;
-}
-
-.splitter {
-    width: 4px;
-    background: #FFE600;
-    cursor: col-resize;
-    transition: background-color 0.2s;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 50%;
-    z-index: 100;
-    display: none;
-    box-shadow: 0 0 4px rgba(255, 230, 0, 0.5);
-}
-
-/* Show splitter when file view is active */
-.file-view-panel.active ~ .splitter {
-    display: block;
-}
-
-.splitter:hover,
-.splitter.dragging {
-    background: #FFD700;
-    box-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
-}
-
-.splitter::after {
-    content: '';
-    position: absolute;
-    left: -8px;
-    right: -8px;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
+    padding: 0;
+    margin: 0;
 }
 
 .results-panel {
     width: 100%;
-    min-width: 20%;
     overflow: auto;
     background: #FFFFFF;
-    border-right: none;
-    transition: width 0.1s ease;
+    transition: width 0.3s ease;
 }
 
 /* Adjust width when file view is active */
