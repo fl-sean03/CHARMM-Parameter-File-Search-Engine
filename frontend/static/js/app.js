@@ -93,31 +93,13 @@ document.addEventListener('DOMContentLoaded', function() {
         table.appendChild(tbody);
     }
 
-    // Add tab and download click handlers
-    document.querySelectorAll('.tab-btn, .download-btn').forEach(btn => {
+    // Add tab click handlers
+    document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
             // Update active state
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
-            
-            if (btn.classList.contains('tab-btn')) {
-                // Display section data
-                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
-                displaySectionData(e.target.dataset.section);
-            } else if (btn.classList.contains('download-btn')) {
-                // Handle download
-                const section = e.target.dataset.section;
-                const selectedFile = document.querySelector('.file-item.selected');
-                
-                if (!selectedFile) {
-                    showAlert('Please select a file first', 'warning');
-                    return;
-                }
-                
-                const dir = selectedFile.dataset.dir;
-                window.location.href = `/download_csv/${section}/${dir}`;
-            }
+            displaySectionData(e.target.dataset.section);
         });
     });
 
