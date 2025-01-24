@@ -4,6 +4,14 @@ A web-based application for parsing, viewing, and analyzing CHARMM parameter fil
 
 ## Key Features
 
+### Interface Screenshots
+
+#### Initial Upload Screen
+![Initial Upload Screen](imgs/Initial_Upload.png)
+
+#### Search Interface
+![Search Interface](imgs/Search_Engine.png)
+
 ### File Management
 - Upload CHARMM parameter files via drag-and-drop or file browser
 - Multi-file support with individual file management
