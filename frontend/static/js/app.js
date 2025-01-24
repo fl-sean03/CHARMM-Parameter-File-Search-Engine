@@ -164,9 +164,6 @@ document.addEventListener('DOMContentLoaded', function() {
             if (response.ok) {
                 showAlert('File uploaded and parsed successfully!', 'success');
                 updateResults(data.data);
-                // Reload the page and select the new file
-                const baseFileName = file.name;
-                localStorage.setItem('selectFileAfterReload', baseFileName);
                 // Store the filename and reload
                 const fileToSelect = file.name;
                 localStorage.setItem('selectFileAfterReload', fileToSelect);
