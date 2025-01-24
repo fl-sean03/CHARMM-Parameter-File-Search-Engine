@@ -104,49 +104,54 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // File upload handling
-    if (uploadContainer) {
-        uploadContainer.addEventListener('dragover', (e) => {
-            e.preventDefault();
-            uploadContainer.style.borderColor = '#34A853';
-        });
+    function initializeFileUpload() {
+        if (uploadContainer) {
+            uploadContainer.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadContainer.style.borderColor = '#34A853';
+            });
 
-        uploadContainer.addEventListener('dragleave', (e) => {
-            e.preventDefault();
-            uploadContainer.style.borderColor = '#1A73E8';
-        });
+            uploadContainer.addEventListener('dragleave', (e) => {
+                e.preventDefault();
+                uploadContainer.style.borderColor = '#1A73E8';
+            });
 
-        uploadContainer.addEventListener('drop', (e) => {
-            e.preventDefault();
-            uploadContainer.style.borderColor = '#1A73E8';
-            const files = e.dataTransfer.files;
-            if (files.length) {
-                fileInput.files = files;
-                handleFileUpload(files[0]);
-            }
-        });
-    }
-
-    // Handler for both initial upload button and "Upload New" button
-    function setupFileUploadTrigger(button) {
-        if (button) {
-            button.addEventListener('click', () => {
-                fileInput.value = ''; // Clear previous selection
-                fileInput.click();
+            uploadContainer.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadContainer.style.borderColor = '#1A73E8';
+                const files = e.dataTransfer.files;
+                if (files.length) {
+                    fileInput.files = files;
+                    handleFileUpload(files[0]);
+                }
             });
         }
+
+        // Handler for both initial upload button and "Upload New" button
+        function setupFileUploadTrigger(button) {
+            if (button) {
+                button.addEventListener('click', () => {
+                    fileInput.value = ''; // Clear previous selection
+                    fileInput.click();
+                });
+            }
+        }
+
+        // Set up both upload triggers
+        setupFileUploadTrigger(uploadButton);
+        setupFileUploadTrigger(document.querySelector('.upload-new-btn'));
+
+        // Single change handler for file input
+        fileInput.addEventListener('change', (e) => {
+            const files = e.target.files;
+            if (files && files.length > 0) {
+                handleFileUpload(files[0]);
+            }
+        }, { once: true }); // Ensure the handler only runs once
     }
 
-    // Set up both upload triggers
-    setupFileUploadTrigger(uploadButton);
-    setupFileUploadTrigger(document.querySelector('.upload-new-btn'));
-
-    // Single change handler for file input
-    fileInput.addEventListener('change', (e) => {
-        const files = e.target.files;
-        if (files && files.length > 0) {
-            handleFileUpload(files[0]);
-        }
-    });
+    // Initialize file upload handling
+    initializeFileUpload();
 
     async function handleFileUpload(file) {
         const formData = new FormData();
@@ -238,25 +243,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
 
-    // Upload new file button
-    const uploadNewBtn = document.querySelector('.upload-new-btn');
-    if (uploadNewBtn) {
-        uploadNewBtn.addEventListener('click', () => {
-            const fileInput = document.getElementById('file-upload');
-            fileInput.value = ''; // Clear previous selection
-            fileInput.click();
-        });
-    }
-
-    // File input change handler for both initial and subsequent uploads
-    if (fileInput) {
-        fileInput.addEventListener('change', (e) => {
-            if (fileInput.files.length) {
-                const file = fileInput.files[0];
-                handleFileUpload(file);
-            }
-        });
-    }
 
     // Delete single file functionality
     function attachDeleteHandlers() {
