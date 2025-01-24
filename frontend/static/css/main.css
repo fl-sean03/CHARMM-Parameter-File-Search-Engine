@@ -267,6 +267,14 @@ h2 {
 
 .search-bar input::placeholder {
     color: #5F6368;
+    font-style: italic;
+}
+
+.search-info {
+    font-size: 12px;
+    color: #5F6368;
+    margin-top: 4px;
+    padding-left: 12px;
 }
 
 /* Split View */

@@ -39,19 +39,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Apply search filter if text is provided
         if (filterText) {
-            filterText = filterText.toLowerCase();
+            // Split search terms by commas or spaces
+            const searchTerms = filterText.toLowerCase()
+                .split(/[,\s]+/)
+                .filter(term => term.length > 0);
+
             data = data.filter(row => {
-                return Object.entries(row).some(([key, value]) => {
-                    // Skip Line Number field and handle null/undefined values
-                    if (key === 'Line Number' || value == null) return false;
-                    
-                    // Handle arrays (like Comments)
-                    if (Array.isArray(value)) {
-                        return value.some(v => v.toString().toLowerCase().includes(filterText));
-                    }
-                    
-                    // Handle numbers and strings
-                    return value.toString().toLowerCase().includes(filterText);
+                // Must match all search terms
+                return searchTerms.every(term => {
+                    return Object.entries(row).some(([key, value]) => {
+                        // Skip Line Number field and handle null/undefined values
+                        if (key === 'Line Number' || value == null) return false;
+                        
+                        // Handle arrays (like Comments)
+                        if (Array.isArray(value)) {
+                            return value.some(v => v.toString().toLowerCase().includes(term));
+                        }
+                        
+                        // Handle numbers and strings
+                        return value.toString().toLowerCase().includes(term);
+                    });
                 });
             });
 
