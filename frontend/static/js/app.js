@@ -126,20 +126,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Single click handler for upload button
-    if (uploadButton) {
-        uploadButton.addEventListener('click', () => {
-            fileInput.click();
-        });
+    // Handler for both initial upload button and "Upload New" button
+    function setupFileUploadTrigger(button) {
+        if (button) {
+            button.addEventListener('click', () => {
+                fileInput.value = ''; // Clear previous selection
+                fileInput.click();
+            });
+        }
     }
+
+    // Set up both upload triggers
+    setupFileUploadTrigger(uploadButton);
+    setupFileUploadTrigger(document.querySelector('.upload-new-btn'));
 
     // Single change handler for file input
     fileInput.addEventListener('change', (e) => {
         const files = e.target.files;
         if (files && files.length > 0) {
             handleFileUpload(files[0]);
-            // Clear the input to ensure change event fires even if same file is selected
-            e.target.value = '';
         }
     });
 
@@ -148,9 +153,10 @@ document.addEventListener('DOMContentLoaded', function() {
         formData.append('file', file);
         
         // Show loading state
-        if (uploadButton) {
-            uploadButton.disabled = true;
-            uploadButton.textContent = 'Uploading...';
+        const activeButton = uploadButton || document.querySelector('.upload-new-btn');
+        if (activeButton) {
+            activeButton.disabled = true;
+            activeButton.textContent = 'Uploading...';
         }
         showAlert('Processing file...', 'warning');
 
@@ -175,10 +181,11 @@ document.addEventListener('DOMContentLoaded', function() {
             showAlert('Error uploading file', 'error');
             console.error('Upload error:', error);
         } finally {
-            // Reset upload button if it exists
-            if (uploadButton) {
-                uploadButton.disabled = false;
-                uploadButton.textContent = 'Upload File';
+            // Reset the active button
+            const activeButton = uploadButton || document.querySelector('.upload-new-btn');
+            if (activeButton) {
+                activeButton.disabled = false;
+                activeButton.textContent = activeButton === uploadButton ? 'Upload File' : 'Upload New';
             }
         }
     }
@@ -358,21 +365,41 @@ document.addEventListener('DOMContentLoaded', function() {
     attachDeleteHandlers();
     attachFileSelectionHandlers();
 
-    // Check if we need to select and load a file after reload
-    const fileToSelect = localStorage.getItem('selectFileAfterReload');
-    if (fileToSelect) {
+    // Function to select and load file data
+    function selectAndLoadFile(fileName) {
         const fileItems = document.querySelectorAll('.file-item');
+        let fileFound = false;
+        
         fileItems.forEach(item => {
-            const fileName = item.querySelector('.file-name').textContent;
-            if (fileName === fileToSelect) {
+            const itemFileName = item.querySelector('.file-name').textContent;
+            if (itemFileName === fileName) {
                 item.classList.add('selected');
                 const dir = item.dataset.dir;
                 if (dir) {
                     loadFileData(dir);
+                    fileFound = true;
                 }
+            } else {
+                item.classList.remove('selected');
             }
         });
-        localStorage.removeItem('selectFileAfterReload');
+        
+        return fileFound;
+    }
+
+    // Check if we need to select and load a file after reload
+    const fileToSelect = localStorage.getItem('selectFileAfterReload');
+    if (fileToSelect) {
+        if (selectAndLoadFile(fileToSelect)) {
+            localStorage.removeItem('selectFileAfterReload');
+        }
+    } else if (document.querySelectorAll('.file-item').length === 1) {
+        // If there's only one file, select it automatically
+        const fileItem = document.querySelector('.file-item');
+        if (fileItem) {
+            const fileName = fileItem.querySelector('.file-name').textContent;
+            selectAndLoadFile(fileName);
+        }
     }
     
     // Reset all files functionality
