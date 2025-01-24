@@ -410,21 +410,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 const fileItems = document.querySelectorAll('.file-item');
                 let fileFound = false;
                 
-                // First try to find the stored file
+                // Remove selection from all items first
+                fileItems.forEach(item => item.classList.remove('selected'));
+
+                // First try to find the exact stored file with directory match
                 fileItems.forEach(item => {
                     const fileName = item.querySelector('.file-name').textContent;
-                    if (fileName === fileData.name) {
+                    const dir = item.dataset.dir;
+                    if (fileName === fileData.name && dir === fileData.dir) {
                         item.classList.add('selected');
-                        if (fileData.dir) {
-                            loadFileData(fileData.dir);
-                            fileFound = true;
-                        }
-                    } else {
-                        item.classList.remove('selected');
+                        loadFileData(dir);
+                        fileFound = true;
                     }
                 });
 
-                // If stored file not found, select the last file in the list
+                // If not found, select the most recently uploaded file (last in list)
                 if (!fileFound && fileItems.length > 0) {
                     const lastFile = fileItems[fileItems.length - 1];
                     lastFile.classList.add('selected');
