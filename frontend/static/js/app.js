@@ -155,7 +155,9 @@ document.addEventListener('DOMContentLoaded', function() {
             fileViewPanel.classList.add('active');
             
             const resultsPanel = document.getElementById('results-panel');
+            const fileViewPanel = document.getElementById('file-view-panel');
             resultsPanel.style.width = '50%';
+            fileViewPanel.style.width = '50%';
             
             // Display content with line numbers and highlighting
             const contentDiv = document.getElementById('file-content');
@@ -166,7 +168,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 return `<span class="line ${highlightClass}" data-line="${lineNum}">${line}</span>`;
             }).join('\n');
             
-            contentDiv.innerHTML = formattedContent;
+            if (contentDiv) {
+                contentDiv.innerHTML = formattedContent;
+            } else {
+                throw new Error('File content container not found');
+            }
             
             // Scroll to the highlighted line
             const highlightedLine = contentDiv.querySelector('.line-highlight');
@@ -182,10 +188,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add button handlers for file view panel
     document.querySelector('.close-file-view')?.addEventListener('click', () => {
-        document.getElementById('file-view-panel').classList.remove('active');
+        const fileViewPanel = document.getElementById('file-view-panel');
+        const resultsPanel = document.getElementById('results-panel');
+        fileViewPanel.classList.remove('active');
         // Reset panel widths when closing
         resultsPanel.style.width = '100%';
-        fileViewPanel.style.width = '0';
+        fileViewPanel.style.width = '0%';
     });
 
     document.getElementById('toggle-wrap')?.addEventListener('click', (e) => {
