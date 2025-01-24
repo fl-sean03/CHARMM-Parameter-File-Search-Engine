@@ -422,6 +422,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Error selecting recent file:', e);
             }
         }
+    }
                         const dir = item.dataset.dir;
                         if (dir) {
                             loadFileData(dir);
@@ -433,8 +434,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Error selecting recent file:', e);
             }
         } else if (document.querySelectorAll('.file-item').length === 1) {
-        // If there's only one file, select it automatically
-        const fileItem = document.querySelector('.file-item');
+            // If there's only one file, select it automatically
+            const fileItem = document.querySelector('.file-item');
         if (fileItem) {
             fileItem.classList.add('selected');
             const dir = fileItem.dataset.dir;
