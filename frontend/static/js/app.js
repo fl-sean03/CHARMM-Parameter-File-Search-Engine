@@ -375,19 +375,6 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.removeItem('selectFileAfterReload');
     }
     
-    // Check if we need to select a file after reload
-    const fileToSelect = localStorage.getItem('selectFileAfterReload');
-    if (fileToSelect) {
-        const fileItems = document.querySelectorAll('.file-item');
-        fileItems.forEach(item => {
-            const fileName = item.querySelector('.file-name').textContent;
-            if (fileName === fileToSelect) {
-                item.classList.add('selected');
-            }
-        });
-        localStorage.removeItem('selectFileAfterReload');
-    }
-
     // Reset all files functionality
     const resetButton = document.querySelector('.reset-btn');
     if (resetButton) {
