@@ -146,8 +146,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const files = e.target.files;
             if (files && files.length > 0) {
                 handleFileUpload(files[0]);
+                // Remove the once option to allow multiple uploads
             }
-        }, { once: true }); // Ensure the handler only runs once
+        });
     }
 
     // Initialize file upload handling
@@ -409,6 +410,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const fileItems = document.querySelectorAll('.file-item');
                 let fileFound = false;
                 
+                // First try to find the stored file
                 fileItems.forEach(item => {
                     const fileName = item.querySelector('.file-name').textContent;
                     if (fileName === fileData.name) {
@@ -422,11 +424,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 });
 
-                if (!fileFound && fileItems.length === 1) {
-                    // If stored file not found but only one file exists, select it
-                    const fileItem = fileItems[0];
-                    fileItem.classList.add('selected');
-                    const dir = fileItem.dataset.dir;
+                // If stored file not found, select the last file in the list
+                if (!fileFound && fileItems.length > 0) {
+                    const lastFile = fileItems[fileItems.length - 1];
+                    lastFile.classList.add('selected');
+                    const dir = lastFile.dataset.dir;
                     if (dir) {
                         loadFileData(dir);
                     }
