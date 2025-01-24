@@ -349,10 +349,12 @@ h2 {
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: #F8F9FA;
 }
 
 .data-table th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
     background-color: #F8F9FA;
     font-weight: 600;
     text-align: left;
